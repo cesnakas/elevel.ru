@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6c199dc1-a4ae-4062-ac8d-61dc9176642e" name="test.elevel.ru" url="http://test.elevel.ru">
+        <fileTransfer accessType="SFTP" host="makoveckij.beget.tech" port="22" sshConfigId="03e6bc5d-ded9-45a7-b71a-31913ae75b0c" sshConfig="makoveckij_test@makoveckij.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
