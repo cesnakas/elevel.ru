@@ -1,0 +1,95 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+AddDefaultCharset WINDOWS-1251
+
+#php_value display_errors stderr
+php_value display_errors 0
+#php_value auto_prepend_file "/var/www/elevel/data/www/elevel.ru/bitrix/modules/security/tools/start.php"
+php_value allow_url_fopen Off
+
+php_flag display_startup_errors off
+php_flag register_globals Off
+#php_flag display_errors off
+#php_flag html_errors on
+
+php_value max_input_vars 100000
+#php_value default_charset cp1251
+#php_value mbstring.func_overload 2
+#php_value mbstring.internal_encoding cp1251
+php_value memory_limit 4096M
+php_value post_max_size 2048M
+php_value upload_max_filesize 2048M
+
+
+<IfModule mod_rewrite.c>
+
+
+	Options +FollowSymLinks
+	RewriteEngine On
+	
+#	RewriteCond %{HTTPS} =on 
+#	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+	# Redirect 301
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_URI} !\..+$
+	RewriteCond %{REQUEST_URI} !/$
+	RewriteCond "%{HTTP:X-Forwarded-Proto}" "^https$"
+	RewriteRule (.*) https://www.test.elevel.ru/$1/ [R=301,L]
+	
+
+	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+	RewriteCond "%{HTTP:X-Forwarded-Proto}" "^https$"
+	RewriteRule ^index\.php$ https://www.test.elevel.ru/ [R=301,L]
+
+	# Редирект на страницы без многократных "/"
+	RewriteCond %{THE_REQUEST} //
+	RewriteRule .* /$0 [R=301,L]
+
+	# раздел solutions - устарел, вместо него services
+	RewriteCond %{REQUEST_URI} ^(.*)/solutions/(.*)$ 
+	RewriteRule ^(.*)$ %1/services/%2 [R=301,L]
+
+	RewriteCond %{HTTP_HOST} !^www\.
+	RewriteCond %{HTTP_HOST} !^213.171.39.248
+	RewriteCond %{HTTP_HOST} !^10.11.255.57
+	RewriteCond "%{HTTP:X-Forwarded-Proto}" "^https$"
+	RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+	#RewriteCond %{THE_REQUEST} /(.*)index.php.*$
+	#RewriteCond %{THE_REQUEST} !bitrix/admin/
+	#RewriteRule .* /%1 [R=301,L]
+
+	RewriteCond %{REQUEST_URI} ^/promo/$
+	RewriteRule ^.*$ /company/actions/1686900/?utm_source=sms&utm_medium=sms&utm_campaign=sms [R=301,L]
+	
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+</IfModule>
+	
+<IfModule mod_mime.c>
+	AddType application/x-httpd-php .ico
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on	 
+	ExpiresByType image/jpg "access 1 month"
+	ExpiresByType image/gif "access 1 month"
+	ExpiresByType image/jpeg "access 1 month"
+	ExpiresByType image/png "access 1 month"
+	ExpiresByType text/css "access 1 month"
+	ExpiresByType application/x-javascript "access plus 1 month"
+	ExpiresByType text/javascript "access plus 1 month"
+	ExpiresByType application/javascript "access plus 1 month"
+	ExpiresByType image/x-icon "access plus 12 month"
+	ExpiresByType image/icon "access plus 12 month"
+	ExpiresByType application/x-ico "access plus 12 month"
+	ExpiresByType application/ico "access plus 12 month"
+</IfModule>

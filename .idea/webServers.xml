@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6c199dc1-a4ae-4062-ac8d-61dc9176642e" name="test.elevel.ru" url="http://test.elevel.ru">
+      <webServer id="6c199dc1-a4ae-4062-ac8d-61dc9176642e" name="test.elevel.ru" url="makoveckij.beget.tech">
         <fileTransfer host="makoveckij.beget.tech" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
