@@ -1,0 +1,1 @@
+<strong class="big counterTo">90</strong> реализованных проектов<br>

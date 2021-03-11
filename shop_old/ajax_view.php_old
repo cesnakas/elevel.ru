@@ -1,0 +1,40 @@
+<?require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");?>
+<?$paymentText = '<noindex><h1>Как оплатить заказанный товар?</h1>
+ 
+<br />
+
+<p> <strong>Оплата в кассах-офисах <a href="/contact/" >Эlevel</a></strong>. 
+  <br />
+ Вы можете оплатить свой заказ по наличному расчёту, банковскими картами в кассах-офисах продаж компании по следующим адресам:</p>
+ 
+<ul class="list_sol"> 
+  <li><a href="/contact/msc/" title="Офисы в Москве" target="_blank" ><strong>Москве</strong></a> - ул. Электродная, 13а</li>
+ 
+  <li><a href="/contact/spb/" title="Офис в Санкт-Петербурге" target="_blank" ><strong>Санкт-Петербурге</strong></a> - ул. Магнитогорская, 51 лит. &laquo;ж&raquo;</li>
+ 
+  <li><a href="/contact/nsk/" title="Офис в Новосибирске" target="_blank" ><strong>Новосибирске</strong></a> - ул. Инская, 39</li>
+ 
+  <li><a href="/contact/ekt/" title="Офисы в Екатеринбурге" target="_blank" ><strong>Екатеринбурге</strong></a> - ул. Мамина Сибиряка, 132</li>
+ 
+  <li><strong><a href="/contact/rst/" title="Офисы в Ростове-на-Дону" target="_blank" >Ростове-на-Дону</a></strong> - ул. Вавилова, 62в</li>
+ </ul>
+ 
+<div class="voscl"> <img class="alert1" src="/i/alert50.gif"  /> 				 
+  <br />
+ 				 
+  <p style="display: block;">Внимание! Самовывоз заказа осуществляется только со склада того офиса, в котором будет произведена оплата.</p>
+ </div>
+ 
+<br />
+ <strong>Безналичный расчет</strong>. 
+<br />
+ 
+<p>При оплате заказа по безналичному расчету, после обработки заказа, в течении 2х часов сотрудник компании свяжется с Вами для уточнения всех деталей заказа, после чего будет выставлен счет.</p></noindex>';
+
+$deliveryText = '<noindex><h2>Условия доставки</h2>
+ <h3>Самостоятельный вывоз заказа</h3>
+ 
+<br />
+ 
+<p>Самовывоз заказа осуществляется клиентом Интернет-магазина Эlevel только со склада того офиса, в котором будет произведена оплата.</p></noindex>';
+echo json_encode(Array("payment"=>$paymentText, "delivery"=>$deliveryText));?>

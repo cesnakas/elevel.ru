@@ -1,0 +1,28 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "Проектирование, поставки электрооборудования, пусконаладка, Эlevel Инженер, решения по сегментам рынка, системы автоматизации, сегменты электротехнического рынка, комплексные решения");
+$APPLICATION->SetPageProperty("keywords", "Проектирование, поставки электрооборудования, пусконаладка, Эlevel Инженер, решения по сегментам рынка, системы автоматизации, сегменты электротехнического рынка, комплексные решения");
+$APPLICATION->SetPageProperty("description", "Компания Элевел (Эlevel) оказывает полный комплекс услуг по проектированию, комплектации, подбору и поставке оборудования на объекты гражданского и промышленного строительства.");
+$APPLICATION->SetTitle("Решения компании Эlevel Инженер по сегментам электротехнического рынка");
+?> 
+<h1>Решения по сегментам рынка</h1>
+ 
+<p>Компания Элевел (Эlevel) оказывает полный комплекс услуг по проектированию, комплектации, подбору и поставке оборудования на объекты гражданского и промышленного строительства. Мы проведем монтаж, пусконаладку, обучим обслуживающий персонал и возьмем на себя гарантийное и сервисное обслуживание.</p><br>
+<?if($_REQUEST["print"] !== "Y"){?> 
+<p>При этом мы учитываем, что для предприятий разных отраслей необходимо реализовывать разные задачи, и с учетом данной специфики мы предлагаем наши комплексные решения: </p><br>
+ 
+  <table cellspacing="5" cellpadding="5"> 
+    <tbody> 
+      <tr><td width="80" ><a href="/cat/elevel/ei_admin_log.pdf" title="Решения для административно-офисных зданий от Эlevel Инженер" target="_blank" ><img src="/images/ei_admin_log-1.png" alt="Решения для административно-офисных зданий от Эlevel Инженер" title="Решения для административно-офисных зданий от Эlevel Инженер" class="sol_bp" /></a></td><td valign="top"><a href="/cat/elevel/ei_admin_log.pdf" title="Решения для административно-офисных зданий от Эlevel Инженер" target="_blank" style="margin-left: 8px;" ><strong>Решения для административно-офисных зданий</strong></a> 
+          <br />
+         <em style="margin-left: 8px;">скачать буклет в формате <a href="/cat/elevel/ei_admin_log.pdf" title="Решения для административно-офисных зданий от Эlevel Инженер" target="_blank" ><img src="/images/aar.gif" alt="Решения для административно-офисных зданий от Эlevel Инженер" title="Решения для административно-офисных зданий от Эlevel Инженер"  /></a>.pdf</em></td><td width="80" ><a href="/cat/elevel/elevel_resheniya_hotel.pdf" title="Решения для гостиничных комплексов от Эlevel Инженер" target="_blank" ><img src="/images/ei_hotels_log-1-new.png" alt="Решения для гостиничных комплексов от Эlevel Инженер" title="Решения для гостиничных комплексов от Эlevel Инженер" class="sol_bp" /></a></td><td valign="top"><a href="/cat/elevel/elevel_resheniya_hotel.pdf" title="Решения для гостиничных комплексов от Эlevel Инженер" target="_blank" style="margin-left: 8px;" ><strong>Решения для гостиничных комплексов</strong></a> 
+          <br />
+         <em style="margin-left: 8px;">скачать буклет в формате <a href="/cat/elevel/elevel_resheniya_hotel.pdf" title="Решения для гостиничных комплексов от Эlevel Инженер" target="_blank" ><img src="/images/aar.gif" alt="Решения для гостиничных комплексов от Эlevel Инженер" title="Решения для гостиничных комплексов от Эlevel Инженер"  /></a>.pdf</em></td></tr>
+     
+      <tr><td width="80" ><a href="/cat/elevel/elevel_resheniya_cottage.pdf" title="Решения для частных коттеджей от Эlevel Инженер" target="_blank" ><img src="/images/ei_kot_log-1-new.png" alt="Решения для частных коттеджей от Эlevel Инженер" title="Решения для частных коттеджей от Эlevel Инженер" class="sol_bp" /></a></td><td valign="top"><a href="/cat/elevel/elevel_resheniya_cottage.pdf" title="Решения для частных коттеджей от Эlevel Инженер" target="_blank" style="margin-left: 8px;" ><strong>Решения для частных коттеджей</strong></a> 
+          <br />
+         <em >скачать буклет в формате <a href="/cat/elevel/elevel_resheniya_cottage.pdf" title="Решения для частных коттеджей от Эlevel Инженер" target="_blank" ><img src="/images/aar.gif" alt="Решения для частных коттеджей от Эlevel Инженер" title="Решения для частных коттеджей от Эlevel Инженер"  /></a>.pdf</em></td><td width="80" ><a href="/solutions/segment_solutions/data_center/" title="Решения для ЦОДов от Эlevel Инженер" ><img src="/images/ei_dc_log-1.png" alt="Решения для ЦОДов от Эlevel Инженер" title="Решения для ЦОДов от Эlevel Инженер" class="sol_bp" /></a></td><td valign="top"><a href="/solutions/segment_solutions/data_center/" title="Решения для ЦОДов от Эlevel Инженер" style="margin-left: 8px;" ><strong>Решения для ЦОДов</strong></a></td></tr>
+     </tbody>
+   </table>
+ <?}?>
+ <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

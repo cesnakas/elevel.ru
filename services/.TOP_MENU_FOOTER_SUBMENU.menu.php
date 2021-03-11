@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Проектирование", 
+		"/services/project/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Комплектация", 
+		"/services/complect/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Монтаж, программирование", 
+		"/services/installation/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Технический и авторский надзор", 
+		"/services/supervision/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Электролаборатория", 
+		"/services/electrolaboratory/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

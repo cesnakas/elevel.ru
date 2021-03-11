@@ -1,0 +1,1 @@
+<strong class="big"><span class="counterTo">50</span> лет</strong> - общий стаж сотрудников

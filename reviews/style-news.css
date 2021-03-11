@@ -1,0 +1,71 @@
+	.reviews-content ol {
+		margin-left: 45px;
+}
+	.reviews-content ol {
+		margin-left: 45px;
+}
+	.reviews-shop-block {
+	margin-top: 15px;
+    display: block;
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+	.reviews-shop-block p { 
+    width: 380px;
+    margin: auto;
+    display: block;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+}
+	.reviews-block-news-shop {
+	display: block;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+	.reviews-content ul {
+		list-style: square outside;
+    	margin-left: 50px;
+}
+	.reviews-block-news {
+		display:block;
+		float:left;
+		height: 200px;
+		width:200px;
+		margin-right: 20px;
+}
+	.reviews-shop-block-center{
+	width: 1000px;
+	margin: auto;
+}
+.reviews-block-news-shop img {
+	width: 200px;
+}
+	.reviews-block-news a {
+		font-size: 16px;
+}
+	.reviews-block-news img {
+		height: 133px;
+}
+	.reviews-other {
+		font-size: 27px;
+    	font-style: italic;
+}
+	h2{
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+	h1{
+    margin-bottom: 10px;
+}
+
+
+
+
+}

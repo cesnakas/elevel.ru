@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/cc6/cc609f3a89d383f24dc7099989749108.jpg" alt=""> <strong class="name">Мельниченко Илья</strong> <span class="position">Руководитель направления</span>

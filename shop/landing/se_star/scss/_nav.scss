@@ -1,0 +1,103 @@
+.nav{
+	font-size: 15px;
+	line-height: 1.2;
+
+	&__list{
+		display: flex;
+	}
+
+	&__item{
+		margin-left: 60px;
+	}
+
+	a{
+		text-decoration: underline;
+
+		&:hover{
+			color: #157A29;
+		}
+
+		&:active{
+			color: #085116;
+		}
+	}
+
+	@media only screen and (max-width: 1300px) {
+		padding-right: 20px;
+
+		&__item{
+			margin-left: 30px;
+		}
+	}
+
+	@media only screen and (max-width: 992px) {
+		position: fixed;
+		bottom: 100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		z-index: 99;
+		background-color: #3DCD58;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 900;
+		font-size: 22px;
+		line-height: 23px;
+		text-align: center;
+		color: #FFFFFF;
+		text-decoration: none;
+		transition: all ease 800ms;
+
+		&__list{
+			display: block;
+			text-align: center;
+		}
+
+		&__item{
+			margin: 50px 0;
+
+			a{
+				text-decoration: none;
+			}
+		}
+
+	}
+
+	@media only screen and (max-width: 479px) {
+		&__item{
+			margin: 25px 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.resp-toggle-btn {
+		display: inline-block;
+		border: none;
+		cursor: pointer;
+		outline: none;
+		width: 50px;
+		height: 40px;
+		top: 3px;
+		right: 5px;
+		position: absolute;
+		background: none;
+		z-index: 999;
+	}
+
+	.navTrue .nav{
+		bottom: 0;
+	}
+
+	.resp-toggle-btn span { display: block; position: absolute; height: 3px; border-radius: 3px; left: 13px; right: 13px; background-color: #fff; -webkit-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -o-transition: all 0.25s ease; transition: all 0.25s ease; }
+	.resp-toggle-btn span.line1 { top: 11px; }
+	.resp-toggle-btn span.line2 { top: 19px; }
+	.menu > .hasUl > a::after { right: 22px; }
+	.resp-toggle-btn span.line3 { top: 27px; }
+	.navTrue .resp-toggle-btn span { left: 10px; right: 10px; }
+	.navTrue .resp-toggle-btn span.line1 { -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); top: 19px; }
+	.navTrue .resp-toggle-btn span.line2 { opacity: 0; }
+	.navTrue .resp-toggle-btn span.line3 { -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); top: 19px; }
+}

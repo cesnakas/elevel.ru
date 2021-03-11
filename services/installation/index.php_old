@@ -1,0 +1,194 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Пусконаладка | Монтаж и программирование | Эlevel");
+$APPLICATION->SetPageProperty("description", "Компания Эlevel предлагает все виды пусконаладочных работ оборудования и монтаж инженерных систем.");
+$APPLICATION->SetPageProperty("tags", "электромонтаж, электромонтажные работы, монтаж электрооборудования, монтаж электропроводки, монтаж электрощитов, монтаж электрощитового оборудования, монтаж нку, монтаж скс, монтаж лвс, прокладка кабельных трасс, монтаж щитового оборудования, монтаж систем кабельного обогрева, монтаж кабельного обогрева, монтаж теплого пола, монтаж умного дома, монтаж системы умный дом, монтаж инженерных систем, монтаж внутренних инженерных систем, монтаж систем автоматизации, монтаж приборов систем автоматизации, монтаж диспетчеризации, монтаж систем диспетчеризации, монтаж кабельных трасс, монтаж ктп, монтаж систем обогрева, расключение оборудования, расключение электрооборудования, электромонтаж оборудования, монтаж телефонной сети, монтаж компьютерных и телефонных сетей, монтаж нагревательного кабеля, монтаж освещения, монтаж систем освещения, монтаж внутреннего освещения, монтаж наружного освещения, монтаж светотехники, монтаж низковольтного оборудования, монтаж структурированных кабельных систем, монтаж систем управления, монтаж систем контроля управлением доступом, монтаж молниезащиты, монтаж слаботочных систем, монтаж электроустановочных изделий, программирование систем автоматизации, программирование умного дома, программирование инженерных систем, программирование аскуэ, пусконаладочные работы, пусконаладка, пусконаладка систем автоматизации, программирование освещения, пусконаладка нку, пусконаладка оборудования, пусконаладка инженерных систем, пусконаладка электрооборудования, пусконаладка электроснабжения, программирование энергосбережения, программирование датчиков, программирование информационных сетей, пусконаладка систем управления");
+$APPLICATION->SetPageProperty("keywords", "пусконаладка оборудования, монтаж инженерных систем, монтаж и пусконаладка");
+$APPLICATION->SetTitle("Установочно-эксплуатационные работы ");
+?> 
+<h1>Монтаж, программирование, пусконаладка: пусконаладочные работы</h1>
+ 
+<p>В нашей компании Вы можете заказать любой вид работ для полной готовности оборудования и инженерных систем к эксплуатации.</p>
+ 
+ <?if($_REQUEST["print"] !== "Y"){?> 
+    <div class="rbutton"> <span class="button_forms" id="installation">Заказать работы</span> </div>
+<?}?>
+ 
+<br />
+ <center><img src="/images/ie-installation.png" alt="Электромонтаж от Эlevel Инженер" title="Электромонтаж от Эlevel Инженер" vspace="5" class="sol_bp"  /></center> 
+<br />
+ 
+<p>Мы предлагаем все виды работ по направлениям: </p>
+ 
+<br />
+ 
+<table cellspacing="5" cellpadding="5"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/1.png" alt="Монтаж и пусконаладка от компании Эlevel Инженер" title="Монтаж и пусконаладка от компании Эlevel Инженер"  /></td><td width="90%"><strong>Монтаж и пусконаладка</strong> 
+        <br />
+       Мы оказываем полный комплекс услуг по монтажу и <strong>пусконаладке</strong> инженерных систем и их элементов. Все работы выполняются специалистами с подтверждённой квалификацией и большим практическим опытом, с использованием сертифицированного оборудования: 
+        <ul class="list_sol"> 
+          <li>монтаж, расключение и пусконаладка оборудования;</li>
+         
+          <li>установка <a href="/solutions/electroboards/" title="Электрошщитовое оборудование производства Эlevel Инженер" target="_blank" >электрощитового оборудования</a> и расключение;</li>
+         
+          <li><a href="/solutions/automation/intellectual_building/ups/" title="Системы бесперебойного электроснабжения (ИБП)" target="_blank" >систем бесперебойного электроснабжения</a>;</li>
+         
+          <li>прокладка кабельных трасс;</li>
+         
+          <li><a href="/solutions/cable_systems/" title="Системы кабельного обогрева от Эlevel Инженер" target="_blank" >систем кабельного обогрева</a>;</li>
+         
+          <li>монтаж <a href="/solutions/automation/intellectual_building/sks/" title="Структурированные кабельные сети от компании Эlevel Инженер" target="_blank" >структурированных кабельных сетей</a>, систем <a href="/solutions/automation/" title="Системы автоматизации от компании Эlevel Инженер" target="_blank" >автоматизации</a> и <a href="/solutions/automation/scheduling/" title="Системы диспетчеризации и визуализации от компании Эlevel Инженер" target="_blank" >диспетчеризации</a>, <a href="/solutions/automation/intellectual_building/lighting_protection/" title="Системы молниезащиты от компании Эlevel Инженер" target="_blank" >молниезащиты</a>.</li>
+         </ul>
+       
+        <p> 	 	 	 	 
+<style type="text/css"> 	&lt;!-- 		@page { size: 21cm 29.7cm; margin: 2cm } 		P { margin-bottom: 0.21cm } 	--&gt; 	</style>
+ </p>
+       
+        <p style="margin-bottom: 0cm;">Пусконаладочные работы выполняются в несколько этапов, которые включают в себя подготовку документации и объекта, ремонтные работы, испытания отдельных систем и комплексную их апробацию.</p>
+       </td></tr>
+   </tbody>
+ </table>
+ 
+<div class="border">&nbsp;</div>
+ 
+<table cellspacing="5" cellpadding="5"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/2.png" alt="Программирование от компании Эlevel Инженер" title="Программирование от компании Эlevel Инженер"  /></td><td width="90%"><strong>Программирование</strong> 
+        <br />
+       Профессиональная настройка важна как залог безотказной работы и полного доступа к всем функциям оборудования, а также возможности настройки дополнительного функционала. 
+        <br />
+       Наши специалисты оказывают услуги по программированию систем и отдельных элементов: 
+        <br />
+         
+        <ul class="list_sol"> 
+          <li><a href="/solutions/automation/smart_house/" title="Система умный дом от компании Эlevel Инженер" target="_blank" >умный дом</a>;</li>
+         
+          <li><a href="/solutions/automation/intellectual_building/" title="Система интеллектуальное здание от компании Эlevel Инженер" target="_blank" >интеллектуальное здание</a>;</li>
+         
+          <li><a href="/solutions/automation/scheduling/" title="Системы диспетчеризации и визуализации от компании Эlevel Инженер" target="_blank" >диспетчеризация инженерных систем</a>;</li>
+         
+          <li><a href="/solutions/electroboards/control_and_automation/" title="Щиты управления и автоматики производства Эlevel Инженер" target="_blank" >щиты управления и автоматики</a>.</li>
+         </ul>
+       </td></tr>
+   </tbody>
+ </table>
+ 
+ <script>
+$(document).ready(function() {
+    $('#call_close').first().remove();
+    $('#suber').first().remove();
+    $(".table10").removeClass("table10").addClass("table-bottom")
+    $(".table-bottom").first().append('<tr><td colspan="4" style="padding: 26px 0 0 0;"><span id="suber-bottom" style="cursor:pointer; position: relative; left: 188px;"><img src="/i/btn140g.gif"></span></td></tr>');
+    
+    $(".txt8").first().css('padding-top','12px');
+    $(".inputtext").attr('class','w170');
+    $('textarea').first().attr('class','h92');
+    $("#form_dropdown_TIME,#form_dropdown_CITY").first().attr('class','sel1');
+    $('input[name="web_form_submit"]').first().css('display','none');
+    $('form').css('height','396px');
+   
+    $(".inner_params td").first().css('padding','0px');
+    
+    $('input[name="form_text_655"]').first().keypress(function (e){
+        if( e.which!=8 && e.which!=13 && e.which!=0 && (e.which<48 || e.which>57)){
+            $(".error").html("Только цифры").show().fadeOut(3000); 
+            return false;
+        }
+    });
+
+    function isValidEmailAddress(emailAddress) {
+        var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+        return pattern.test(emailAddress);
+    }
+    
+    $('form[name="zakaz_installation"]').first().attr('id','back_call');
+    
+    $('#suber-bottom').first().click(function() {
+        _gaq.push(['_trackEvent', 'sent_installation', 'action', 'opt_label', 1]); yaCounter1485305.reachGoal('sent_installation');
+        NAMEUSER = $('input[name="form_text_654"]').val();
+        EMAIL = $('input[name="form_email_656"]').val();
+        PHONEUSER = $('input[name="form_text_655"]').val();
+        MESSAGES=$('textarea[name="form_textarea_657"]').val();
+        textError='';
+        error = 0;
+        
+        if(NAMEUSER==''){textError='Введите имя<br>';error = 1;};
+        
+        if(EMAIL==''){
+            textError+='Не введен email<br>';
+            error = 1;
+        } else {
+        if(!isValidEmailAddress(EMAIL)){
+            textError+='Не корректный email<br>';
+        };}
+        
+        if(PHONEUSER==''){textError+='Введите номер телефона<br>';error = 1;};
+        if(MESSAGES==''){textError+='Введите комментарий<br>';error = 1;};
+        
+        
+        if(error == 0){
+            
+        var m_data=$("#back_call").serialize();
+        m_data = m_data + "&web_form_submit=Y";
+        
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/sendquery/fcallback.php',
+            dataType: "text",
+            data: m_data,
+            beforeSend: function() {
+            },
+            error:function(result) {
+                alert(result);
+            },
+            
+            success: function(result) {
+                $('.table-bottom').hide();
+                $("#back_call").append('<div style="text-align: center; padding: 80px 0px; font-size: 16px; margin-bottom: 20px;">Ваш запрос успешно отправлен!</div>')
+            }
+        });
+        return false;
+        } else{
+            $('.error').empty();
+            $('.error').show().fadeOut(3000);
+            $('.error').html(textError);
+        }
+    });
+    
+});
+
+</script>
+
+    <div class="bottom-form" style="float: left;"> 
+        <div class="bottom-form-title" style="background-color: #f15922; width: 130px; height: 24px; border-radius: 5px; color: #fff; padding-top: 5px; text-align: center;"><p>Заказать работы</p></div>
+        <div id="simul_form1"> <!-- style="height:400px; overflow-y:scroll; margin:-17px 16px 17px 0; position:relative; z-index:10;"> -->
+
+        <div class="info"></div>
+        <div class="error" style="margin-bottom: 20px;padding: 0px 30px;text-align: center; display:none;"></div>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:form.result.new",
+            "",
+            Array(
+            "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+            "WEB_FORM_ID" => 43,    // ID веб-формы
+            "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+            "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+            "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+            "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+            "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+            "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+            "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+            "CACHE_TYPE" => "A",    // Тип кеширования
+            "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+            "VARIABLE_ALIASES" => array(
+                "WEB_FORM_ID" => "WEB_FORM_ID",
+                "RESULT_ID" => "RESULT_ID",
+            )
+            )
+        );?>
+    </div>
+</div>
+<div style="clear: both;"></div> 
+ <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

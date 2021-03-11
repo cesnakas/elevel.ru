@@ -1,0 +1,45 @@
+.features{
+
+	&__item{
+		min-height: 219px;
+		display: flex;
+		justify-content: space-between;
+		font-weight: normal;
+		font-size: 21.2518px;
+		line-height: 24px;
+		color: #0B0B0B;
+		margin: 10px 0;
+	}
+
+	&__item-img{
+		width: calc(38% - 5px);
+		background-color: #3DCD58;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	&__item-caption{
+		background-color: #FFFFFF;
+		width: calc(62% - 5px);
+		padding: 30px 20px;
+	}
+
+	&__item:nth-child(odd) &__item-img{
+		order: 2;
+	}
+
+
+	@media only screen and (max-width: 767.98px) {
+		&__item{
+			font-size: 14px;
+			line-height: 16px;
+			min-height: 0;
+		}
+	}
+}

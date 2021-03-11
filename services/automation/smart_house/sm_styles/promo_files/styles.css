@@ -1,0 +1,32 @@
+a.gray,
+a.gray:visited,
+a.gray:active {
+	color: #747171 !important;
+	text-decoration: underline !important;
+}
+
+a.gray:hover {
+	color: #747171 !important;
+	text-decoration: none !important;
+}
+
+.imageleft{ float:left; }
+.imageright{ float:right; }
+.imagecenter{ float:inherit; }
+
+.imagebottom{ vertical-align:text-bottom; float:right;}
+.imagebottomright{ vertical-align:text-bottom; }
+.imagebottomleft{ vertical-align:text-bottom; float:left; }
+.imagebottomcenter{ vertical-align:text-bottom;  float:inherit; }
+
+.imagetop{ vertical-align:text-top; float:right;}
+.imagetopright{ vertical-align:text-top; }
+.imagetopleft{ vertical-align:text-top; float:left;  }
+.imagetopcenter{ vertical-align:text-top; float:inherit; }
+
+
+.imagemiddle{ vertical-align:middle;}
+
+
+.imagebase{ float:none; }
+.socBottom ul{overflow:hidden}

@@ -1,0 +1,205 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Интеллектуальное здание, Elevel - автоматизация здания. Управление зданием");
+$APPLICATION->SetPageProperty("description", "Компания Эlevel предлагает систему управления зданием. Разработка и реализация системы «интеллектуальное здание» на выгодных условиях");
+$APPLICATION->SetPageProperty("tags", "Интеллектуальное здание, интеллектуальные системы зданий, интеллектуальное здание, проектирование интеллектуального здания, проект интеллектуального здания, инженерные системы здания, система контроля доступа, система видеонаблюдения, система пожарной сигнализации, система охранной сигнализации, комплекс технических средств безопасности, комплекс систем жизнеобспечения, система гарантированного бесперебойного электроснабжения, системы отопления, системы вентиляции и кондиционирования, системы освещения, системы учета энергоносителей, астуэ, аскуэ, системы контроля, системы информационного обеспечения, проектирование лвс, проектирование телефонных сетей, интеграция инженерных систем, спутниковое и эфирное телевиденье, диспетчеризация, АСУ, скс, структурированная кабельная система, система интеллектуального здания, монтаж скс, монтаж лвс, система управления освещением, управление светом, диспетчеризация здания, проектирование охранной сигнализации, энергосбережение, интеллектуальные системы управления зданием, система управления микроклиматом, merten knx, система lcn, esylux, gira knx, инженерные системы интеллектуального здания, автоматизация инженерных систем, управление зданием, инженерно технические системы");
+$APPLICATION->SetPageProperty("keywords", "интеллектуальное здание, управление здание");
+$APPLICATION->SetTitle("Интеллектуальное здание ");
+?> 
+<h1>Система &laquo;интеллектуальное здание&raquo;</h1>
+ 
+<p>Наша компания специализируется на реализации комплексных решений с единой системой управления, одним из которых является «интеллектуальное здание».</p><br>
+
+<?if($_REQUEST["print"] !== "Y"){?> 
+<div class="rbutton"> <span class="button_forms" id="intbuilding">Заказать систему</span> </div>
+<?}?>
+
+ <center><img src="/images/ei_intelligent_duilding.png" alt="Система &amp;laquo;интеллектуальное здание&amp;raquo; от Эlevel Инженер" title="Система &amp;laquo;интеллектуальное здание&amp;raquo; от Эlevel Инженер" vspace="5" class="sol_bp" /></center> 
+<br />
+ 
+<p>Интеллектуальное здание - это управление зданием, представляющее собой пример идеальной организации работы групп инженерных систем, объединённых в общий программно-аппаратный комплекс с централизованным управлением.</p><br>
+ 
+<p>Название комплекса вовсе не живописное сравнение. Его заслуженно сравнивают с искусственным интеллектом, поскольку управление всеми технологическими процессами ведётся в «думающем» режиме - помимо обеспечения работы вверенных ей элементов система постоянно контролирует и анализирует текущую обстановку, и при необходимости мгновенно реагирует на нестандартные ситуации.</p><br>
+ 
+<p>В качестве компонентов комплекса выступают такие группы инженерных систем, как: </p><br>
+  <table cellspacing="5" cellpadding="5"> 
+    <tbody> 
+      <tr><td width="15%" valign="top"><img src="/i/1.png" alt="комплекс технических средств безопасности в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="комплекс технических средств безопасности в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/technical_security_set/" title="комплекс технических средств безопасности в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" ><strong>комплекс технических средств безопасности</strong></a>: 
+          <br />
+         
+          <table cellspacing="5" cellpadding="5"> 
+            <tbody> 
+              <tr><td width="15%" valign="top"><img src="/i/1s.png" alt="система контроля доступа в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система контроля доступа в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/access_control_system/" title="система контроля доступа в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система контроля доступа</a>,</td></tr>
+             
+              <tr><td width="15%" valign="top"><img src="/i/2s.png" alt="система видеонаблюдения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система видеонаблюдения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/video_control/" title="система видеонаблюдения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система видеонаблюдения</a>,</td></tr>
+             
+              <tr><td width="15%" valign="top"><img src="/i/3s.png" alt="система пожарной сигнализации в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система пожарной сигнализации в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/fire_alarm/" title="система пожарной сигнализации в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система пожарной сигнализации</a>,</td></tr>
+             
+              <tr><td width="15%" valign="top"><img src="/i/4s.png" alt="система охранной сигнализации в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система охранной сигнализации в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/alarm_system/" title="система охранной сигнализации в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система охранной сигнализации</a>,</td></tr>
+             
+              <tr><td width="15%" valign="top"><img src="/i/5s.png" alt="система молниезащиты в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система молниезащиты в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/lighting_protection/" title="система молниезащиты в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система молниезащиты</a>;</td></tr>
+             </tbody>
+           </table>
+         </td></tr>
+     
+      <tr><td width="15%" valign="top"><img src="/i/2.png" alt="комплекс систем жизнеобеспечения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="комплекс систем жизнеобеспечения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/life-support_systems/" title="комплекс систем жизнеобеспечения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" target="_blank" ><strong>комплекс систем жизнеобеспечения</strong></a>: 
+          <br />
+         
+          <table cellspacing="5" cellpadding="5"> 
+            <tbody> 
+              <tr><td width="9%" valign="top"><img src="/i/1s.png" alt="система гарантированного бесперебойного электроснабжение в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система гарантированного бесперебойного электроснабжение в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/life-support_systems/" title="система гарантированного бесперебойного электроснабжение в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система гарантированного бесперебойного электроснабжение</a>,</td></tr>
+             
+              <tr><td width="9%" valign="top"><img src="/i/2s.png" alt="система отопления, вентиляции и кондиционирования воздуха в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система отопления, вентиляции и кондиционирования воздуха в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/hvac_system/" title="система отопления, вентиляции и кондиционирования воздуха в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система отопления, вентиляции и кондиционирования воздуха</a>,</td></tr>
+             
+              <tr><td width="9%" valign="top"><img src="/i/3s.png" alt="система освещения и управления освещением в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система освещения и управления освещением в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/lighting_system/" title="система освещения и управления освещением в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система освещения и управления освещением</a>,</td></tr>
+             
+              <tr><td width="9%" valign="top"><img src="/i/4s.png" alt="система учета энергоносителей и другие учётные системы в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система учета энергоносителей и другие учётные системы в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/accounting_system/" title="система учета энергоносителей и другие учётные системы в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система учета энергоносителей и другие учётные системы</a>,</td></tr>
+             
+              <tr><td width="9%" valign="top"><img src="/i/5s.png" alt="система контроля управления лифтами и эскалаторами в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система контроля управления лифтами и эскалаторами в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/elevator_system/" title="система контроля управления лифтами и эскалаторами в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система контроля управления лифтами и эскалаторами</a>;</td></tr>
+             </tbody>
+           </table>
+         </td></tr>
+     
+      <tr><td width="15%" valign="top"><img src="/i/3.png" alt="комплекс систем информационного обеспечения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="комплекс систем информационного обеспечения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/information_system/" title="комплекс систем информационного обеспечения в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" ><strong>комплекс систем информационного обеспечения</strong></a>: 
+          <br />
+         
+          <table cellspacing="5" cellpadding="5"> 
+            <tbody> 
+              <tr><td width="10%" valign="top"><img src="/i/1s.png" alt="ЛВС в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="ЛВС в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/lan/" title="ЛВС в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >ЛВС</a>,</td></tr>
+             
+              <tr><td width="10%" valign="top"><img src="/i/2s.png" alt="телефонные сети в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="телефонные сети в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/phone_etwork/" title="телефонные сети в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >телефонные сети</a>,</td></tr>
+             
+              <tr><td width="10%" valign="top"><img src="/i/3s.png" alt="спутниковое и эфирное телевидение в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="спутниковое и эфирное телевидение в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/tv/" title="спутниковое и эфирное телевидение в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >спутниковое и эфирное телевидение</a>,</td></tr>
+             
+              <tr><td width="10%" valign="top"><img src="/i/4s.png" alt="система оперативной связи обслуживающего персонала в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="система оперативной связи обслуживающего персонала в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/rapid_communication/" title="система оперативной связи обслуживающего персонала в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >система оперативной связи обслуживающего персонала</a>,</td></tr>
+             
+              <tr><td width="10%" valign="top"><img src="/i/5s.png" alt="СКС в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" title="СКС в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер"  /></td><td><a href="/solutions/automation/intellectual_building/sks/" title="СКС в системе &amp;laquo;интеллектуальное здание&amp;raquo; от компании Эlevel Инженер" >СКС</a> и другие.</td></tr>
+             </tbody>
+           </table>
+         </td></tr>
+     </tbody>
+   </table>
+
+ 
+<br />
+ 
+<p>Каждый раз система «интеллектуальное здание» проектируется под цели и задачи конкретного объекта и пожеланий заказчика, формируется комплекс систем и функциональные возможности на базе высокотехнологичных разработок от брендов-лидеров области систем автоматизации.</p>
+
+<script>
+$(document).ready(function() {
+    $('#call_close').first().remove();
+    $('#suber').first().remove();
+    $(".table10").removeClass("table10").addClass("table-bottom")
+    $(".table-bottom").first().append('<tr><td colspan="4" style="padding: 26px 0 0 0;"><span id="suber-bottom" style="cursor:pointer; position: relative; left: 188px;"><img src="/i/btn140g.gif"></span></td></tr>');
+    
+    $(".txt8").first().css('padding-top','12px');
+    $(".inputtext").attr('class','w170');
+    $('textarea').first().attr('class','h92');
+    $("#form_dropdown_TIME,#form_dropdown_CITY").first().attr('class','sel1');
+    $('input[name="web_form_submit"]').first().css('display','none');
+//    $('form').css('height','392px');
+    
+    $(".inner_params td").css('padding','0px');
+
+    $('input[name="form_text_668"]').keypress(function (e){
+        if( e.which!=8 && e.which!=13 && e.which!=0 && (e.which<48 || e.which>57)){
+            $(".error").html("Только цифры").show().fadeOut(3000); 
+            $('#simul_form1').css('height','360px');
+            setTimeout( function () {$('#simul_form1').css('height','327px');}, 3000); 
+            return false;
+        }
+    });
+
+    function isValidEmailAddress(emailAddress) {
+        var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+        return pattern.test(emailAddress);
+    }
+    
+    $('form[name="intellectual_building"]').attr('id','back_call');
+    
+    $('#suber-bottom').click(function() {
+       // _gaq.push(['_trackEvent', 'sent_intbuilding', 'action', 'opt_label', 1]); yaCounter1485305.reachGoal('sent_intbuilding');
+        NAMEUSER = $('input[name="form_text_667"]').val();
+        EMAIL = $('input[name="form_email_669"]').val();
+        PHONEUSER = $('input[name="form_text_668"]').val();
+        MESSAGES=$('textarea[name="form_textarea_670"]').val();
+        textError='';
+        error = 0;
+        
+        if(NAMEUSER==''){textError='Введите имя<br>';error = 1;};
+        
+        if(EMAIL==''){
+            textError+='Не введен email<br>';
+            error = 1;
+        } else {
+        if(!isValidEmailAddress(EMAIL)){
+            textError+='Не корректный email<br>';
+        };}
+        
+        if(PHONEUSER==''){textError+='Введите номер телефона<br>';error = 1;};
+        if(MESSAGES==''){textError+='Введите комментарий<br>';error = 1;};
+        
+        
+        if(error == 0){
+            
+        var m_data=$("#back_call").serialize();
+        m_data = m_data + "&web_form_submit=Y";
+        
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/sendquery/fcallback.php',
+            dataType: "text",
+            data: m_data,
+            beforeSend: function() {
+            },
+            error:function(result) {
+                alert(result);
+            },
+            
+            success: function(result) {
+                $('.table10').hide();
+                $("#simul_form1").append('<div style="text-align: center; padding: 80px 0px; font-size: 16px; margin-bottom: 20px;">Ваш запрос успешно отправлен!</div>')
+            }
+        });
+        return false;
+        } else{
+            $('.error').empty();
+            $('.error').show().fadeOut(3000);
+            $('.error').html(textError);
+        }
+    });
+            
+});
+</script>
+    <div class="bottom-form" style="float: left;">
+    <div class="bottom-form-title"><p>Заказать систему "Интеллектуальный дом"</p></div>
+    <div id="simul_form1"> <!-- style="height:400px; overflow-y:scroll; margin:-17px 16px 17px 0; position:relative; z-index:10;"> -->
+
+    <div class="info"></div>
+    <div class="error" style="margin-bottom: 20px;padding: 0px 30px;text-align: center; display:none;"></div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:form.result.new",
+        "",
+        Array(
+        "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+        "WEB_FORM_ID" => 46,    // ID веб-формы
+        "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+        "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+        "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+        "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+        "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+        "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+        "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+        "CACHE_TYPE" => "A",    // Тип кеширования
+        "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+        "VARIABLE_ALIASES" => array(
+            "WEB_FORM_ID" => "WEB_FORM_ID",
+            "RESULT_ID" => "RESULT_ID",
+        )
+        )
+    );?>
+    </div>
+</div>
+ <div style="clear: both; "></div>
+ <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

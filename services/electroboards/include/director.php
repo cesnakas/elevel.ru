@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/a26/a26b0ca96e87c67767ddb0e5d0829f46.JPG" alt=""> <strong class="name">Розанов Александр</strong> <span class="position">Руководитель направления</span>

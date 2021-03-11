@@ -1,0 +1,548 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Электрощитовое оборудование и сборка электрощитов | Эlevel");
+$APPLICATION->SetPageProperty("description", "Компании Эlevel осуществляет продажу электрощитового оборудования. Купить электрощиты от ведущих мировых производителей на выгодных условиях.");
+$APPLICATION->SetPageProperty("tags", "производство электрощитового оборудования, электрощитовое оборудование, электрощиты, щиты, сборка электрощитов, производство щитов, изготовление электрощитов, шкафы управления, электрощитовое оборудование, сертифицированные электрощиты, производство щитов, щиты по индивидуальному проекту, серийные щиты, щитовая продукция, щитовое оборудование, ГРЩ, главные распределительные щиты, ВРУ, вводно распределительные устройства, ЩР, щиты распределительные, АВР, автоматический ввод резерва, ЩУ, щиты управления, ЩА, циты автоматики, щиты учет, ЩО, щиты осветительные, ЩС, щиты силовые, электрощиты на заказ, низковольтные комплектные устройства, НКУ");
+$APPLICATION->SetPageProperty("keywords", "электрощит, сборка электрощитов, электрощитовое оборудование, монтаж электрощита, установка электрощита, купить электрощиты, производство электрощитов, сборка электрощитового оборудования, производство электрощитового оборудования");
+$APPLICATION->SetTitle("Купить электрощитовое оборудование Elevel - отличная цена на электрощиты.");
+?> 
+<script>
+		(function($) {
+		$(function() {
+			$('select.stylize').selectbox();
+		})
+		})(jQuery)
+</script>
+<div class="b-centered b-promo clearfix">
+		<h1>Производство электрощитового оборудования</h1>
+		<div class="b-row b-row__first clearfix">
+			<div class="b-pull-left">
+				<ul class="menu3" style="padding-bottom: 12px;">
+					<li><a href="/solutions/automation/" class="root-item-selected">Автоматизация</a>
+                <ul class="root-item-selected">
+                        <li><a href="/solutions/automation/smart_house/" class="parent">Система «умный дом»</a></li> 
+						<li><a href="/solutions/automation/intellectual_building/" class="parent">Система «интеллектуальное здание»</a></li>
+                    	<li><a href="/solutions/automation/hotel_management_system/" class="parent">Система управления гостиницей</a></li> 
+                   		<li><a href="/solutions/automation/process_automation_systems/">Системы промышленной автоматики</a></li>
+						<li><a href="/solutions/automation/scheduling/">Системы диспетчеризации и визуализации</a></li>
+                </ul></li>    
+                        <li><a href="/solutions/electroboards/" class="root-item">Производство электрощитов</a>
+                </li>    
+						<li><a href="/solutions/lighting_work/" class="root-item">Светотехнические проекты</a></li>
+						<li><a href="/solutions/cable_systems/" class="root-item">Системы кабельного обогрева</a>
+                </li>    
+						<li><a href="/solutions/electric_power_supply/" class="root-item">Электроснабжение</a>
+                </li>    
+						<li><a href="/solutions/energy_conservation/" class="root-item">Энергосбережение</a></li>
+						<li><a href="/solutions/segment_solutions/" class="root-item">Решения по сегментам рынка</a>
+                </li>
+</ul>
+			</div>
+			<div class="b-pull-right b-form">
+				<div class="b-title-orange">ЗАКАЖИТЕ ЭЛЕКТРОЩИТ ПРЯМО СЕЙЧАС!</div>
+				<form action="/">
+					<div class="b-form__row">
+						<label for="/">Имя</label>
+						<input type="text" class="inptxt-sty">
+					</div>
+					<div class="b-form__row">
+						<label for="/">E-mail</label>
+						<input type="text" class="inptxt-sty">
+					</div>
+					<div class="b-form__row">
+						<label for="/">Телефон</label>
+						<input type="text" class="inptxt-sty">
+					</div>
+					<div class="b-form__row">
+						<label for="/">Время звонка</label>
+						<select name="/" id="/" class="stylize">
+							<option value="/">08:00-09:00</option>
+							<option value="/">09:00-10:00</option>
+							<option value="/">10:00-11:00</option>
+							<option value="/">11:00-12:00</option>
+							<option value="/">12:00-13:00</option>
+						</select>
+					</div>
+					<div class="b-form__row b-form__row_btn">
+						<input type="submit" value="Заказать электрощит" class="btn gradient">						
+					</div>
+				</form>
+				<p>Вы можете заказать проект и сборку<br> силовых низковольтных электроустановок<br>  (ГРЩ, ЩР, ВРУ, АВР) и щитов управления <br> (в том числе микропроцессорным <br> управлением), щитов учета и<br>  автоматизации</p>
+				<img src="/img/cask.png" alt="">
+				<article>Проектирование и сборку<br> выполняют <br>высококвалифицированные <br>специалисты</article>
+			</div><!--.b-form-->
+		</div><!--.b-row__first-->
+		<div class="b-row b-row__task clearfix">
+			<div id="orange_block">
+			<header class="b-title-orange2">
+				Наши специалисты проведут<span> проверку вашего проекта</span> и внесут корректировки <span>совершенно бесплатно!</span>
+			</header>
+			<figure><img src="/img/graph.png" alt=""></figure>
+			<article>
+				<p>В 75% случаев, технический проект является недостаточно корректным</p>
+			</article>
+			</div>	
+		</div><!--.b-row__task-->
+<p>Компания Эlevel выполняет проектирование, производство и сборку электрощитового оборудования — силовых низковольтных электроустановок, щитов управления, учета и автоматизации. Электрощиты собираются квалифицированными специалистами на базе надежных комплектующих ABB, Schneider Electric, Legrand, DEKraft. Вся продукция имеет сертификаты соответствия Всесоюзного научно-исследовательского института (ВНИИС) Госстандарта России. Разработка технической документации и сборка электрощитов осуществляется как по стандартным, так и по индивидуальным проектам с учетом специфики конкретного объекта.<p>
+		<div class="b-row b-row__advantages clearfix">
+			<h2>Что вы получаете?</h2>
+			<div class="b-adv__col b-adv__col_left" style="padding-top: 180px;">
+				<div class="b-advantage__item">				
+					<i class="n-ico n-ico-multiroom"></i>
+					<strong>РАЗРАБОТКА<br>ТЕХНИЧЕСКОЙ<br>ДОКУМЕНТАЦИИ </strong>
+					<!--<div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+						<p>Слушайте музыку и смотрите любимые фильмы там, где Вам удобно. Не нужно оснащать каждую комнату громоздкой аудио-/видеоаппаратурой - технология «умный дом» позволяет передавать музыку и видео в любую точку здания, независимо от места установки источника сигнала (CD, DVD).</p></div>-->
+				</div><!--.b-advantage__item-->
+				<div class="b-advantage__item">
+					<i class="n-ico n-ico-link" style="width: 55px"></i>
+					<strong>ИЗГОТОВЛЕНИЕ<br>НКУ</strong>
+					<!--<div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+						<p>Слушайте музыку и смотрите любимые фильмы там, где Вам удобно. Не нужно оснащать каждую комнату громоздкой аудио-/видеоаппаратурой - технология «умный дом» позволяет передавать музыку и видео в любую точку здания, независимо от места установки источника сигнала (CD, DVD).</p>
+					</div>-->
+				</div><!--.b-advantage__item-->
+				<div class="b-advantage__item">
+				</div><!--.b-advantage__item-->
+				<!--.b-advantage__item-->		
+			</div><!--.b-adv__col_left-->
+<div class="b-adv__col b-adv__col_right">
+				<div class="b-advantage__item"style="padding-right: 115px;">
+					<i class="n-ico n-ico-home"></i>
+					<strong>ПОДГОТОВКА<br>СМЕТ</strong>
+					<!--<div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+						<p>Процессор «умного дома» не допустит конфликтов системы отопления и климатической техники, даже если ранней весной Вы откроете окно или включите сплит-систему при работающем отоплении.  Благодаря централизованному управлению отопительным оборудованием, теплым полом, кондиционером и вентиляцией в Вашем доме всегда будет уютно.</p>
+					</div>-->
+				</div><!--.b-advantage__item-->
+				<div class="b-advantage__item" style="padding-right: 70px; padding-top: 25px;">
+					<i class="n-ico n-ico-door"></i>
+					<strong>ТИПОВЫЕ И<br>ИНДИВИДУАЛЬНЫЕ<br>ПРОЕКТЫ </strong>
+					<!--<div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+						<p>Процессор «умного дома» не допустит конфликтов системы отопления и климатической техники, даже если ранней весной Вы откроете окно или включите сплит-систему при работающем отоплении.  Благодаря централизованному управлению отопительным оборудованием, теплым полом, кондиционером и вентиляцией в Вашем доме всегда будет уютно.</p>
+					</div>-->
+				</div><!--.b-advantage__item-->
+				<div class="b-advantage__item"style="padding-right: 110px;margin-top: 10px">	
+				</div><!--.b-advantage__item-->
+				<!--.b-advantage__item-->				
+			</div>
+			  <div class="b-adv__col b-adv__col_right2">
+
+				<div class="b-advantage__item"style="
+    padding-right: 115px;
+">
+					<i class="n-ico n-ico-lamp"></i>
+					<strong>РАЗРАБОТКА<br>КОНСТРУКЦИЙ НКУ </strong>
+					<!--<div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+						<p>Хотите, чтобы свет в комнатах включался по датчику движения, становился приглушенным при просмотре фильмов и расставлял акценты в интерьере, когда Вы принимаете гостей? В память системы можно внести любые сценарии. Чтобы запустить выбранную программу достаточно одного касания к сенсорной панели.</p>
+					</div>-->
+				</div><!--.b-advantage__item-->
+				<div class="b-advantage__item"style="padding-right: 70px;">
+					<i class="n-ico n-ico-lock"></i>
+					<strong>ГАРАНТИЯ И<br>ПОСЛЕГАРАНТИЙНОЕ<br>ОБСЛУЖИВАНИЕ </strong>
+					<!--<div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+						<p>Хотите, чтобы свет в комнатах включался по датчику движения, становился приглушенным при просмотре фильмов и расставлял акценты в интерьере, когда Вы принимаете гостей? В память системы можно внести любые сценарии. Чтобы запустить выбранную программу достаточно одного касания к сенсорной панели.</p>
+					</div>-->
+				</div><!--.b-advantage__item-->
+
+				<div class="b-advantage__item"style="padding-right: 110px;margin-top: 10px">
+					
+				</div><!--.b-advantage__item-->
+
+				<!--.b-advantage__item-->
+				
+			</div>
+			<article>ПРОИЗВОДСТВО ЭЛЕКТРОЩИТОВ</article>
+
+			<!--.b-adv__col_right-->
+
+			<!-- <span class="b-title-pult">Единое централизованное управление</span> -->
+
+		</div>
+
+
+		<div class="b-row b-row__why clearfix">
+
+			<h3>Почему Эlevel?</h3>
+			
+			<div class="b-why__list">
+
+				<article>
+					<figure><img src="/img/elevel_icon1.png" alt=""></figure>
+					<header>Типовые и индивидуальные проекты</header>
+				<p>Все электрощиты производятся по техническим условиям и имеют сертификаты соответствия. Собственная служба контроля качества нашей компании проверяет сборку каждой установки и тестирует ее работу. На готовые изделия выдается полный пакет сопроводительной документации и предоставляется двухлетняя гарантия. 
+				</p>
+				</article>
+
+				<article>
+					<figure><img src="/img/elevel_icon2.png" alt=""></figure>
+					<header>Высококвалифицированные специалисты</header>
+					<p>Мы осуществляем производство электрощитового оборудования любого уровня сложности с различными степенями защиты — от электрощитов для дома до НКУ промышленного значения.  Установки, изготовленные по индивидуальным проектам, в полной мере отвечают требованиям заказчиков по техническим параметрам, стоимости и срокам монтажа. 
+					</p>
+				</article>
+
+				<article>
+					<figure><img src="/img/elevel_icon3.png" alt=""></figure>
+					<header>Широкий ассортимент оборудования</header>
+					<p>Наша компания — официальный дистрибьютор ABB, Schneider Electric, Legrand и других ведущих мировых производителей компонентов электротехнических систем. Мы предлагаем исчерпывающий и постоянно обновляющийся ассортимент электроустановок для жилых, административных и промышленных объектов. 
+					</p>
+				</article>
+
+				<article>
+					<figure><img src="/img/elevel_icon4.png" alt=""></figure>
+					<header>Минимальные сроки изготовления</header>
+					<p>Благодаря собственному производству, профессионализму инженерно-технического персонала, большой номенклатуре комплектующих и постоянному наличию на складе всех необходимых элементов для сборки электрощитов, конструкции изготавливаются в кратчайшие сроки. 
+					</p>
+				</article>
+
+			</div><!--.b-why__list-->
+		</div><!--.b-row__why-->
+
+
+
+		<div class="b-row b-row__packages clearfix">
+			
+			<h3>ТИПЫ СБОРКИ НКУ</h3>
+
+			<div class="big_block">
+			
+				<header>По изготовленным изделиям НКУ классифицируются:</header>
+				<div id="info_block">
+					<img src="/img/img1.png" alt="">
+					<header>ГРЩ</header>
+					<article>(Главные распределительные щиты)</article>
+					<p>Главный распределительный щит – устройство, отвечающее за энергоснабжение всего здания или его обособленной части.
+					</p>
+				</div>
+				<div id="info_block">
+					<img src="/img/img2.png" alt="" style="position: relative; right: 10px;">
+					<header style="right: 465px;">ЩР, ЩУР</header>
+					<article style="left: 10px;">(Щит учета распределения)</article>
+					<p style="left: 50px;">Щит учета распределения -  оборудование для приема, учета, распределения электроэнергии, а также для защиты линий от перегрузок, токов короткого замыкания и токов утечки на землю.
+					</p>
+				</div>
+				<div id="info_block">
+					<img src="/img/img3.png" alt="">
+					<header>ВРУ</header>
+					<article>(Вводно-распределительное устройство)</article>
+					<p>Вводно-распределительное устройство – комплексное низковольтное оборудование для приема, учета и распределения электроэнергии, а также защиты отходящих линий от перегрузок.
+					</p>
+				</div>
+				<div id="info_block">
+					<img src="/img/img4.png" alt="" >
+					<header style="right: 535px;">ЯУ</header>
+					<article style="left: 18px;">(Ящики управления)</article>
+					<p style="left: 50px;">Ящик управления – устройство для  автоматического, локального, ручного или удаленного (с пульта диспетчера) управления сетями энергоснабжения.
+					</p>
+				</div>				
+				<header>По функциональным назначениям изготавливаются:</header>			
+				<table border="0" width="710" height="433" cellpadding="15" cellspacing="15">
+					<tr>
+						<td>
+							<header>ЩАП</header>
+							<figure><img src="/img/table_icon.png" alt=""></figure>
+							<div class="b-advantage__item"><div class="b-adv__pop" style="display: none;"><i class="arrow-top"></i>
+							<p>Обеспечивает бесперебойное электроснабжение объектов. Если напряжение на основном вводе пропадает/падает, ЩАП автоматически переключает подачу питания на резервный источник. Время реагирования устанавливается заранее — от 0,1 до 30 секунд.</p>
+							</div></div>
+						</td>
+						<td>
+							<header>ЩО</header>
+							<figure><img src="/img/table_icon.png" alt=""></figure>
+							<article>
+							<p>Щит <br>освещения</p>
+							</article>
+						</td>
+						<td>
+							<header style="bottom: 5px;">ЩАО</header>
+							<figure style="bottom: 30px;"><img src="/img/table_icon.png" alt=""></figure>
+							<article style="bottom: 25px;">
+							<p>Щит аварийного<br> освещения<br>&nbsp </p>
+							</article>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<header>ЩУР</header>
+							<figure><img src="/img/table_icon.png" alt=""></figure>
+							<article>
+							<p>Щит учета<br> распределения</p>
+							</article>
+						</td>
+						<td>
+							<header>КУ</header>
+							<figure><img src="/img/table_icon.png" alt=""></figure>
+							<article>
+							<p>Конденсаторные <br> установки</p>
+							</article>
+						</td>
+						<td>
+							<header style="bottom: 5px;">ВРУ</header>
+							<figure style="bottom: 30px;"><img src="/img/table_icon.png" alt=""></figure>
+							<article style="bottom: 25px;">
+								<p>Вводно-<br>распределительное<br> устройство</p>
+							</article>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<header>ЩР</header>
+							<figure><img src="/img/table_icon.png" alt=""></figure>
+							<article>
+							<p>Щит <br> распределения</p>
+							</article>
+						</td>
+						<td>
+							<header>ЯУ</header>
+							<figure><img src="/img/table_icon.png" alt=""></figure>
+							<article>
+							<p>Ящики<br> управления</p>
+							</article>
+						</td>
+						<td>
+							<header style="bottom: 5px;">ГРЩ</header>
+							<figure style="bottom: 30px;"><img src="/img/table_icon.png" alt=""></figure>
+							<article style="bottom: 25px;">
+							<p>Главные<br> распределительные<br> щиты</p>
+							</article>
+						</td>
+					</tr>
+				</table>			
+			</div>
+		</div> <!--.b-row__packages-->
+		<div class="b-row b-row__architecture clearfix">			
+			<!-- <h3>Архитектура «умного дома»</h3> -->
+			<div class="flexslider slider-architecture">
+				<ul class="slides">
+
+					<li>
+						<figure class="slider-arch__ins">
+							<img src="/img/slider-shits-1.jpg" alt="">
+							<figcaption></figcaption>
+						</figure>
+					</li>
+				</ul>
+			</div><!--.slider-architecture-->
+		</div><!--.b-row__architecture-->
+		<div class="b-row b-row__we-work clearfix">			
+			<div class="b-gray-bg">
+			<h3>Как мы работаем?</h3>
+			<div class="b-steps">
+				<span class="blue-line gradient"></span>
+				<ul class="clearfix">
+					<li class="active">
+						<a href="javascript: void(0)">
+							<span class="b-numb">1</span><strong>Связь с менеджером</strong>
+						</a>
+						<span class="arrow-top"></span>
+					</li>
+					<li>
+						<a href="javascript: void(0)">
+							<span class="b-numb">2</span><strong>Проектная документация</strong>
+						</a>
+						<span class="arrow-top"></span>
+					</li>
+					<li>
+						<a href="javascript: void(0)">
+							<span class="b-numb">3</span><strong>Планирование сотрудничества</strong>
+						</a>
+						<span class="arrow-top"></span>
+					</li>
+					<li>
+						<a href="javascript: void(0)">
+							<span class="b-numb">4</span><strong>Гарантия</strong>
+						</a>
+						<span class="arrow-top"></span>
+					</li>
+					<li>
+						<a href="javascript: void(0)">
+							<span class="b-numb">5</span><strong>Сервисное обслуживание</strong>
+						</a>
+						<span class="arrow-top"></span>
+					</li>
+				</ul>
+			</div>
+
+			</div><!--.b-gray-bg-->
+
+			<div class="b-steps__content">
+				<div class="b-steps__cont_item visible">
+					<p>Специалисты технического отдела подробно обсудят с Вами требования к функционалу электрощитового оборудования. Если при разработке проекта необходимо учесть особенности энергоснабжения объекта, мы предоставим необходимые консультации и выслушаем все пожелания.</p>
+				</div>
+				<div class="b-steps__cont_item">
+					<p>Технический и производственный отделы компании работают в тесном сотрудничестве. Мы готовы реализовать на Вашем объекте новейшие схемы автоматического ввода резервного питания, в том числе не получившие пока широкого распространения в практике российских компаний.</p>
+				</div>
+				<div class="b-steps__cont_item">
+					<p>Вы сами выбираете удобный формат сотрудничества – выполнение работ по одному договору или заключение отдельных договоров на каждый этап установки системы: производство электрощита, монтаж оборудования, пусконаладочные работы.</p>
+				</div>
+				<div class="b-steps__cont_item">
+					<p>На каждое изделие предоставляется гарантия – 2 года. В течение этого срока мы бесплатно поможем с корректировкой параметров работы электрощитового оборудования и устраним выявленные неисправности.</p>
+				</div>
+				<div class="b-steps__cont_item">
+					<p>Вы можете заключить с нами договор на сервисное обслуживание за фиксированную плату или заказывать разовые выезды специалистов, когда в этом возникнет необходимость.</p>
+				</div>
+			</div><!--.b-steps__content-->
+		</div><!--.b-row__we-work-->		
+		<div class="b-row b-row__examples clearfix">
+			<h3>Примеры реализации</h3>
+			<div class="flexslider slider-example">
+				<ul class="slides">
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<figure>
+								<img src="/img/example1.jpg" alt="">
+								<a href="#" class="btn gradient">Заказать похожий проект</a>
+							</figure>
+							<div class="slider-expl__txt">
+								<header>Электрощит ВРУ, Кремль, Москва</header>
+								<div class="slider-expl__row clearfix" style="	margin-top: 10px;">
+									<div class="b-left">Проектирование</div>
+									<div class="b-right"><p>10 дней</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Монтаж</div>
+									<div class="b-right"><p>20 дней</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Используемое<br>оборудование:</div>
+									<div class="b-right"><p>ААВВ</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">
+										<img src="/img/face.png" alt="" id="face">
+									</div>
+									<div class="b-right">
+									<div id="right_block1">
+										<article>Иван Васильев</article>
+										<p>Все быстро, качественно и в срок. Все<br> под одним пультом. Спасибо за<br> сотрудничество</p>
+									</div>
+										<!-- <p>автоматика KNX — 511 000 руб.</p>
+										<p>силовая автоматика защиты + кабели — 150 000 руб.</p>
+										<p>электроустановочные изделия — <br>80 000 руб.</p>
+										<p>монтаж и программирование — <br>500 000 руб.</p> -->
+									</div>
+								</div>
+							</div><!--.slider-expl__txt-->
+						</div><!--.slider-expl__ins-->
+					</li>
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<figure>
+								<img src="/img/example1.jpg" alt="">
+								<a href="#" class="btn gradient">Заказать похожий проект</a>
+							</figure>
+							<div class="slider-expl__txt">
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Проект</div>
+									<div class="b-right"><p>автоматизация 2-этажнного загородного коттеджа площадью 300 м2</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Категория</div>
+									<div class="b-right"><p>Премиум</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Оборудование</div>
+									<div class="b-right"><p>ХХХ</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Стоимость</div>
+									<div class="b-right">
+										<p>автоматика KNX — 1 295 000 руб.</p>
+										<p>силовая автоматика защиты + кабели — 500 000 руб.</p>
+										<p>электроустановочные изделия — <br>250 000 руб.</p>
+										<p>монтаж и программирование — <br>1 500 000 руб.</p>
+									</div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Сроки реализации:</div>
+									<div class="b-right"><p>ХХХ</p></div>
+								</div>
+							</div><!--.slider-expl__txt-->
+						</div><!--.slider-expl__ins-->
+					</li>
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<figure>
+								<img src="/img/example1.jpg" alt="">
+								<a href="#" class="btn gradient">Заказать похожий проект</a>
+							</figure>
+							<div class="slider-expl__txt">
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Проект</div>
+									<div class="b-right"><p>инсталляция системы интеллектуального управления элитным 3-этажнным коттеджем площадью 1 100 м2</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Категория</div>
+									<div class="b-right"><p>Премиум</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Оборудование</div>
+									<div class="b-right"><p>ХХХ</p></div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Стоимость</div>
+									<div class="b-right">
+										<p>автоматика KNX — 2 821 000 руб.</p>
+										<p>силовая автоматика защиты + кабели — 1 600 000 руб.</p>
+										<p>электроустановочные изделия — <br>800 000 руб.</p>
+										<p>монтаж и программирование — <br>3 000 000 руб.</p>
+									</div>
+								</div>
+								<div class="slider-expl__row clearfix">
+									<div class="b-left">Сроки реализации:</div>
+									<div class="b-right"><p>ХХХ</p></div>
+								</div>
+							</div><!--.slider-expl__txt-->
+						</div><!--.slider-expl__ins-->
+					</li>
+				</ul>
+			</div><!--.slider-example-->
+		</div><!--.b-row__examples-->
+		<div class="b-row b-row__last clearfix">
+			<div class="b-form-contacts clearfix">
+				<div class="b-pull-left b-form">
+				<form action="/">
+					<div class="b-form__row">
+						<label for="/">Имя</label>
+						<input type="text" class="inptxt-sty">
+					</div>
+					<div class="b-form__row">
+						<label for="/">E-mail</label>
+						<input type="text" class="inptxt-sty">
+					</div>
+					<div class="b-form__row">
+						<label for="/">Телефон</label>
+						<input type="text" class="inptxt-sty">
+					</div>
+					<div class="b-form__row">
+						<label for="/">Время звонка</label>
+						<select name="/" id="/" class="stylize">
+							<option value="/">08:00-09:00</option>
+							<option value="/">09:00-10:00</option>
+							<option value="/">10:00-11:00</option>
+							<option value="/">11:00-12:00</option>
+							<option value="/">12:00-13:00</option>
+						</select>
+					</div>
+					<div class="b-form__row b-form__row_btn">
+						<input type="submit" value="Сделать первый шаг" class="btn gradient">
+					</div>
+				</form>
+				</div><!--.b-form-->
+				<div class="b-pull-right1">
+					<p>Свяжитесь с менеджером отдела автоматизации<br>для начала работы над проектом:</p>
+					<span class="numb-phone1">8 (495) 363-32-03</span>
+					<div class="b-top-link-wrp1">
+						<div class="toplink1">
+							<img src="/img/pic49a.gif" alt="" class="pic49">
+							<a href="#" class="pp-callback" onclick="_gaq.push(['_trackEvent', 'start-call-back', 'action', 'opt_label', 1]); yaCounter1485305reachGoal('start-call-back'); return true;">Заказать звонок<img src="/img/pic5a.gif" alt=""></a>
+						</div>
+						
+						<div class="toplink2">
+							<img src="/img/pic49b.gif" alt="" class="pic49">
+							<a href="#" class="pp-sendquery" onclick="_gaq.push(['_trackEvent', 'start-request', 'action', 'opt_label', 1]); yaCounter1485305reachGoal('start-request'); return true;">Отправить запроc<img src="/img/pic5a.gif" alt=""></a>
+						</div>
+					</div>
+				</div>				
+			</div><!--.b-form-contacts-->
+		</div><!--.b-row__last-->		
+	</div><!--.b-promo-->
+<div class="border">&nbsp;</div>
+<div style="clear: both; "></div>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

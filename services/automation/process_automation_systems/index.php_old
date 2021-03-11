@@ -1,0 +1,178 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "системы промышленной автоматики, промышленная автоматика, промышленная автоматизация, системы промышленной автоматизации, АСУ ТП, автоматизированная система управления технологическим процессом, система автоматизации электроснабжения на предприятии");
+$APPLICATION->SetPageProperty("keywords", "системы промышленной автоматики, промышленная автоматика, промышленная автоматизация, системы промышленной автоматизации, АСУ ТП, автоматизированная система управления технологическим процессом, система автоматизации электроснабжения на предприятии");
+$APPLICATION->SetTitle("Системы промышленной автоматики ");
+?><script type="text/javascript" src="/js/highslide.js"></script>
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="/css/highslide-ie6.css" />
+<![endif]-->
+<script type="text/javascript">
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.outlineType = 'rounded-white';
+	hs.fadeInOut = true;
+	hs.allowMultipleInstances = false;
+</script>
+<script type="text/javascript">
+//<![CDATA[
+//hs.registerOverlay({
+//	fade: 2 // fading the semi-transparent overlay looks bad in IE
+//});
+hs.graphicsDir = '/images/highslide/';
+hs.wrapperClassName = 'borderless';
+//]]>
+</script>
+<h1>Системы промышленной автоматики</h1>
+<p>При современных темпах развития технологий и уровне потребления любое предприятие непременно оказывается перед необходимостью внедрения современных промышленных систем автоматизации.</p>
+
+<div class="rbutton"> <span class="button_forms" id="intbuilding">Заказать систему</span> </div>
+
+<center><img src="/images/ei_system_industry_automation.png" alt="Система промышленной автоматики от Эlevel Инженер" title="Система промышленной автоматики от Эlevel Инженер" vspace="5"></center><br>
+<p>Достаточно привести лишь основные преимущества использования систем автоматизации в промышленности, чтобы понять, насколько их применение обоснованно и экономически выгодно:
+<ul>
+<li>стабильный уровень и оперативный контроль качества за счёт автоматизации технологических процессов;</li>
+<li>бесперебойность работы и удлинение срока эксплуатации оборудования;</li>
+<li>повышение эффективности и безопасности производства;</li>
+<li>энергосбережение;</li>
+<li>снижение численности задействованного персонала.</li></ul></p>
+<p>Мы имеем большой опыт работы по созданию и успешному внедрению систем промышленной автоматизации для объектов разного уровня – от инженерного обеспечения для небольших бизнес-объектов до инженерии крупномасштабных комплексов.</p>
+<p>В нашей компании предоставляет весь комплекс работ в области промышленной автоматики:
+<ul>
+ <li>проектирование систем автоматизации, в том числе для предприятий с тяжёлыми условиями эксплуатации;</li>
+ <li> комплектация специализированным оборудованием от ведущих производителей;</li>
+ <li>монтаж, пуско-наладочные работы и сервисное обслуживание;</li>
+ <li>что здесь можно добавить ещё?</li>
+</ul></p>
+<p>Наши реализованные проекты:
+<table cellpadding="5" cellspacing="5">
+<tr><td><a href="/images/ei_system_industry_automation_01jc.png" title="система промышленной автоматики от Эlevel Инженер на животноводческом комплексе «Михайловский»" class="highslide" onclick="return hs.expand(this, { align: 'center' })"><img src="/images/ei_system_industry_automation_01jc_s.png" alt="система промышленной автоматики от Эlevel Инженер на животноводческом комплексе «Михайловский»" title="система промышленной автоматики от Эlevel Инженер на животноводческом комплексе «Михайловский»"><br>
+<center><sup>животноводческой комплекс «Михайловский»</sup></center></a></td><td><a href="/images/ei_system_industry_automation_02vr.png" title="система промышленной автоматики от Эlevel Инженер на заводе компании «VEKA-RUS»" class="highslide" onclick="return hs.expand(this, { align: 'center' })"><img src="/images/ei_system_industry_automation_02vr_s.png" alt="система промышленной автоматики от Эlevel Инженер на заводе компании «VEKA-RUS»" title="система промышленной автоматики от Эlevel Инженер на заводе компании «VEKA-RUS»"><br>
+<center><sup>завод компании «VEKA-RUS»</sup></center></a></td></tr>
+<tr><td><a href="/images/ei_system_industry_automation_03zn.png" title="система промышленной автоматики от Эlevel Инженер на заводе Nexans" class="highslide" onclick="return hs.expand(this, { align: 'center' })"><img src="/images/ei_system_industry_automation_03zn_s.png" alt="система промышленной автоматики от Эlevel Инженер на заводе Nexans" title="система промышленной автоматики от Эlevel Инженер на заводе Nexans"><br>
+<center><sup>завод Nexans</sup></center></a></td><td><a href="/images/ei_system_industry_automation_04lcf.png" title="система промышленной автоматики от Эlevel Инженер на фрязинском логистическом комплексе" class="highslide" onclick="return hs.expand(this, { align: 'center' })"><img src="/images/ei_system_industry_automation_04lcf_s.png" alt="система промышленной автоматики от Эlevel Инженер на фрязинском логистическом комплексе" title="система промышленной автоматики от Эlevel Инженер на фрязинском логистическом комплексе"><br>
+<center><sup>фрязинский логистический комплекс</sup></center></a></td></tr>
+</table>
+</p>
+
+<br>
+  
+<script>
+$(document).ready(function() {
+    $('#call_close').first().remove();
+    $('#suber').first().remove();
+    $(".table10").removeClass("table10").addClass("table-bottom")
+    $(".table-bottom").first().append('<tr><td colspan="4" style="padding: 26px 0 0 0;"><span id="suber-bottom" style="cursor:pointer; position: relative; left: 188px;"><img src="/i/btn140g.gif"></span></td></tr>');
+    
+    $(".txt8").first().css('padding-top','12px');
+    $(".inputtext").attr('class','w170');
+    $('textarea').first().attr('class','h92');
+    $("#form_dropdown_TIME,#form_dropdown_CITY").first().attr('class','sel1');
+    $('input[name="web_form_submit"]').first().css('display','none');
+    $('form').css('height','392px');
+    
+    $(".inner_params td").css('padding','0px');
+
+    $('input[name="form_text_668"]').keypress(function (e){
+        if( e.which!=8 && e.which!=13 && e.which!=0 && (e.which<48 || e.which>57)){
+            $(".error").html("Только цифры").show().fadeOut(3000); 
+            $('#simul_form1').css('height','360px');
+            setTimeout( function () {$('#simul_form1').css('height','327px');}, 3000); 
+            return false;
+        }
+    });
+
+    function isValidEmailAddress(emailAddress) {
+        var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+        return pattern.test(emailAddress);
+    }
+    
+    $('form[name="intellectual_building"]').attr('id','back_call');
+    
+    $('#suber-bottom').click(function() {
+       // _gaq.push(['_trackEvent', 'sent_intbuilding', 'action', 'opt_label', 1]); yaCounter1485305.reachGoal('sent_intbuilding');
+        NAMEUSER = $('input[name="form_text_667"]').val();
+        EMAIL = $('input[name="form_email_669"]').val();
+        PHONEUSER = $('input[name="form_text_668"]').val();
+        MESSAGES=$('textarea[name="form_textarea_670"]').val();
+        textError='';
+        error = 0;
+        
+        if(NAMEUSER==''){textError='Введите имя<br>';error = 1;};
+        
+        if(EMAIL==''){
+            textError+='Не введен email<br>';
+            error = 1;
+        } else {
+        if(!isValidEmailAddress(EMAIL)){
+            textError+='Не корректный email<br>';
+        };}
+        
+        if(PHONEUSER==''){textError+='Введите номер телефона<br>';error = 1;};
+        if(MESSAGES==''){textError+='Введите комментарий<br>';error = 1;};
+        
+        
+        if(error == 0){
+            
+        var m_data=$("#back_call").serialize();
+        m_data = m_data + "&web_form_submit=Y";
+        
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/sendquery/fcallback.php',
+            dataType: "text",
+            data: m_data,
+            beforeSend: function() {
+            },
+            error:function(result) {
+                alert(result);
+            },
+            
+            success: function(result) {
+                $('.table10').hide();
+                $("#simul_form1").append('<div style="text-align: center; padding: 80px 0px; font-size: 16px; margin-bottom: 20px;">Ваш запрос успешно отправлен!</div>')
+            }
+        });
+        return false;
+        } else{
+            $('.error').empty();
+            $('.error').show().fadeOut(3000);
+            $('.error').html(textError);
+        }
+    });
+            
+});
+</script>
+    <div class="bottom-form" style="float: left;">
+    <div class="bottom-form-title" style="background-color: #f15922; width: 200px; height: 24px; border-radius: 5px; color: #fff; padding-top: 5px; text-align: center;"><p>Заказать систему</p></div>
+    <div id="simul_form1"> <!-- style="height:400px; overflow-y:scroll; margin:-17px 16px 17px 0; position:relative; z-index:10;"> -->
+
+    <div class="info"></div>
+    <div class="error" style="margin-bottom: 20px;padding: 0px 30px;text-align: center; display:none;"></div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:form.result.new",
+        "",
+        Array(
+        "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+        "WEB_FORM_ID" => 46,    // ID веб-формы
+        "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+        "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+        "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+        "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+        "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+        "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+        "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+        "CACHE_TYPE" => "A",    // Тип кеширования
+        "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+        "VARIABLE_ALIASES" => array(
+            "WEB_FORM_ID" => "WEB_FORM_ID",
+            "RESULT_ID" => "RESULT_ID",
+        )
+        )
+    );?>
+    </div>
+</div>
+ <div style="clear: both; "></div>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

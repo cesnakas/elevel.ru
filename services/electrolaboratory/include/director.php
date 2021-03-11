@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/708/708eff0ea9ffec846f0210f9de1a1fa9.jpg" alt=""> <strong class="name">Игорь Добровольский</strong> <span class="position">Руководитель направления</span>

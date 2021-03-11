@@ -1,0 +1,15 @@
+#!/usr/bin/php
+<?
+$_SERVER["DOCUMENT_ROOT"] = "/var/www/elevel/data/www/elevel.ru";
+$DOCUMENT_ROOT = $_SERVER["DOCUMENT_ROOT"];
+
+define("NO_KEEP_STATISTIC", true);
+define("NOT_CHECK_PERMISSIONS", true);
+
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+set_time_limit(0);
+CModule::IncludeModule("catalog");
+CCatalogExport::PreGenerateExport(3);
+
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");
+?>

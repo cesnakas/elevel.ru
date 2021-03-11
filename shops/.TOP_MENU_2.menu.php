@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Оплата", 
+		"/help/how_to_pay.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/help/delivery.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Производители", 
+		"/brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Как искать?", 
+		"/help/search.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Как заказать?", 
+		"/help/how_to_order.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Скидки", 
+		"/help/bonus.php", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

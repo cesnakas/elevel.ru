@@ -1,0 +1,196 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "комплектация электрооборудованием, поставки электрооборудования, поставки электрооборудования, комплексные поставки электрооборудования, сметная экспертиза, экспертиза сметной документации, подбор оборудования по проекту, подбор электрооборудования, подбор аналогов оборудования, технические консультации, электротехнические консультации, доставка электрооборудования, доставка по графику-плану, поставки электротехнического оборудования, комплексные поставки электротехнического оборудования, составление смет, электроустановочные изделия, ЭУИ, кабельно проводниковая продукция, кабельная продукция, проводниковая продукция, светотехническая продукция, светотехника, осветительная продукция, низковольтное оборудование");
+$APPLICATION->SetPageProperty("keywords", "поставки электрооборудования, комплексные поставки электрооборудования, оптовые поставки электрооборудования");
+$APPLICATION->SetPageProperty("description", "Компания Эlevel - комплексный поставщик электрооборудования. Широкий ассортимент, поставки электрооборудования в розницу и оптом.");
+$APPLICATION->SetTitle("Комплексные поставки электрооборудования | Эlevel");
+?> 
+<h1>Комплектация</h1>
+ 
+<p>Мы предлагаем <strong>комплексные поставки электрооборудования</strong> для проекта. Это означает, что наша компания берёт на себя весь цикл работ, в результате чего Ваш объект будет полностью и в срок обеспечен всем необходимым.</p>
+
+<?if($_REQUEST["print"] !== "Y"){?> 
+    <div class="rbutton"> <span class="button_forms" id="complect">Заказать комплектацию</span> </div>
+<?}?>
+ 
+<br />
+ <center><img src="/images/ie_complect.png" alt="Комплектация от Эlevel Инженер" title="Комплектация от Эlevel Инженер" vspace="5" class="sol_bp"  /></center> 
+<br />
+ 
+<p>Мы предлагаем все виды работ по направлениям:</p>
+ 
+<br />
+ 
+<table cellpadding="5" cellspacing="5" border="0"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/1.png" alt="Подбор оборудования по проекту от компании Эlevel Инженер" title="Подбор оборудования по проекту от компании Эlevel Инженер"  /></td><td width="90%"><strong>Подбор оборудования по проекту</strong> 
+        <br />
+      Эlevel является официальным дистрибьютором большинства ведущих <a href="/brands/" title="Электрооборудование от ведущих производителей" target="_blank" >электротехнических брендов</a>. Именно поэтому для нас <strong>подбор оборудования по проекту</strong>&ndash; это процесс выбора из лучшего, что представлено на мировом рынке <strong>электроустановочных изделий</strong>, <strong>кабельно-проводниковой и светотехнической продукции</strong>. За нашими предложениями стоит разнообразный и продуманный ассортимент продукции исключительно высокого качества и уровня безопасности.</td></tr>
+   </tbody>
+ </table>
+ 
+<br />
+ 
+<br />
+ 
+<table cellpadding="5" cellspacing="5" border="0"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/2.png" alt="Проведение сметной экспертизы от компании Эlevel Инженер" title="Подбор оборудования по проекту от компании Эlevel Инженер"  /></td><td width="90%"><strong>Проведение сметной экспертизы</strong> 
+        <br />
+      Опыт показывает, что неверная оценка заложенных объёмов и их стоимости – нередкое явление в современном строительстве. Если Вы хотите защитить себя от неоправданных затрат, наши эксперты готовы предложить профессиональную оценку сметной документации.</td></tr>
+   </tbody>
+ </table>
+ 
+<br />
+ 
+<br />
+ 
+<table cellpadding="5" cellspacing="5" border="0"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/3.png" alt="Подбор аналогов от компании Эlevel Инженер" title="Подбор оборудования по проекту от компании Эlevel Инженер"  /></td><td width="90%"><strong>Подбор аналогов</strong> 
+        <br />
+      Если Вам пришлось собирать проект по частям из работ разных проектировщиков и на разной элементной базе, наши специалисты сведут их в единый продуманный проект. Также мы поможем в подборе аналогов, если необходимо повысить надёжность системы или скорректировать стоимость проекта под бюджет, либо хотелось бы укомплектовать проект оборудованием предпочитаемых Вами производителей.</td></tr>
+   </tbody>
+ </table>
+ 
+<br />
+ 
+<br />
+ 
+<table cellpadding="5" cellspacing="5" border="0"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/4.png" alt="Технические консультации от компании Эlevel Инженер" title="Подбор оборудования по проекту от компании Эlevel Инженер"  /></td><td width="90%"><strong>Технические консультации</strong> 
+        <br />
+      У нас Вы можете получить квалифицированную помощь по любым возникающим вопросам, связанных с разработкой концепции, выбором оборудования, оптимизацией функционального наполнения, согласованием решений по подсистемам и прочими производственными моментами, требующими разъяснения.</td></tr>
+   </tbody>
+ </table>
+ 
+<br />
+ 
+<br />
+ 
+<table cellpadding="5" cellspacing="5" border="0"> 
+  <tbody> 
+    <tr><td valign="top" width="10%"><img src="/i/5.png" alt="Доставка на объект по согласованному плану-графику от компании Эlevel Инженер" title="Подбор оборудования по проекту от компании Эlevel Инженер"  /></td><td width="90%"><strong>Доставка на объект по согласованному плану-графику</strong> 
+        <br />
+      Благодаря чётко отлаженному логистическому процессу, собственному парку грузового автотранспорта и значительным складским площадям мы гарантируем бесперебойные и оперативные <strong>поставки оборудования</strong> на объект.</td></tr>
+   </tbody>
+ </table>
+ 
+<script>
+$(document).ready(function() {
+    $('#call_close').first().remove();
+    $('#suber').first().remove();
+    $(".table10").removeClass("table10").addClass("table-form")
+    $(".table-form").first().append('<tr><td colspan="4" style="padding: 26px 0 0 0;"><span id="suber-bottom" style="cursor:pointer; position: relative; left: 188px;"><img src="/i/btn140g.gif"></span></td></tr>');
+    
+    $(".txt8").first().css('padding-top','12px');
+    $(".inputtext").attr('class','w170');
+    $('textarea').first().attr('class','h92');
+    $("#form_dropdown_TIME,#form_dropdown_CITY").first().attr('class','sel1');
+    $('input[name="web_form_submit"]').first().css('display','none');
+    $('form').css('height','360px');
+   
+    $(".inner_params td").first().css('padding','0px');
+    
+    $('input[name="form_text_650"]').first().keypress(function (e){
+        if( e.which!=8 && e.which!=13 && e.which!=0 && (e.which<48 || e.which>57)){
+            $(".error").html("Только цифры").show().fadeOut(3000); 
+            return false;
+        }
+    });
+
+    function isValidEmailAddress(emailAddress) {
+        var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+        return pattern.test(emailAddress);
+    }
+    
+    $('form[name="zakaz_complect"]').first().attr('id','back_call');
+    
+    $('#suber-bottom').first().click(function() {
+        _gaq.push(['_trackEvent', 'sent_complect', 'action', 'opt_label', 1]); yaCounter1485305.reachGoal('sent_complect');
+        NAMEUSER = $('input[name="form_text_649"]').val();
+        EMAIL = $('input[name="form_email_651"]').val();
+        PHONEUSER = $('input[name="form_text_650"]').val();
+        MESSAGES=$('textarea[name="form_textarea_652"]').val();
+        textError='';
+        error = 0;
+        
+        if(NAMEUSER==''){textError='Введите имя<br>';error = 1;};
+        
+        if(EMAIL==''){
+            textError+='Не введен email<br>';
+            error = 1;
+        } else {
+        if(!isValidEmailAddress(EMAIL)){
+            textError+='Не корректный email<br>';
+        };}
+        
+        if(PHONEUSER==''){textError+='Введите номер телефона<br>';error = 1;};
+        if(MESSAGES==''){textError+='Введите комментарий<br>';error = 1;};
+        
+        
+        if(error == 0){
+            
+        var m_data=$("#back_call").serialize();
+        m_data = m_data + "&web_form_submit=Y";
+        
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/sendquery/fcallback.php',
+            dataType: "text",
+            data: m_data,
+            beforeSend: function() {
+            },
+            error:function(result) {
+                alert(result);
+            },
+            
+            success: function(result) {
+                $('.table-form').hide();
+                $("#back_call").append('<div style="text-align: center; padding: 80px 0px; font-size: 16px; margin-bottom: 20px;">Ваш запрос успешно отправлен!</div>')
+            }
+        });
+        return false;
+        } else{
+            $('.error').empty();
+            $('.error').show().fadeOut(3000);
+            $('.error').html(textError);
+        }
+    });
+    
+});
+</script> 
+    <div class="form-bottom" style="float: left;">
+        <div class="bottom-form-title" style="background-color: #f15922; width: 175px; height: 24px; border-radius: 5px; color: #fff; padding-top: 5px; text-align: center;"><p>Заказать комплектацию</p></div>
+            <div id="simul_form1"> <!-- style="height:400px; overflow-y:scroll; margin:-17px 16px 17px 0; position:relative; z-index:10;"> -->
+
+            <div class="info"></div>
+            <div class="error" style="margin-bottom: 20px;padding: 0px 30px;text-align: center; display:none;"></div>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:form.result.new",
+                "",
+                Array(
+                "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+                "WEB_FORM_ID" => 42,    // ID веб-формы
+                "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+                "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+                "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+                "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+                "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+                "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+                "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+                "CACHE_TYPE" => "A",    // Тип кеширования
+                "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+                "VARIABLE_ALIASES" => array(
+                    "WEB_FORM_ID" => "WEB_FORM_ID",
+                    "RESULT_ID" => "RESULT_ID",
+                )
+                )
+            );?>
+            </div>
+    </div> 
+<div style="clear: both;"></div>
+    
+ <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

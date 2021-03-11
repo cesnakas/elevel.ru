@@ -1,0 +1,10 @@
+.menu3 ul{
+display: none;
+}
+
+.menu3 ul.root-item-selected{
+display: block;
+}
+.menu3 ul.item-selected{
+display: block;
+}

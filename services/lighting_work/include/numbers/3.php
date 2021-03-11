@@ -1,0 +1,1 @@
+<strong class="big counterTo">10000</strong> светильников продано

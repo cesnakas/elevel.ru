@@ -1,0 +1,1 @@
+<strong class="big"><span class="counterTo">50</span>%</strong> экономии при led-технологии

@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/525/525cfb4bdc464804b821fe72efeb241a.JPG" alt=""> <strong class="name">Алексей Бабичев</strong> <span class="position">Руководитель направления</span>

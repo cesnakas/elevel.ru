@@ -1,0 +1,12 @@
+* {margin:0; padding:0;}
+img, fieldset {border:0;}
+*:focus {outline: none;}
+a, a:visited {color:#282828; text-decoration:underline;}
+table {border-collapse:collapse;}
+ul {list-style:none;}
+a:hover {
+text-decoration:none;
+}
+a:visited {
+color:#282828;
+}

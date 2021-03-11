@@ -1,0 +1,67 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "системы автоматизации, автоматизация, автоматизация гостиниц, умный дом, интеллектуальное здание, светотехнические проекты, системы кабельного обогрева, освещение, электроснабжение, энергосбережение, эlevel инженер, элевел инженер, системы освещения, интеграция систем автоматизации, интеграция инженерных систем, автоматизация зданий и сооружений, автоматизированная система энергоснабжения, автоматизация инженерных систем зданий");
+$APPLICATION->SetTitle("Решения");
+?> 
+<h1>Решения</h1>
+ <center><img src="/images/ei_solutions_all.png" alt="Решения от компании Эlevel Инженер" title="Решения от компании Эlevel Инженер" style="margin:5px 5px 5px 5px;" class="sol_bp"  /></center> 
+<br />
+ 
+<p>Мы предлагаем решения, которые будут также актуальны спустя десятилетия. Возможно ли это? Безусловно, ведь мы сочетаем ценный опыт с инновационными разработками и проверяем точность выбранных шагов на каждом этапе работы &ndash; и всё это разрабатываем с учётом индивидуальных потребностей каждого клиента.</p>
+ 
+<br />
+ 
+<table cellspacing="5" cellpadding="5"> 
+  <tbody> 
+    <tr><td valign="top" width="25%"><a href="/solutions/automation/" title="Проектирование, монтаж, программирование и пусконаладка комплексных систем от компании Эlevel Инженер" ><img src="/images/ei_01_system_automation.png" alt="Проектирование, монтаж, программирование и пусконаладка комплексных систем от компании Эlevel Инженер" title="Проектирование, монтаж, программирование и пусконаладка комплексных систем от компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/automation/" title="Проектирование, монтаж, программирование и пусконаладка комплексных систем от компании Эlevel Инженер" ><strong>Автоматизация</strong></a> 
+        <br />
+       
+        <br />
+       <a href="/services/project/" title="Проектирование инженерных систем от компании Эlevel Инженер" >Проектирование</a>, монтаж, программирование и пусконаладка комплексных систем &laquo;<a href="/solutions/automation/smart_house/" title="Система умный дом от компании Эlevel Инженер" target="_blank" >умный дом</a>&raquo;, «<a href="/solutions/automation/intellectual_building/" title="Интеллектуальное здание от компании Эlevel Инженер" target="_blank" >интеллектуальное здание</a>» и отдельных автоматизированных систем; <a href="/solutions/automation/process_automation_systems/" title="Промышленная автоматизация от компании Эlevel Инженер" target="_blank" >промышленная автоматизация</a>.</td> </tr>
+   
+    <tr><td valign="top" width="25%"><a href="/solutions/electroboards/" title="Производство электрощитового оборудования от компании Эlevel Инженер" ><img src="/images/ei_02_switchboards.png" alt="Производство электрощитового оборудования от компании Эlevel Инженер" title="Производство электрощитового оборудования от компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/electroboards/" title="Производство электрощитового оборудования от компании Эlevel Инженер" ><strong>Производство электрощитового оборудования</strong></a> 
+        <br />
+       
+        <br />
+       <a href="/services/project/" title="Проектирование инженерных систем от компании Эlevel Инженер" >Проектирование</a> и сборка нестандартного оборудования, <a href="/solutions/electroboards/control_and_automation/" title="Шкафы автоматизации от компании Эlevel Инженер" target="_blank" >шкафов автоматизации</a> и электрощитов по типовым и индивидуальным проектам с разнообразными степенями защиты, любой сложности и различного назначения.</td> </tr>
+   
+    <tr><td valign="top" width="25%"><a href="/solutions/lighting_work/" title="Светотехнические проекты от компании Эlevel Инженер" ><img src="/images/ei_03_lighting_projects.png" alt="Светотехнические проекты от компании Эlevel Инженер" title="Светотехнические проекты от компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/lighting_work/" title="Светотехнические проекты от компании Эlevel Инженер" ><strong>Светотехнические проекты</strong></a> 
+        <br />
+       
+        <br />
+       Проектирование освещения внутреннего и наружного назначения для объектов любого уровня сложности; технический и декоративный свет; подбор светотехнического оборудования и системы энергосбережения.</td></tr>
+   
+    <tr><td valign="top" width="25%"><a href="/solutions/cable_systems/" title="Системы кабельного обогрева от компании Эlevel Инженер" ><img src="/images/ei_04_cable_projects.png" alt="Системы кабельного обогрева от компании Эlevel Инженер" title="Системы кабельного обогрева от компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/cable_systems/" title="Системы кабельного обогрева от компании Эlevel Инженер" ><strong>Системы кабельного обогрева</strong></a> 
+        <br />
+       
+        <br />
+       <a href="/solutions/cable_systems/heating_gutters_roofs/" title="Обогрев крыш и водостоков от компании Эlevel Инженер" target="_blank" >Обогрев крыш и водостоков</a>, <a href="/solutions/cable_systems/heating_outdoor/" title="Обогрев наружных площадок от компании Эlevel Инженер" target="_blank" >наружных площадок</a>; <a href="/solutions/cable_systems/floor_freezers/" title="Обогрев полов морозильных камер от компании Эlevel Инженер" target="_blank" >обогрев полов морозильных камер</a>; подогрев грунта, подогрев газонов, <a href="/solutions/cable_systems/lawn_football_fields/" title="Подогрев футбольных полей от компании Эlevel Инженер" target="_blank" >футбольных полей</a>; <a href="/solutions/cable_systems/warm_floor/" title="Теплый пол от компании Эlevel Инженер" target="_blank" >тёплый пол</a>; системы обогрева трубопроводов.</td> </tr>
+   
+    <tr><td valign="top" width="25%"><a href="/solutions/electric_power_supply/" title="Электроснабжение от компании Эlevel Инженер" ><img src="/images/ei_05_electric_power_supply.png" alt="Электроснабжение от компании Эlevel Инженер" title="Электролаборатория компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/electric_power_supply/" title="Электроснабжение от компании Эlevel Инженер" ><strong>Электроснабжение</strong></a> 
+        <br />
+       
+        <br />
+       <a href="/solutions/electric_power_supply/transformer_substations/" title="КТП от компании Эlevel Инженер" target="_blank" >КТП</a>; <a href="/solutions/electroboards/" title="НКУ от компании Эlevel Инженер" target="_blank" >НКУ</a>; <a href="/solutions/electric_power_supply/busbars/" title="Шинопроводы от компании Эlevel Инженер" target="_blank" >шинопроводы</a>; <a href="/solutions/automation/intellectual_building/ups/" title="ИБП от компании Эlevel Инженер" target="_blank" >ИБП</a>; <a href="/solutions/automation/intellectual_building/ups/" title="ДГ от компании Эlevel Инженер" target="_blank" >ДГ</a>; <a href="/solutions/automation/scheduling/" title="Системы диспетчеризации и визуализации от компании Эlevel Инженер" target="_blank" >системы диспетчеризации и визуализации</a>; <a href="/solutions/kompensacija_reaktivnoi_moshnosti/" title="Компенсация реактивной мощности" >компенсация реактивной мощности</a>; <a href="/solutions/elektromontazh/" title="электромонтажные работы от компании Эlevel Инженер" >электромонтажные работы</a>.</td> </tr>
+   
+    <tr><td valign="top" width="25%"><a href="/solutions/energy_conservation/" title="Системы энергосбережения от компании Эlevel Инженер" ><img src="/images/ei_06_energy_conversation.png" alt="Системы энергосбережения от компании Эlevel Инженер" title="Системы энергосбережения от компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/energy_conservation/" title="Системы энергосбережения от компании Эlevel Инженер" ><strong>Энергосбережение</strong></a> 
+        <br />
+       
+        <br />
+       Комплексные системы энергосбережения на основе современных технологий.</td> </tr>
+   
+    <tr><td valign="top" width="25%"><a href="/solutions/segment_solutions/" title="Решения по сегментам рынка от компании Эlevel Инженер" ><img src="/images/ei_07_segmentation.png" alt="Решения по сегментам рынка от компании Эlevel Инженер" title="Решения по сегментам рынка от компании Эlevel Инженер" class="sol_bp"  /></a></td><td valign="top" width="75%"><a href="/solutions/segment_solutions/" title="Решения по сегментам рынка от компании Эlevel Инженер" ><strong>Решения по сегментам рынка</strong></a> 
+        <br />
+       
+        <br />
+       Офисно-административные здания, гостиничные комплексы, частные коттеджи, ЦОД (центры обработки данныйх, дата-центры).</td> </tr>
+   </tbody>
+ </table>
+ 
+<p></p>
+ <center> 
+  <p>Для каждого решения в нашей компании предлагается полный комплекс услуг, начиная с проектирования и комплектации и заканчивая сдачей в эксплуатацию.</p>
+ 
+  <div class="border">&nbsp;</div>
+ 
+  <p><strong>Мы не стремимся к решению сиюминутных проблем – мы освобождаем Вас от забот на долгие годы!</strong></p>
+ </center><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

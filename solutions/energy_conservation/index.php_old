@@ -1,0 +1,235 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "Энергосбережение, альтернативные источники питания, системы автоматизации, солнечные батареи, ветрогенераторы, дизельгенераторы, экономя энергоресурсов, повышение энергоэффективности, энергосберегающие технологии, аккумуляторы, датчики присутствия, светодиодные светильники, автоматическое отключение света");
+$APPLICATION->SetPageProperty("keywords", "Энергосбережение, альтернативные источники питания, системы автоматизации, солнечные батареи, ветрогенераторы, дизельгенераторы, экономя энергоресурсов, повышение энергоэффективности, энергосберегающие технологии, аккумуляторы, датчики присутствия, светодиодные светильники, автоматическое отключение света");
+$APPLICATION->SetPageProperty("description", "Системы повышения энергоэффективности и энергосбережения (энергосберегающие системы) в решения компании Эlevel Инженер");
+$APPLICATION->SetTitle("Системы энергосбережения в решениях Эlevel Инженер");
+?>
+<script type="text/javascript" src="/js/highslide.js"></script>
+ 
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="/css/highslide-ie6.css" />
+<![endif]-->
+ 
+<script type="text/javascript">
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.outlineType = 'rounded-white';
+	hs.fadeInOut = true;
+	hs.allowMultipleInstances = false;
+</script>
+ 
+<script type="text/javascript">
+//<![CDATA[
+//hs.registerOverlay({
+//	fade: 2 // fading the semi-transparent overlay looks bad in IE
+//});
+hs.graphicsDir = '/images/highslide/';
+hs.wrapperClassName = 'borderless';
+//]]>
+</script>
+ 
+<h1>Энергосбережение</h1>
+ <center><img src="/images/ei_enegryconversation.png" alt="Системы энергосбережения от Эlevel Инженер" title="Системы энергосбережения от Эlevel Инженер" style="margin:5px 5px 5px 5px;" class="sol_bp" /></center> <br>
+ 
+ <?if($_REQUEST["print"] !== "Y"){?> 
+<div class="rbutton"> <span id="diod" class="button_forms" onclick="_gaq.push(['_trackEvent', 'start_lighting_work', 'action', 'opt_label', 1]); yaCounter1485305reachGoal('start_lighting_work'); return true;">Заказать услугу</span></div>
+<?}?>
+<div style="clear: both; "></div> 
+<p>Сейчас в России остро стоит вопрос об уменьшении количества потребляемой энергии, ведь Россия &ndash; одна из самых расточительных стран в мире. Перспективы энергосбережения в нашей стране огромны, нужно только рационально использовать энергоресурсы.</p><br>
+ 
+<p>Промышленные объекты представляют собой огромную энергоемкую сферу, в которой в результате физического и морального старения оборудования происходит непрерывное и постоянное увеличение количества потребляемой энергии. Энергосбережение промышленных предприятий и объектов нельзя рассматривать без мероприятий, направленных на сокращение энергопотребления системами освещения, отопления, вентиляции и кондиционирования воздуха. Одновременно следует закладывать меры по снижению энергопотребления в эксплуатационных условиях.</p><br>
+ 
+<p>Грамотно выстроенная структура энергосбережения предприятия, позволяет добиться значительного <strong>повышения эффективности использования энергоресурсов и экономии финансовых средств</strong>.</p><br>
+ 
+<p>Цель компании <strong>Элевел</strong> (<strong>Эlevel</strong>) – максимально эффективные и комплексные решения энергообеспечения бизнеса и жизнедеятельности. Основания для её достижения – это знание технологий и потребностей наших клиентов, комплексный, системный и творческий подход к решению поставленных задач, высококвалифицированная команда специалистов.</p><br>
+ 
+<p>Мы идем в ногу со временем и используем в работе <strong>современные энергосберегающие технологии</strong> – это не только очевидные экологические плюсы, это еще и экономическая выгода – <strong>значительное уменьшение расходов</strong> которые связаны с большими затратами на энергию.</p><br>
+ 
+<p>Основные мотивы использования энергосберегающих технологий в промышленности:</p>
+
+<ul class="list_sol"> 
+  <li>истощаемость природных ископаемых</li>
+ 
+  <li>экологические факторы</li>
+ 
+  <li>высокая энергоёмкость современной продукции</li>
+</ul>
+
+<br>
+ 
+<p>Цели использования энергосберегающих технологий:</p>
+
+<ul class="list_sol"> 
+  <li>повышение эффективности экономики</li>
+ 
+  <li>повышение конкурентоспособности продукции на рынке</li>
+ 
+  <li>сокращение финансовых затрат</li>
+</ul>
+
+<br>
+ 
+<p>Мы готовы взять на себя:</p>
+
+<ul class="list_sol"> 
+  <li>проектирование</li>
+ 
+  <li>комплектацию</li>
+ 
+  <li>поставку оборудования</li>
+ 
+  <li>монтаж</li>
+ систем энергосбережения, а также провести обучение как частных лиц, так и обслуживающего персонала на крупных промышленных объектах.</ul>
+
+<br>
+ 
+<p>Уровни энергосбережения, предлагаемые компанией Эlevel: </p>
+<div class="border">&nbsp;</div>
+  <table cellspacing="5" align="center"> 
+    <tbody>
+      <tr><td valign="top" width="160px"><img src="/i/1s.png" alt="уровень I" title="уровень I"  /> <br>        
+        уровень – <strong>лёгкий</strong></td><td style="border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: grey; ">Датчики присутствия и движения <a href="/brands/Esylux/" title="Esylux" ><strong>Esylux</strong></a> – это не только энергосбережение, но еще и комфорт.<img src="/images/production/esylux/esylux_logo_sm.png" alt="Esylux" title="Esylux" style="margin:5px 5px 5px 5px; float:right;" class="sol_bp" /></td></tr>
+     
+      <tr><td valign="top" width="160px"><img src="/i/2s.png" alt="уровень I" title="уровень II"  /> <br>        уровень – <strong>средний</strong></td><td style="border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: grey; ">Датчики присутствия и движения Esylux и энергосберегающие светодиодные светильники <a href="/brands/Briaton/" title="Briaton" ><strong>Briaton</strong></a> – сочетание, позволяющее повысить энергоэффективность в разы. Автоматическое отключение света датчиками и низкое потребление электроэнергии светодиодными источниками света ощутимом образом повлияют на &laquo;толщину&raquo; Вашего кошелька. Используйте это оборудование в доме и за его пределами&hellip;<img src="/images/production/briaton/briaton_logo_sm.png" alt="Briaton" title="Briaton" style="margin:5px 5px 5px 5px; float:right;" class="sol_bp" /><img src="/images/production/esylux/esylux_logo_sm.png" alt="Esylux" title="Esylux" style="margin:5px 5px 5px 5px; float:right;" class="sol_bp" /></td></tr>
+     
+      <tr><td valign="top" width="160px"><img src="/i/3s.png" alt="уровень I" title="уровень III"  /><br>уровень – <strong>полный</strong></td><td style="border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: grey; ">Совмещение уровней I и II с комплексными <a href="/solutions/automation/" ><strong>системами автоматизации</strong></a> и альтернативными источниками энергии:
+          <ul>
+            <br />
+           
+            <li style="height: 85px"><a href="/images/ei_sunbattery.png" class="highslide" onclick="return hs.expand(this, { align: 'center' })" title="Солнечные батареи в решениях от Эlevel" ><img src="/images/ei_sunbattery_s.png" alt="Солнечные батареи в решениях от Эlevel" title="Солнечные батареи в решениях от Эlevel" style="margin:0px 5px 5px 5px; float:right;" class="sol_bp" /></a><strong>Солнечные батареи</strong> - это комплексы солнечных батарей, устройств преобразующих солнечную энергию в электрическую. Солнечные батареи &mdash; один из экологически чистых источников энергии со сравнительно высоким КПД.</li>
+          
+            <br />
+           
+            <li><a href="/images/ei-windgenerator.png" class="highslide" onclick="return hs.expand(this, { align: 'center' })" title="Ветрогенераторы в решениях от Эlevel" ><img src="/images/ei-windgenerator_s.png" alt="Ветрогенераторы в решениях от Эlevel" title="Ветрогенераторы в решениях от Эlevel" style="margin:0px 5px 5px 5px; float:right;" class="sol_bp" /></a><strong>Ветрогенераторы</strong> (<strong>ветряки</strong>) — установки, перерабатывающие механическую энергию ветра в электричество.</li>
+          </ul>
+         </td></tr>
+    </tbody>
+  </table>
+  <div class="border">&nbsp;</div>
+<br>
+
+<p>В ветро-солнечных электростанциях необходимо использовать <a href="/solutions/automation/intellectual_building/ups/" title="Генераторные установки в решениях Эlevel Инженер" ><strong>дизельгенераторы</strong></a>, аккумуляторы и контроллеры. Совместная работа всего этого оборудования должна и может гарантировать бесперебойную работу энерговырабатывающей установки.</p>
+
+<br>
+
+<script>
+$(document).ready(function() {
+    $('#call_close').first().remove();
+    $('#suber').first().remove();
+    $(".table10").removeClass("table10").addClass("table-bottom")
+    $(".table-bottom").first().append('<tr><td colspan="4" style="padding: 26px 0 0 0;"><span id="suber-bottom" style="cursor:pointer; position: relative; left: 188px;"><img src="/i/btn140g.gif"></span></td></tr>');
+    
+    $(".txt8").first().css('padding-top','12px');
+    $(".inputtext").attr('class','w170');
+    $('textarea').first().attr('class','h92');
+    $("#form_dropdown_TIME,#form_dropdown_CITY").first().attr('class','sel1');
+    $('input[name="web_form_submit"]').first().css('display','none');
+    $('form').css('height','360px');
+    
+    $(".inner_params td").css('padding','0px');
+
+    $('input[name="form_text_298"]').keypress(function (e){
+        if( e.which!=8 && e.which!=13 && e.which!=0 && (e.which<48 || e.which>57)){
+            $(".error").html("Только цифры").show().fadeOut(3000); 
+           // $('#simul_form1').css('height','360px');
+           // setTimeout( function () {$('#simul_form1').css('height','327px');}, 3000); 
+            return false;
+        }
+    });
+
+    function isValidEmailAddress(emailAddress) {
+        var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+        return pattern.test(emailAddress);
+    }
+    
+    $('form[name="SVET_1"]').attr('id','back_call');
+    
+    $('#suber-bottom').click(function() {
+       // _gaq.push(['_trackEvent', 'sent_intbuilding', 'action', 'opt_label', 1]); yaCounter1485305.reachGoal('sent_intbuilding');
+        NAMEUSER = $('input[name="form_text_297"]').val();
+        PHONEUSER = $('input[name="form_text_298"]').val();
+        EMAIL = $('input[name="form_text_299"]').val();
+        MESSAGE=$('textarea[name="form_textarea_300"]').val();
+        textError='';
+        error = 0;
+        
+        if(NAMEUSER==''){textError='Введите имя<br>';error = 1;};
+        
+        if(EMAIL==''){
+            textError+='Не введен email<br>';
+            error = 1;
+        } else {
+        if(!isValidEmailAddress(EMAIL)){
+            textError+='Не корректный email<br>';
+        };}
+        
+        if(PHONEUSER==''){textError+='Введите номер телефона<br>';error = 1;};
+        if(MESSAGE==''){textError+='Введите комментарий<br>';error = 1;};
+        
+        
+        if(error == 0){
+            
+        var m_data=$("#back_call").serialize();
+        m_data = m_data + "&web_form_submit=Y";
+        
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/sendquery/fcallback.php',
+            dataType: "text",
+            data: m_data,
+            beforeSend: function() {
+            },
+            error:function(result) {
+                alert(result);
+            },
+            
+            success: function(result) {
+                $('.table10').hide();
+                $("#simul_form1").append('<div style="text-align: center; padding: 80px 0px; font-size: 16px; margin-bottom: 20px;">Ваш запрос успешно отправлен!</div>')
+            }
+        });
+        return false;
+        } else{
+            $('.error').empty();
+            $('.error').show().fadeOut(3000);
+            $('.error').html(textError);
+        }
+    });
+            
+});
+</script>
+    <div class="bottom-form" style="float: left;">
+    <div style="background-color: #f15922; width: 140px; height: 24px; border-radius: 5px; color: #fff; padding-top: 5px; text-align: center;"><p>Заказать услугу</p></div>
+    <div id="simul_form1"> <!-- style="height:400px; overflow-y:scroll; margin:-17px 16px 17px 0; position:relative; z-index:10;"> -->
+
+    <div class="info"></div>
+    <div class="error" style="margin-bottom: 20px;padding: 0px 30px;text-align: center; display:none;"></div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:form.result.new",
+        "",
+        Array(
+        "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+        "WEB_FORM_ID" => 24,    // ID веб-формы
+        "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+        "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+        "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+        "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+        "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+        "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+        "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+        "CACHE_TYPE" => "A",    // Тип кеширования
+        "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+        "VARIABLE_ALIASES" => array(
+            "WEB_FORM_ID" => "WEB_FORM_ID",
+            "RESULT_ID" => "RESULT_ID",
+        )
+        )
+    );?>
+    </div>
+</div>
+
+<div style="clear: both; "></div>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

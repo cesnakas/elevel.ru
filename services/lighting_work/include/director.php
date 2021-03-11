@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/000/3tBkGHJ37A8.jpg" alt=""> <strong class="name">Лилия Утворова</strong> <span class="position">Руководитель направления</span>

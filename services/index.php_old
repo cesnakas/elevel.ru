@@ -1,0 +1,60 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "проектирование систем автоматизации, проектирование инженерных систем, комплектация электрооборудованием, электромонтаж, программирование систем автоматизации, пусконаладка, пусконаладочные работы, технический надзор, авторский надзор, электролаборатория, услуги электролаборатория");
+$APPLICATION->SetPageProperty("keywords", "проектирование систем автоматизации, проектирование инженерных систем, комплектация электрооборудованием, электромонтаж, программирование систем автоматизации, пусконаладка, пусконаладочные работы, технический надзор, авторский надзор, электролаборатория, услуги электролаборатория");
+$APPLICATION->SetTitle("Услуги");
+?>
+<script>
+		(function($) {
+		$(function() {
+			$('select.stylize').selectbox();
+		})
+		})(jQuery)
+</script>
+<div class="b-promo clearfix">
+		<h1>Услуги</h1>	
+		<div class="t_uslugitext">
+			Эlevel — это команда опытных профессионалов плюс чётко налаженный процесс работы, помноженный <br/>на желание работать и двигаться вперёд. Все предлагаемые услуги являются результатом собственного многолетнего опыта работы, поиска наиболее эффективных и надёжных решений задач и внедрения инновационных разработок
+		</div>
+		<div class="t_beigeline">
+			<p class="t_usligititle">Мы предлагаем все виды работ по направлениям:</p>
+			<div class="t_usligibox">
+				<div class="t_uslugiimg01">
+					<a href="/services/project/" title="" class="t_uslugilink">Проектирование</a>
+				</div>
+				Проектирование инженерных систем, <a href="/solutions/electric_power_supply/" title="">электроснабжения</a>, <a href="/solutions/energy_conservation/" title="">энергосбережения</a> и <a href="/solutions/light/" title="">освещения</a>; <a href="/solutions/automation/" title="">автоматизация</a> и <br/><a href="/solutions/automation/scheduling/" title="">диспетчеризация зданий</a> (проект <a href="/solutions/automation/smart_house/" title="">«умный дом»</a>, <br/><a href="/solutions/automation/intellectual_building/" title="">«интеллектуальное здание»</a> и пр.), <a href="/solutions/automation/intellectual_building/sks/" title="">структурированные <br/>кабельные сети</a> и <a href="/solutions/automation/intellectual_building/lighting_protection/" title="">молниезащита</a>.
+			</div>			
+			<div class="t_usligibox">
+				<div class="t_uslugiimg02">
+					<a href="/services/installation/" title="" class="t_uslugilink1"><span>Установочно-эксплуатационные работы</span> 
+					(установочно-эксплуатационная оптимизация, электромонтаж)</a>
+				</div>
+				Монтаж, пусконаладка и программирование электрооборудования, комплексных инженерных систем и их элементов. <br/>
+				<strong>Гарантийное и сервисное обслуживание</strong>, гарантийные обязательства, постгарантийное и сервисное обслуживание, техническое сопровождение.
+			</div>			
+			<div class="t_usligibox">
+				<div class="t_uslugiimg03">
+					<a href="/services/complect/" title="" class="t_uslugilink">комплектация</a>
+				</div>
+				Подбор <a href="/shop/" title="">электрооборудования</a> по проекту (электроустановочное оборудование, кабельно-проводниковая и светотехническая продукция) с доставкой на объект, <strong>подбор аналогов, экспертиза сметной документации</strong> и технические консультации.
+			</div>			
+			<div class="t_usligibox">
+				<div class="t_uslugiimg04">
+					<a href="/services/electrolaboratory/" title="" class="t_uslugilink">Электролаборатория </a>
+				</div>
+				Тестирование электроустановок при пусконаладке и в ходе эксплуатации, предоставление технических отчётов по <br/>испытанию силовых электрических сетей <br/>и электрооборудования.
+			</div>			
+			<div class="t_usligibox">
+				<div class="t_uslugiimg05">
+					<a href="/services/supervision/" title="" class="t_uslugilink">Технический и авторский надзор</a>
+				</div>
+				Комплекс мер по контролю за выполнением проекта
+			</div>
+		</div>
+		<div class="t_usluginiz">
+			Все услуги выполняются в строгом соответствии с международными нормами и нормативными документами РФ
+			<p>Есть компании, которые тратят время на своих клиентов, стараясь учитывать их интересы. 
+В <strong>Эlevel</strong> каждому <a href="/clients/" title="">клиенту</a> посвящают время и его интересы разделяют полностью</p>
+		</div>		
+	</div><!--.b-promo-->
+</center><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/000/00004b391388f0557beaf0f4f63c1f5a.JPG" alt=""> <strong class="name">Олег Пальчунов</strong> <span class="position">Руководитель направления</span>

@@ -1,0 +1,51 @@
+.header{
+	position: fixed;
+	right: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background-color: #3DCD58;
+
+	&__inner{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100px;
+		padding: 3px 0 0;
+	}
+
+	@media only screen and (max-height: 680px) {
+		&__inner{
+			height: 60px;
+		}
+
+		&__logo{
+			width: 156px;
+			position: relative;
+			z-index: 999;
+
+			img{
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	@media only screen and (max-width: 992px) {
+		&__inner{
+			height: 45px;
+		}
+
+		&__logo{
+			width: 156px;
+			position: relative;
+			z-index: 999;
+
+			img{
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+}

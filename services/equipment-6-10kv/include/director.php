@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/fc8/fc839b74994c16efbe9bf96221140a77.JPG" alt=""> <strong class="name">Заулошнов Александр</strong> <span class="position">Руководитель направления</span>

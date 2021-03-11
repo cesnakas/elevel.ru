@@ -1,0 +1,167 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "системы управления приводами, системы контроля лифтов, системы управления лифтами, системы управления эскалаторами");
+$APPLICATION->SetPageProperty("keywords", "системы управления приводами, системы контроля лифтов, системы управления лифтами, системы управления эскалаторами");
+$APPLICATION->SetTitle("системы контроля и управления лифтами, эскалаторами ");
+?>
+<h1>Система контроля и управления лифтами и эскалаторами</h1>
+ 
+<p>Применение таких систем направлено на обеспечение высокого уровня обслуживания  сотрудников и посетителей, а также оптимального сочетания надежности и производительности лифтов и эскалаторов в здании.</p><br>
+
+<div class="rbutton"> <span class="button_forms" id="intbuilding">Заказать систему</span> </div>
+
+ <center><img src="/images/ei_automation_ib_elevators.png" title="Система контроля и управления лифтами и эскалаторами от компании Эlevel Инженер" alt="Система контроля и управления лифтами и эскалаторами от компании Эlevel Инженер" vspace="5" class="sol_bp" /></center>
+<br />
+ 
+<p>Система контроля и управления лифтами и эскалаторами позволяет реализовать следующий функционал:</p>
+
+<ul class="list_sol"> 
+  <li>местный и удаленный контроль и управление оборудованием; </li>
+ 
+  <li>повышение уровня комфорта для пассажиров (безопасное и точное выравнивание кабины по уровню этажа плавная установка и пуск, даже при полной загрузке,  снижение вибраций и шума при торможении и т.д.);</li>
+ 
+  <li>оптимизация процессов работы оборудования (контроль движения и регуляция скорости эскалаторов в зависимости от нагрузки и пассажиропотока и пр.);</li>
+ 
+  <li>безопасность и контроль возникновения внештатных ситуаций (защита от неумелого обращения, доступ по паролю, высокоточные модули позиционирования кабины, включение специальных режимов при возникновении внештатных ситуаций  и пр.);</li>
+ 
+  <li>энергосбережение (например, автоматический запуск эскалатора, позволяющий значительно экономить электроэнергию);</li>
+ 
+  <li>Простое взаимодействие с другими системами,  в том числе диспетчеризации инженерного оборудования в здании. </li>
+ </ul>
+
+<br>
+
+<div>
+ 
+<p>Система контроля и управления лифтами и эскалаторами является неотъемлемой частью комплекса систем жизнеобеспечения наряду со следующими системами:</p>
+
+<ul class="list_sol"> 
+  <li><a href="/solutions/automation/intellectual_building/ups/" title="система  гарантированного бесперебойного электроснабжения (генераторные установки) в системе &laquo;интеллектуальное здание&raquo; от Эlevel Инженер" >система гарантированного бесперебойного электроснабжения (генераторные установки)</a>;</li>
+ 
+  <li><a href="/solutions/automation/intellectual_building/hvac_system/" title="системы отопления, вентиляции и кондиционирования воздуха в системе «интеллектуальное здание» от Эlevel Инженер" >система отопления, вентиляции и кондиционирования воздуха</a>;</li>
+ 
+  <li><a href="/solutions/automation/intellectual_building/lighting_system/" title="система освещения и управления освещением в системе «интеллектуальное здание» от Эlevel Инженер" >система освещения и управления освещением</a>;</li>
+ 
+  <li><a href="/solutions/automation/intellectual_building/accounting_system/" title="система учета энергоносителей (АСКУЭ, АСТУЭ) в системе «интеллектуальное здание» от Эlevel Инженер" >система учета энергоносителей (АСКУЭ, АСТУЭ)</a>;</li>
+</ul>
+</div>
+
+<script>
+$(document).ready(function() {
+    $('#call_close').first().remove();
+    $('#suber').first().remove();
+    $(".table10").removeClass("table10").addClass("table-bottom")
+    $(".table-bottom").first().append('<tr><td colspan="4" style="padding: 26px 0 0 0;"><span id="suber-bottom" style="cursor:pointer; position: relative; left: 188px;"><img src="/i/btn140g.gif"></span></td></tr>');
+    
+    $(".txt8").first().css('padding-top','12px');
+    $(".inputtext").attr('class','w170');
+    $('textarea').first().attr('class','h92');
+    $("#form_dropdown_TIME,#form_dropdown_CITY").first().attr('class','sel1');
+    $('input[name="web_form_submit"]').first().css('display','none');
+//    $('form').css('height','392px');
+    
+    $(".inner_params td").css('padding','0px');
+
+    $('input[name="form_text_668"]').keypress(function (e){
+        if( e.which!=8 && e.which!=13 && e.which!=0 && (e.which<48 || e.which>57)){
+            $(".error").html("Только цифры").show().fadeOut(3000); 
+            $('#simul_form1').css('height','360px');
+            setTimeout( function () {$('#simul_form1').css('height','327px');}, 3000); 
+            return false;
+        }
+    });
+
+    function isValidEmailAddress(emailAddress) {
+        var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+        return pattern.test(emailAddress);
+    }
+    
+    $('form[name="intellectual_building"]').attr('id','back_call');
+    
+    $('#suber-bottom').click(function() {
+       // _gaq.push(['_trackEvent', 'sent_intbuilding', 'action', 'opt_label', 1]); yaCounter1485305.reachGoal('sent_intbuilding');
+        NAMEUSER = $('input[name="form_text_667"]').val();
+        EMAIL = $('input[name="form_email_669"]').val();
+        PHONEUSER = $('input[name="form_text_668"]').val();
+        MESSAGES=$('textarea[name="form_textarea_670"]').val();
+        textError='';
+        error = 0;
+        
+        if(NAMEUSER==''){textError='Введите имя<br>';error = 1;};
+        
+        if(EMAIL==''){
+            textError+='Не введен email<br>';
+            error = 1;
+        } else {
+        if(!isValidEmailAddress(EMAIL)){
+            textError+='Не корректный email<br>';
+        };}
+        
+        if(PHONEUSER==''){textError+='Введите номер телефона<br>';error = 1;};
+        if(MESSAGES==''){textError+='Введите комментарий<br>';error = 1;};
+        
+        
+        if(error == 0){
+            
+        var m_data=$("#back_call").serialize();
+        m_data = m_data + "&web_form_submit=Y";
+        
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/sendquery/fcallback.php',
+            dataType: "text",
+            data: m_data,
+            beforeSend: function() {
+            },
+            error:function(result) {
+                alert(result);
+            },
+            
+            success: function(result) {
+                $('.table10').hide();
+                $("#simul_form1").append('<div style="text-align: center; padding: 80px 0px; font-size: 16px; margin-bottom: 20px;">Ваш запрос успешно отправлен!</div>')
+            }
+        });
+        return false;
+        } else{
+            $('.error').empty();
+            $('.error').show().fadeOut(3000);
+            $('.error').html(textError);
+        }
+    });
+            
+});
+</script>
+    <div class="bottom-form" style="float: left;">
+    <div class="bottom-form-title"><p>Заказать систему</p></div>
+    <div id="simul_form1"> <!-- style="height:400px; overflow-y:scroll; margin:-17px 16px 17px 0; position:relative; z-index:10;"> -->
+
+    <div class="info"></div>
+    <div class="error" style="margin-bottom: 20px;padding: 0px 30px;text-align: center; display:none;"></div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:form.result.new",
+        "",
+        Array(
+        "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+        "WEB_FORM_ID" => 46,    // ID веб-формы
+        "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+        "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+        "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+        "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+        "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+        "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+        "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+        "CACHE_TYPE" => "A",    // Тип кеширования
+        "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+        "VARIABLE_ALIASES" => array(
+            "WEB_FORM_ID" => "WEB_FORM_ID",
+            "RESULT_ID" => "RESULT_ID",
+        )
+        )
+    );?>
+    </div>
+</div>
+ <div style="clear: both; "></div>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
