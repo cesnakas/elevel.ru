@@ -1,0 +1,34 @@
+.menu1{
+    background:url(/i/bg44a.gif) repeat-x top;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    behavior: url("/css/PIE.htc");
+}
+.mag{
+
+}
+.list173 ul {height:auto;}
+
+
+
+.bx-ie10 .menu1, .bx-ie9 .menu1, .bx-ie8 .menu1{
+    background:url(/i/bg44a.gif) repeat-x top;
+}
+.bx-ie10 .mag, .bx-ie9 .mag{
+    width: 200px;
+}
+.bx-ie10 .list173 ul, .bx-ie9 .list173 ul, .bx-ie8 .list173 ul {
+    height:auto;
+}
+
+
+
+.bx-ie8 .mag{
+    width: 200px;
+
+}
+
+
+
+

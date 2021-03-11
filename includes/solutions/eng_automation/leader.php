@@ -1,0 +1,1 @@
+<img width="244" alt="babichev.JPG" src="/upload/medialibrary/ac0/ac00b1d6e328e3f65890f4cf9b40c828.JPG" height="220" title="babichev.JPG">

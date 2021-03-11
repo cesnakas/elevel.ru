@@ -1,0 +1,11 @@
+.webinar-list{
+  padding-left: 200px;
+}
+.webinar-list__item{
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .webinar-list{
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,19 @@
+.css-slider-element-ling-height
+{
+    height: 445px!important;
+}
+@media only screen and (max-width: 1099px)
+{
+    .css-slider-element-ling-height
+    {
+    height: 33vw!important;
+}
+}
+
+@media only screen and (max-width: 760px)
+{
+    .css-slider-element-ling-height
+    {
+    height: 35vw!important;
+} 
+}

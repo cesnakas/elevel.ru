@@ -1,0 +1,10 @@
+.news-article ol, 
+.news-article ul{
+	list-style: initial;
+	list-style-position: inside;
+}
+
+.news-article p {
+    /*display: initial;*/
+    /* line-height: 2em; */
+}

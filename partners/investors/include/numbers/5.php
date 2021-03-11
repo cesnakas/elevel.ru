@@ -1,0 +1,1 @@
+произведено более <strong class="big counterTo">900 </strong>конструкций НКУ

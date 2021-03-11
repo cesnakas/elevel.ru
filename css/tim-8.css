@@ -1,0 +1,244 @@
+.grafic {width: 693px; height: 105px; margin: 0 auto; background: url(/solutions/electroboards/main_switchboard/img/grafic.png) no-repeat; padding-left: 140px; font-size: 16px; margin-top: 25px; }
+.wrapdiv {width: 833px; margin: 60px auto 0;}
+.wrapdiv div{display: inline-block; vertical-align: top;}
+.divbox1 {width: 480px; padding-top: 25px;}
+.divbox1 p{text-transform: uppercase; color: #fd5608; font-size: 22px; line-height: 30px;}
+.divbox1 ul{margin: 25px 0 0 18px;}
+.divbox1 ul li{font-weight: bold; font-size: 18px; letter-spacing: 1px; margin: 10px 0; list-style: url(/solutions/electroboards/main_switchboard/img/orange-circle.png);}
+.divbox2 {width: 285px; background: #fefad9; padding: 25px; margin-left: 10px; font-size: 14px;}
+.divbox2 p{font-size: 16px; line-height: 25px;}
+.divbox2 a{color: #fd5608;}
+.divbox2 div p{font-size: 16px; line-height: 25px; font-size: 20px; text-transform: uppercase; margin-bottom: 8px;}
+.matter1, .matter2, .matter3 {padding-top: 60px; width: 100%; margin: 30px 0 0 0;}
+.matter1 {background: url(/solutions/electroboards/main_switchboard/img/build01.png) no-repeat;}
+.matter2 {background: url(/solutions/electroboards/main_switchboard/img/build02.png) no-repeat;}
+.matter3 {background: url(/solutions/electroboards/main_switchboard/img/build03.png) no-repeat 0 5px;}
+.wrapdiv2 {width: 833px; height: 105px; margin: 45px auto 0; font-size: 16px;}
+.bluediv {width: 705px; margin: 10px auto 0; font-size: 14px; color: #215477; background: #cde8fa url(/solutions/electroboards/main_switchboard/img/first.png) no-repeat 27px 25px; padding: 25px 25px 25px 100px}
+
+.t_elektrotitle {text-transform: uppercase; color: #9fadb3; font-size: 20px; width: 860px; margin: 0 auto; line-height: 28px;}
+.t_elektrotitle span{color: #fd5608;}
+.t_elektroboxwrap {padding-left: 60px; text-align: center}
+.t_elektrobox {display: inline-block; vertical-align: top; text-align: center; width: 235px; height: 195px; margin: 15px 55px 0 0; }
+.t_elektrobox p {font-size: 16px; text-align: left; margin-top: 10px; line-height: 25px;}
+
+.t_greyline, .t_avgreyline {width: 100%; background: #f4f4f4; padding: 30px 0; margin: 20px 0;}
+.t_avgreyline  {padding: 10px 0; margin: 30px 0;}
+.t_greyline p{color: #fe7433; font-size: 30px; font-weight: bold; text-align: center; text-transform: uppercase; }
+.t_wrapdiv1 {margin: 0 auto; width:900px; font-size: 16px; line-height: 25px;}
+.t_elespis {display: inline-block; vertical-align: top; width: 400px; margin: 0px 30px 0 0px}
+.t_elespis li {font-weight: bold; font-size: 16px; margin: 15px 0; list-style: url(/solutions/electroboards/main_switchboard/img/orange-circle.png);}
+
+.t_text {font-size: 14px; line-height: 20px; padding: 0 20px;}
+.t_text .t_elektrotitle {text-align: center; margin: 40px auto 20px; line-height: 25px; width: 900px; font-size: 22px;}
+.t_text .t_elektrotitle p {font-size: 14px; color: #9fadb3; text-transform: none; line-height: 15px; margin-top: 15px}
+.t_earth {float: left; margin: 0 10px 10px 0}
+.t_arrow {float: right; margin-left: 20px}
+
+.t_greytitle {font-size: 20px; color: #151515; text-transform: uppercase;}
+.t_motivi li{ font-size: 16px; list-style: inside url(/solutions/electroboards/main_switchboard/img/orange-circle.png); margin: 10px 0}
+
+
+.t_weready {width: 755px; margin: 30px auto 0; text-align: center;}
+.t_weready p{color: #fe7433; font-size: 30px; font-weight: bold; text-transform: uppercase; }
+.t_readyto {display: inline-block; vertical-align: top; background: url(/solutions/electroboards/main_switchboard/img/t_yes.png) no-repeat; height:35px; padding: 5px 0 0 38px; font-size: 16px; margin: 20px 10px 0 0}
+.t_weready span {color: #9fadb3; display: inline-block; margin-top: 5px; font-size: 16px;}
+
+.t_levels {margin: 80px 0 30px 0; text-align: center;}
+.t_levels p{text-align: center; text-transform: uppercase; font-size: 20px;}
+.t_level {display: inline-block; vertical-align: top; width: 275px; text-align: center; color: #9fadb3; font-size: 16px; margin: 30px 20px 0;}
+.t_level span{font-weight: bold; color: #fd5608;}
+.t_levelboxwrap {margin-top: 12px; border: 1px solid #f5f5f5; border-radius: 5px;}
+.t_levelbox {border-top: 1px solid white; border-bottom: 1px solid #ededed; padding: 15px; background: linear-gradient(to top, #f4f4f4, #fcfcfc); }
+.t_levelbox  img {margin: 10px 00;}
+.t_levelbox  p {text-align: left; font-size: 14px; color: #151515; text-transform: none;}
+.t_levelbox  strong {text-decoration: underline}
+.t_levelbox  span {font-weight: bold; color: #151515;}
+
+.t_car, .t_cartext {display: inline-block; vertical-align: top; margin-top: 10px;}
+.t_car {width: 360px; margin-right: 30px;}
+.t_cartext {width: 470px; font-size: 14px; line-height: 20px;}
+.t_cartext .t_elektrotitle{margin: 10px 0; line-height: 25px;}
+
+.t_featitle {color: #fd5608; font-size: 24px!important; text-transform: none!important; font-weight: bold; background: url(/solutions/electroboards/main_switchboard/img/t_bigyes.png) no-repeat; text-align: left!important; padding: 5px 0 5px 50px; margin: 25px 0 10px;}
+.t_featext {font-size: 14px; line-height: 20px; padding-left: 50px;}
+
+.t_center{text-align: center!important; margin-bottom: 15px;}
+.t_fontbold {font-weight: bold; font-size: 14px!important; line-height: 20px!important}
+.t_labispis {display: inline-block; vertical-align: top; width: 400px; margin: 0px 20px}
+.t_labispis li {font-size: 16px; margin: 20px 0; list-style: url(/solutions/electroboards/main_switchboard/img/orange-circle.png); line-height: 20px}
+
+.t_bluetime {margin: 50px auto 0; width: 666px; background: #cde8fa url(/solutions/electroboards/main_switchboard/img/blue-clock.png) no-repeat 30px 30px; color: #215477; font-size: 14px; padding: 30px 20px 30px 110px}
+
+.t_orange {color: white; font-size: 30px; padding: 30px 40px; background: #fd7130; text-align: center;}
+.t_puskotitle {font-size: 26px; color: #fd5608; text-transform: uppercase; text-align: center; margin: 50px 0 20px}
+.t_puskoblock {width: 49%; font-size: 14px; display: inline-block; vertical-align: top;}
+.t_puskoblock p{font-size: 20px; text-transform: uppercase; text-align: center; margin: 15px 0}
+.t_puskoblock p img{display:block; width: 73px; margin: 0 auto 15px}
+.t_puskoblock ul li {font-size: 16px; margin: 15px 0; list-style: inside url(/solutions/electroboards/main_switchboard/img/orange-circle.png); line-height: 20px} 
+.t_puskoblock ul li a {color: #fd5608}
+.t_blu {color: #215477; padding: 15px; background: #cde8fa; width: 435px; margin-top: 30px}
+
+.t_boldtext {font-weight: bold;}
+.t_nadzbox {display: inline-block; vertical-align: top; width: 385px; padding: 10px 50px 50px; text-align: center;margin: 25px 0;}
+.t_nadzbox  p {color: #fd5608; font-size: 26px; text-transform: uppercase; margin-bottom: 10px;}
+.t_nadzbox  div {font-size: 16px; text-align: left; padding-left: 15px;}
+
+.t_avtext {width: 830px; margin: 0 auto; font-size: 20px; color: #9fadb3;}
+.t_avtext span{font-size: 20px; color: #fe7433;}
+.t_avtitle {text-transform: uppercase; font-size: 17px; font-weight: bold; text-align: center; letter-spacing: 1px}
+.t_avul {width: 650px; margin-left: 92px;}
+.t_avul li {font-size: 16px; margin: 15px 0; list-style: url(/solutions/electroboards/main_switchboard/img/orange-circle.png); line-height: 20px}
+.t_avul li a{color: #fd5608}
+.t_wrapdiv2 {margin: 0 auto; width:830px; font-size: 16px; line-height: 25px;}
+
+.t_avorangebox {font-size: 18px; color: white; background: #f36d2e; padding: 20px 75px; margin:35px 0;}
+.t_avorangebox a{text-decoration: none}
+.t_avorangebox a:hover{text-decoration: underline}
+.t_avtextupper {font-size: 18px; text-transform: uppercase; padding: 0px 75px;}
+.t_avtextupper span{color: #fe7433}
+.t_avblue {color: #215477; background: #cde8fa; font-size: 16px; padding: 15px; width: 795px; margin: 30px auto;}
+.t_avtitlep {text-align: center; font-size: 24px; text-transform: none; margin-bottom: 30px;}
+.t_boxdo {display: inline-block; vertical-align: top; width: 182px;}
+.t_boxdo img{margin-bottom: 8px;}
+.t_boxdo a{font-size: 14px;}
+.t_marginleft {margin-left: 50px;}
+
+.t_sikabob01 {font-size: 20px; color: #f74a09; text-align: center; width: 860px; margin: 0 auto}
+.t_sikabob02 {font-size: 16px; color: #215477; width: 300px; height: 102px; display: inline-block; vertical-align: top; background: #cde8fa url(/solutions/electroboards/main_switchboard/img/kabelorange.png) no-repeat 33px 30px; text-align: left; padding: 15px 15px 15px 115px; line-height: 20px; margin: 25px 0 0 60px}
+.t_sikabob03 {font-size: 16px; width: 350px; height: 102px; display: inline-block; vertical-align: top; text-align: left; padding: 15px 15px 15px 35px; line-height: 20px; margin-top: 25px}
+.t_sikabob04 {text-align: left!important; padding-left: 60px}
+.t_sikabob05 {margin: -2px 0 0 60px}
+.t_sikabob05 li {font-size: 16px; margin: 9px 0; list-style: inside url(/solutions/electroboards/main_switchboard/img/orange-circle.png); line-height: 20px}
+.t_sikabob06 {width: 715px; height: 98px; margin: 0 auto; padding: 0px 5px 0px 125px; font-size: 16px; background: url(/solutions/electroboards/main_switchboard/img/chelkaska.png) no-repeat 35px 5px;}
+.t_sikabob07 {width: 705px; margin: 0 auto; padding: 15px 15px 15px 120px; font-size: 16px; color: #215477; background: #cde8fa url(/solutions/electroboards/main_switchboard/img/numoneblue.png) no-repeat 35px 40px;}
+.t_sikabob08 {width: 805px; margin: 30px auto 0; padding: 15px 15px 15px 20px; font-size: 16px; color: #215477; background: #fefad9 ;}
+.t_sikabob08 p{text-transform: uppercase; font-size: 16px; font-weight: bold; color: #151515;}
+.t_sikabob08 li {font-size: 16px; margin: 9px 0; list-style: inside url(/solutions/electroboards/main_switchboard/img/orange-circle.png); line-height: 20px}
+.t_sikabob08 li a {color: #fd5608}
+
+.t_cooperation {display: inline-block; vertical-align: top; width: 454px; font-size: 14px; margin: 20px 5px 10px 25px}
+.t_folink01, .t_folink02, .t_folink03, .t_folink04, .t_folink05, .t_folink06, .t_folink07, .t_folink08, .t_folink09, .t_folink10, .t_folink11, .t_folink12, .t_folink13, .t_folink14 {background: url(/solutions/electroboards/main_switchboard/img/cooperation01.png) no-repeat; padding: 10px 0 0 90px; height: 75px}
+.t_folink02 {background: url(/solutions/electroboards/main_switchboard/img/cooperation02.png) no-repeat;}
+.t_folink03 {background: url(/solutions/electroboards/main_switchboard/img/cooperation03.png) no-repeat; padding: 20px 0 0 90px; height: 65px}
+.t_folink04 {background: url(/solutions/electroboards/main_switchboard/img/cooperation04.png) no-repeat; padding: 20px 0 0 90px; height: 65px}
+.t_folink05 {background: url(/solutions/electroboards/main_switchboard/img/cooperation05.png) no-repeat; padding: 20px 0 0 90px; height: 65px}
+.t_folink06 {background: url(/solutions/electroboards/main_switchboard/img/cooperation06.png) no-repeat; padding: 20px 0 0 90px; height: 65px}
+.t_folink07 {background: url(/solutions/electroboards/main_switchboard/img/cooperation07.png) no-repeat; padding: 20px 0 0 90px; height: 65px}
+.t_folink08 {background: url(/solutions/electroboards/main_switchboard/img/cooperation08.png) no-repeat; padding: 25px 0 0 90px; height: 65px}
+.t_folink09 {background: url(/solutions/electroboards/main_switchboard/img/cooperation09.png) no-repeat; padding: 25px 0 0 95px; height: 65px}
+.t_folink10 {background: url(/solutions/electroboards/main_switchboard/img/cooperation10.png) no-repeat; padding: 10px 0 0 95px; height: 70px}
+.t_folink11 {background: url(/solutions/electroboards/main_switchboard/img/cooperation11.png) no-repeat; padding: 25px 0 0 95px; height: 65px}
+.t_folink12 {background: url(/solutions/electroboards/main_switchboard/img/cooperation12.png) no-repeat; padding: 25px 0 0 70px; height: 60px}
+.t_folink13 {background: url(/solutions/electroboards/main_switchboard/img/cooperation13.png) no-repeat; padding: 25px 0 0 90px; height: 60px}
+.t_folink14 {background: url(/solutions/electroboards/main_switchboard/img/cooperation14.png) no-repeat; padding: 25px 0 0 90px; height: 60px}
+.t_folink01 a, .t_folink02 a, .t_folink03 a, .t_folink04 a, .t_folink05 a, .t_folink06 a, .t_folink07 a, .t_folink08 a, .t_folink09 a, .t_folink10 a, .t_folink11 a, .t_folink12 a, .t_folink13 a, .t_folink14 a{text-transform: uppercase; font-size: 18px; color: #fd5608; line-height: 26px;}
+.t_fotext {padding: 0 25px 5px 0; line-height: 20px;}
+
+.t_adobebox {color: #6a6a6a; background: url(/solutions/electroboards/main_switchboard/img/flash.png) no-repeat 25px 0; height: 50px; padding: 5px 0 0 63px; font-size: 14px; margin: 30px 0 10px}
+.t_adobebox  a {color: black; font-weight: bold}
+
+.t_solutext {text-align: center; font-size: 18px; padding: 10px 30px 15px}
+.t_soluyelbox {text-align: center; font-size: 16px; background: #fffebf; padding: 5px 0; width: 95%; margin: 20px 0  25px 25px;}
+.t_soluwhibox {font-size: 16px; color: #fd5608; text-transform: uppercase; padding-left: 50px;}
+
+.t_svetopro_orangetext {font-size: 20px; color: #f74a09; padding: 10px 75px; line-height: 26px; }
+.t_svetoproul {width: 800px; margin-left: 92px;}
+.t_svetoproul li {font-size: 16px; margin: 15px 0; list-style: url(/solutions/electroboards/main_switchboard/img/orange-circle.png); line-height: 20px}
+.t_svetoprotitle {text-transform: uppercase; font-size: 17px; font-weight: bold; text-align: left; letter-spacing: 1px; padding: 10px 0 0 77px;}
+
+.t_svetopromain {text-align: center; margin-top: 40px;}
+.t_svetopromain p{font-size: 16px; text-transform: uppercase; font-weight: bold;}
+.t_svetoprobox {display: inline-block; vertical-align: top; width: 135px; text-align: center; }
+.t_svetoprobox img {margin: 25px 0 12px;}
+
+.t_uslugitext {font-size: 18px; padding: 10px 25px 25px;}
+.t_beigeline {background: #fffecf; padding: 25px 0 0 0;}
+.t_usligititle {text-align: center; font-size: 20px; text-transform: uppercase;}
+.t_usligibox {display: inline-block; vertical-align: top; width: 454px; padding-right: 10px; font-size: 14px; line-height: 18px; margin: 20px 0px 30px 20px;}
+.t_uslugiimg01 {background: url(/solutions/electroboards/main_switchboard/img/uslugi01.png) no-repeat; height: 68px; padding: 20px 0 0 95px}
+.t_uslugiimg02 {background: url(/solutions/electroboards/main_switchboard/img/uslugi02.png) no-repeat; height: 78px; padding: 5px 0 0 85px}
+.t_uslugiimg03 {background: url(/solutions/electroboards/main_switchboard/img/uslugi03.png) no-repeat; height: 43px; padding: 20px 0 0 130px; margin-top: 20px;}
+.t_uslugiimg04 {background: url(/solutions/electroboards/main_switchboard/img/uslugi04.png) no-repeat; height: 63px; padding: 20px 0 0 85px}
+.t_uslugiimg05 {background: url(/solutions/electroboards/main_switchboard/img/uslugi05.png) no-repeat; height: 43px; padding: 12px 0 0 125px}
+.t_uslugilink{font-size: 18px; color: #fd5608; text-transform: uppercase;}
+.t_uslugilink1{font-size: 17px; color: #fd5608;}
+.t_uslugilink1 span{ text-transform: uppercase;}
+
+.t_usluginiz {text-align: center; font-size: 16px; margin: 30px;}
+.t_usluginiz p{color: #fd5608; text-transform: uppercase; padding: 30px 70px;}
+
+.t_sigitext {width: 943px; margin: 0 auto 10px; font-size: 16px; line-height: 24px;}
+.t_sigibox {width: 440px; height: 100px; margin: 30px 0 30px 20px; position: relative; display: inline-block; vertical-align: top;}
+.sigimg {position: absolute; top: 0; left: 0;}
+.t_siboxtext, .t_siboxtext2 {position: absolute; top: 0; left: 120px; background: url(/solutions/electroboards/main_switchboard/img/t_pdf.png) no-repeat 0 5px; padding-left: 25px; color: #838383; font-size: 14px; line-height: 24px;}
+.t_siboxtext2 {background:none; padding-left: 0;}
+.t_siboxtext a, .t_siboxtext2 a{font-size: 18px; color: #fd5608;}
+
+.avr_descr {font-size: 20px; color: #f85110; text-transform: uppercase; line-height: 28px; padding-left: 15px}
+.avr_descr span{color: #9fadb3}
+.avr_descr p, .avr_descr div{text-transform: none; font-size: 14px; color: #000; line-height: 20px; margin-top: 10px;}
+.avr_descr div {margin-top: 0px;}
+.avr_title {color: #fd5608; font-size: 22px; text-transform: uppercase; line-height: 28px; padding-left: 55px; margin-top: 20px}
+.avrul {margin: 25px 0 45px 55px; width: 830px;}
+.avrul li{font-size: 18px; margin: 15px 0; list-style: inside url(/solutions/electroboards/panel_lighting/img/orange-circle.png); line-height: 26px; font-weight: bold; }
+.avrcontainer {width: 900px;}
+.avrcontainer img{display: inline-block; margin: 0 30px 0 35px;}
+.avr_right {display: inline-block; vertical-align: top;}
+.avryellow, .avrblue {margin: 10px 0 20px 40px; padding: 20px 30px; background: #fefad9; color: #8e8751; width: 500px; font-size: 16px; line-height: 26px;}
+.avrblue {background: #cde8fa; color: #447da4;}
+
+.vruimg {display: inline-block; vertical-align: top; margin: 0 20px}
+.vru_text {display: inline-block; vertical-align: top; width: 660px; font-size: 16px; padding-top: 90px; line-height: 22px;}
+.vruul {margin: 30px 0;}
+.vruul li{font-size: 18px; margin: 15px 0; list-style: inside url(/solutions/electroboards/panel_lighting/img/orange-circle.png); line-height: 26px; font-weight: bold; word-spacing: 1px;}
+
+.shusharyellow {margin: 40px 0 0px 20px; padding: 20px 30px; background: #fefad9; color: #8e8751; width: 415px; font-size: 16px; line-height: 26px; display: inline-block; vertical-align: top;}
+
+.glavras {display: inline-block; vertical-align: top; margin: 0 50px 0 100px}
+.rasprwit {display: inline-block; vertical-align: top; margin: 0 30px 0 50px}
+.glavras_text {display: inline-block; vertical-align: top; width: 660px; font-size: 16px; padding-top: 20px; line-height: 22px;}
+
+.sug_title, .sug_below{font-size: 20px; color:#9fadb3; text-transform: uppercase; line-height: 26px; width: 845px; margin: 0 auto;}
+.sug_title span{color:#f74a09;}
+.sug_title p{color:#151515; font-size: 16px; text-transform: none; line-height: 22px; margin-top: 7px;}
+
+.sug_grey {background: #f4f4f4; margin: 30px 0; padding: 20px 65px;}
+.sug_grey p{font-size: 16px; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; margin-bottom: 10px;}
+.sug_grey div{font-size: 20px; letter-spacing: 1px; line-height: 24px; margin-bottom: 10px;}
+.sug_grey ul{margin-left:15px; width: 800px;}
+.sug_grey ul li{font-size: 16px; list-style: url(/solutions/electroboards/panel_lighting/img/orange-circle.png); line-height: 30px;}
+.sug_grey ul li a, .sug_justext a{color:#f74a09;}
+
+.sug_justext {font-size: 16px; padding-left: 100px;}
+.sug_blue {background: #cde8fa url(/solutions/electroboards/panel_lighting/img/sug-number.png) no-repeat 40px 25px; padding: 14px 50px 14px 125px; width: 685px; margin: 30px auto; color:#215477; line-height:20px; font-size: 16px;}
+.sug_below {text-align: center; font-size: 18px; width: auto!important}
+.sug_below p{font-size: 16px; text-transform: none; font-weight: bold; color: #212020; margin-top: 30px;}
+.sug_below div{display: inline-block; vertical-align: top; width: 174px; text-align: center; font-size: 14px; color:#212020; text-transform: none; line-height: 18px; margin: 0 23px}
+.sug_below div img {margin: 20px 0 10px}
+
+.spa_orange {background: #f36d2e; text-align: center; padding: 30px 0;}
+.spa_orange p{color:#fff; font-size: 18px;}
+.spa_orange div{width: 240px; font-size: 14px; display: inline-block; vertical-align: top; margin: 30px 25px 5px}
+
+.sho_title {font-size: 22px; color:#fd5608; text-transform: uppercase; text-align: center;}
+.shoul {margin-left: 150px;}
+.shoul li{text-transform: uppercase; font-size: 18px; list-style: url(/solutions/electroboards/panel_lighting/img/orange-circle.png); margin: 25px 0}
+.shoul li div{font-size: 14px; text-transform: none; margin-top: 7px; font-size: 14px; width: 800px }
+.shoimg, .shobeige {display: inline-block; vertical-align: top}
+.shoimg {margin: 20px 65px 0 90px}
+.shobeige {color: #8e8751; background: #fefad9; padding: 20px 30px; width: 400px; font-size: 16px; line-height: 22px; margin-top: 70px}
+
+.shuimg, .shu_text {display: inline-block; vertical-align: top}
+.shuimg {margin: 30px 90px 0 40px}
+.shu_text  {font-size: 16px; line-height: 22px; width: 500px; margin-top: 30px}
+.div_frame {width: 820px; margin: 0 auto; font-size: 16px; }
+.div_frame p{font-size: 16px; color: #9fadb3; margin-bottom: 12px}
+.div_frame p span{color: #f66531;}
+.div_blue {color:#215477; background: #cde8fa url(/solutions/electroboards/panel_lighting/img/divimg.png) no-repeat 25px 25px; padding: 20px 20px 20px 125px; margin: 40px 0}
+
+.div_ultitle {font-size: 20px; letter-spacing: 1px;}
+.div_frame ul li {list-style: inside url(/solutions/electroboards/panel_lighting/img/orange-circle.png); margin: 12px 0}
+.div_orange {background: #f36d2e; padding: 25px 180px 25px 80px; margin: 50px 0 0;}
+.div_orange p{color:#fff; font-size: 20px; }
+.div_orange ul li{list-style: inside url(/solutions/electroboards/panel_lighting/img/whitedrop.png); margin: 12px 0; font-size: 16px;}

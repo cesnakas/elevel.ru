@@ -1,0 +1,1 @@
+<img src="<?=SITE_DIR?>includes/solutions/electroboards/img/qualification_img.png" alt="Квалификация персонала">

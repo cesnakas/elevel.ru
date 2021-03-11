@@ -1,0 +1,1 @@
+Скомлектовано более <strong class="big counterTo">1500</strong> НКУ

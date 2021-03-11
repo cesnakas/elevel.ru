@@ -1,0 +1,6 @@
+<?
+$sSectionName = "DKC";
+$arDirProperties = Array(
+
+);
+?>

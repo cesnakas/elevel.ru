@@ -1,0 +1,17 @@
+.grafic {width: 693px; height: 105px; margin: 0 auto; background: url(/services/project/img/grafic.png) no-repeat; padding-left: 140px; font-size: 16px; margin-top: 25px; }
+.wrapdiv {width: 833px; margin: 60px auto 0;}
+.wrapdiv div{display: inline-block; vertical-align: top;}
+.divbox1 {width: 480px; padding-top: 25px;}
+.divbox1 p{text-transform: uppercase; color: #fd5608; font-size: 22px; line-height: 30px;}
+.divbox1 ul{margin: 25px 0 0 18px;}
+.divbox1 ul li{font-weight: bold; font-size: 18px; letter-spacing: 1px; margin: 10px 0; list-style: url(/services/project/img/orange-circle.png);}
+.divbox2 {width: 285px; background: #fefad9; padding: 25px; margin-left: 10px; font-size: 14px;}
+.divbox2 p{font-size: 16px; line-height: 25px;}
+.divbox2 a{color: #fd5608;}
+.divbox2 div p{font-size: 16px; line-height: 25px; font-size: 20px; text-transform: uppercase; margin-bottom: 8px;}
+.matter1, .matter2, .matter3 {padding-top: 60px; width: 100%; margin: 30px 0 0 0;}
+.matter1 {background: url(/services/project/img/build01.png) no-repeat;}
+.matter2 {background: url(/services/project/img/build02.png) no-repeat;}
+.matter3 {background: url(/services/project/img/build03.png) no-repeat 0 5px;}
+.wrapdiv2 {width: 833px; height: 105px; margin: 45px auto 0; font-size: 16px;}
+.bluediv {width: 705px; margin: 10px auto 0; font-size: 14px; color: #215477; background: #cde8fa url(/services/project/img/first.png) no-repeat 27px 25px; padding: 25px 25px 25px 100px}

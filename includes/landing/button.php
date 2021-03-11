@@ -1,0 +1,1 @@
+<a href="/vote/" class="btn_big">Зарегистрироваться</a>

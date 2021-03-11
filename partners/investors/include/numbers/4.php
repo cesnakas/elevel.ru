@@ -1,0 +1,1 @@
+<strong class="big counterTo">700</strong> лет - общий стаж работы сотрудников

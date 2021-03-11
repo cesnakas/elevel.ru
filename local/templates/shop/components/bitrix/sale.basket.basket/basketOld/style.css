@@ -1,0 +1,33 @@
+.bx_ordercart_coupon
+{
+	clear: both;
+}
+
+.bx_ordercart_coupon input
+{
+    padding: 3px 8px !important;
+    width: 196px !important;
+    display: block;
+	margin-top: 10px;
+}
+
+.bx_ordercart_coupon input:first-child
+{
+	margin-top: 60px;
+}
+
+.bx_ordercart_coupon input.good
+{
+	background-color: #a5fa4a;
+}
+
+.cart-list li .not-available
+{
+	color: #fd7621;
+}
+
+.cart-list .old_price
+{
+	color: red;
+    text-decoration: line-through;
+}

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Legrand";
+$arDirProperties = Array(
+
+);
+?>

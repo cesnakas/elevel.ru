@@ -1,0 +1,1 @@
+<img width="243" src="/upload/medialibrary/2c8/zorin.jpg" height="239" title="Зорин (1).JPG">

@@ -1,0 +1,64 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Способы оплаты заказов с сайта www.elevel.ru");
+$APPLICATION->SetPageProperty("tags", "заказ, оформление заказа, как заказать");
+$APPLICATION->SetTitle("Как оплатить");
+?> 
+<style type="text/css">
+.notavaible {
+	color: #F00;
+}
+</style>
+ 
+<h1>Как оплатить заказанный товар?</h1>
+ 
+<br />
+ 
+<p>Для Вашего удобства мы предлагаем 5 способов оплаты Вашего заказа, наиболее подходящий Вы можете определить сами.</p>
+ 
+<p> 
+  <br />
+ <strong>Оплата в кассах-офисах <a href="/contact/" >Эlevel</a></strong>. 
+  <br />
+ Вы можете оплатить свой заказ по наличному расчёту, банковскими картами в кассах-офисах продаж компании по следующим адресам:</p>
+ 
+<ul class="list_sol"> 
+  <li><a href="/contact/msc/" title="Офисы в Москве" target="_blank" ><strong>Москве</strong></a> - ул. Электродная, 13а</li>
+ 
+  <li><a href="/contact/spb/" title="Офис в Санкт-Петербурге" target="_blank" ><strong>Санкт-Петербурге</strong></a> - ул. Магнитогорская, 51 лит. &laquo;ж&raquo;</li>
+ 
+  <li><a href="/contact/nsk/" title="Офис в Новосибирске" target="_blank" ><strong>Новосибирске</strong></a> - ул. Инская, 39</li>
+ 
+  <li><a href="/contact/ekt/" title="Офисы в Екатеринбурге" target="_blank" ><strong>Екатеринбурге</strong></a> - ул. Мамина Сибиряка, 132</li>
+ 
+  <li><strong><a href="/contact/rst/" title="Офисы в Ростове-на-Дону" target="_blank" >Ростове-на-Дону</a></strong> - ул. Вавилова, 62в</li>
+ 
+  <li> <strong><a href="/contact/orn/" title="Офисы в Оренбурге" target="_blank" >Оренбург</a></strong> - ул. Ленинская, 3/1</li>
+ </ul>
+ 
+<div class="voscl"> <img class="alert1" src="/i/alert50.gif"  /> 				 
+  <br />
+ 				 
+  <p style="display: block; ">Внимание! Самовывоз заказа осуществляется только со склада того офиса, в котором будет произведена оплата.</p>
+ </div>
+ 
+<br />
+ 
+<p> <strong>Наличными курьеру (Только для Москвы)</strong>. 
+  <br />
+ Вы можете оплатить свой заказ наличными при курьерской доставке в г. Москве. </p>
+ 
+<div class="voscl"><img class="alert1" src="/i/alert50.gif"  /> 
+  <br />
+ 
+  <p style="display: block; "><b><font color="#ee1d24" size="2">Приносим извинения, сервис временно не работает и услуга не предоставляется. Свои заказы Вы можете забрать в офисах компании.</font></b></p>
+ </div>
+ 
+<br />
+ <strong>Безналичный расчет</strong>. 
+<br />
+ 
+<p>При оплате заказа по безналичному расчету, после обработки заказа, в течении 2х часов сотрудник компании свяжется с Вами для уточнения всех деталей заказа, после чего будет выставлен счет.</p>
+ 
+<br />
+ <a title="Вернуться в раздел Помощь" href="/help/" class="srvLink3" >назад</a><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

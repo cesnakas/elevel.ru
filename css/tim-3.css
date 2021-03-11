@@ -1,0 +1,79 @@
+.grafic {width: 693px; height: 105px; margin: 0 auto; background: url(/services/electrolaboratory/img/grafic.png) no-repeat; padding-left: 140px; font-size: 16px; margin-top: 25px; }
+.wrapdiv {width: 833px; margin: 60px auto 0;}
+.wrapdiv div{display: inline-block; vertical-align: top;}
+.divbox1 {width: 480px; padding-top: 25px;}
+.divbox1 p{text-transform: uppercase; color: #fd5608; font-size: 22px; line-height: 30px;}
+.divbox1 ul{margin: 25px 0 0 18px;}
+.divbox1 ul li{font-weight: bold; font-size: 18px; letter-spacing: 1px; margin: 10px 0; list-style: url(/services/electrolaboratory/img/orange-circle.png);}
+.divbox2 {width: 285px; background: #fefad9; padding: 25px; margin-left: 10px; font-size: 14px;}
+.divbox2 p{font-size: 16px; line-height: 25px;}
+.divbox2 a{color: #fd5608;}
+.divbox2 div p{font-size: 16px; line-height: 25px; font-size: 20px; text-transform: uppercase; margin-bottom: 8px;}
+.matter1, .matter2, .matter3 {padding-top: 60px; width: 100%; margin: 30px 0 0 0;}
+.matter1 {background: url(/services/electrolaboratory/img/build01.png) no-repeat;}
+.matter2 {background: url(/services/electrolaboratory/img/build02.png) no-repeat;}
+.matter3 {background: url(/services/electrolaboratory/img/build03.png) no-repeat 0 5px;}
+.wrapdiv2 {width: 833px; height: 105px; margin: 45px auto 0; font-size: 16px;}
+.bluediv {width: 805px; margin: 10px auto 0; font-size: 14px; color: #215477; background: #cde8fa url(/services/electrolaboratory/img/first.png) no-repeat 27px 25px; padding: 25px 25px 25px 100px}
+
+.t_elektrotitle {text-transform: uppercase; color: #9fadb3; font-size: 20px; width: 860px; margin: 0 auto;}
+.t_elektrotitle span{color: #fd5608;}
+.t_elektroboxwrap {padding-left: 60px; text-align: center}
+.t_elektrobox {display: inline-block; vertical-align: top; text-align: center; width: 30%; height: 195px; margin: 15px 15px 0 0; }
+.t_elektrobox p {font-size: 16px; text-align: left; margin-top: 10px; line-height: 25px;}
+
+.t_greyline {width: 100%; background: #f4f4f4; padding: 30px 0; margin: 20px 0;}
+.t_greyline p{color: #fe7433; font-size: 30px; font-weight: bold; text-align: center; text-transform: uppercase; }
+.t_wrapdiv1 {margin: 0 auto; font-size: 16px; line-height: 25px; width: 90%;}
+.t_elespis {display: inline-block; vertical-align: top; width: 400px; margin: 0px 30px 0 0px}
+.t_elespis li {font-weight: bold; font-size: 16px; margin: 15px 0; list-style: url(/services/electrolaboratory/img/orange-circle.png);}
+
+.t_text {font-size: 14px; line-height: 20px; padding: 0 20px;}
+.t_text .t_elektrotitle {text-align: center; margin: 40px auto 20px; line-height: 25px; width: 900px; font-size: 22px;}
+.t_text .t_elektrotitle p {font-size: 14px; color: #9fadb3; text-transform: none; line-height: 15px; margin-top: 15px}
+.t_earth {float: left; margin: 0 10px 10px 0}
+.t_arrow {float: right; margin-left: 20px}
+
+.t_greytitle {font-size: 20px; color: #151515; text-transform: uppercase;}
+.t_motivi li{ font-size: 16px; list-style: inside url(/services/electrolaboratory/img/orange-circle.png); margin: 10px 0}
+
+
+.t_weready {width: 755px; margin: 30px auto 0; text-align: center;}
+.t_weready p{color: #fe7433; font-size: 30px; font-weight: bold; text-transform: uppercase; }
+.t_readyto {display: inline-block; vertical-align: top; background: url(/services/electrolaboratory/img/t_yes.png) no-repeat; height:35px; padding: 5px 0 0 38px; font-size: 16px; margin: 20px 10px 0 0}
+.t_weready span {color: #9fadb3; display: inline-block; margin-top: 5px; font-size: 16px;}
+
+.t_levels {margin: 80px 0 30px 0; text-align: center;}
+.t_levels p{text-align: center; text-transform: uppercase; font-size: 20px;}
+.t_level {display: inline-block; vertical-align: top; width: 275px; text-align: center; color: #9fadb3; font-size: 16px; margin: 30px 20px 0;}
+.t_level span{font-weight: bold; color: #fd5608;}
+.t_levelboxwrap {margin-top: 12px; border: 1px solid #f5f5f5; border-radius: 5px;}
+.t_levelbox {border-top: 1px solid white; border-bottom: 1px solid #ededed; padding: 15px; background: linear-gradient(to top, #f4f4f4, #fcfcfc); }
+.t_levelbox  img {margin: 10px 00;}
+.t_levelbox  p {text-align: left; font-size: 14px; color: #151515; text-transform: none;}
+.t_levelbox  strong {text-decoration: underline}
+.t_levelbox  span {font-weight: bold; color: #151515;}
+
+.t_car, .t_cartext {display: inline-block; vertical-align: top; margin-top: 10px;}
+.t_car {width: 360px; margin-right: 30px;}
+.t_cartext {width: 470px; font-size: 14px; line-height: 20px;}
+.t_cartext .t_elektrotitle{margin: 10px 0; line-height: 25px;}
+
+.t_featitle {color: #fd5608; font-size: 24px!important; text-transform: none!important; font-weight: bold; background: url(/services/electrolaboratory/img/t_bigyes.png) no-repeat; text-align: left!important; padding: 5px 0 5px 50px; margin: 25px 0 10px;}
+.t_featext {font-size: 14px; line-height: 20px; padding-left: 50px;}
+
+.t_center{text-align: center!important; margin-bottom: 15px;}
+.t_fontbold {font-weight: bold; font-size: 14px!important; line-height: 20px!important}
+.t_labispis {display: inline-block; vertical-align: top; width: 46%; margin: 0px 20px}
+.t_labispis li {font-size: 16px; margin: 20px 0; list-style: url(/services/electrolaboratory/img/orange-circle.png); line-height: 20px}
+
+.t_bluetime {margin: 50px auto 0; width: 666px; background: #cde8fa url(/services/electrolaboratory/img/blue-clock.png) no-repeat 30px 30px; color: #215477; font-size: 14px; padding: 30px 20px 30px 110px}
+
+.t_orange {color: white; font-size: 30px; padding: 30px 40px; background: #fd7130; text-align: center;}
+.t_puskotitle {font-size: 26px; color: #fd5608; text-transform: uppercase; text-align: center; margin: 50px 0 20px}
+.t_puskoblock {width: 49%; font-size: 14px; display: inline-block; vertical-align: top;}
+.t_puskoblock p{font-size: 20px; text-transform: uppercase; text-align: center; margin: 15px 0}
+.t_puskoblock p img{display:block; width: 73px; margin: 0 auto 15px}
+.t_puskoblock ul li {font-size: 16px; margin: 15px 0; list-style: inside url(/services/electrolaboratory/img/orange-circle.png); line-height: 20px} 
+.t_puskoblock ul li a {color: #fd5608}
+.t_blu {color: #215477; padding: 15px; background: #cde8fa; width: 435px; margin-top: 30px}

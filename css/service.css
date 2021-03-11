@@ -1,0 +1,163 @@
+div.pre,
+div.full {
+	display: none;
+}
+
+div.svc_full {
+	padding-bottom: 10px;
+}
+
+div.svc_full div.full {
+	display: block;
+}
+
+h1.service {
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	font-family: Tahoma; 
+	font-size: 10pt; 
+	color: #db5a00;	
+	text-align: left;
+	line-height: 14px;
+}
+
+div.svc_w100proH {
+	width: 100%; 
+	/*  VVA 
+	float: left;
+	width: 29%;
+	height: 180px;
+*/
+	overflow: hidden;
+}
+
+
+div.svc_w100proH div.service {
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	text-indent: 0px;
+	color: #000;
+	font-weight: normal;
+}
+
+div.svc_w100proH h2 {
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	font-family: Tahoma; 
+	font-size: 10pt; 
+	color: #db5a00;	
+	text-align: left;
+	line-height: 14px;
+}
+
+div.svc_w100proH h2 a,
+div.svc_w100proH h2 a:visited,
+div.svc_w100proH h2 a:active {
+	color: #db5a00;
+	text-decoration: none;
+}
+
+div.svc_w100proH h2 a:hover {
+	color: #db5a00;
+	text-decoration: underline;
+}
+
+div.svc_w100proH div.pre {
+	display: block;
+	padding: 0px 0px 10px 0px;
+}
+
+img.service {
+	float: left;
+	border-right: 10px solid #fff !important;
+	margin: 0px 0px 10px 0px;
+}
+
+div.svc_w100proH img.service {
+	/*border: 5px solid #fff;*/
+	margin: 0px;
+}
+
+
+
+table.table-brands td {
+	border: 1px solid #CCCCCC;
+	padding: 1px;
+	font-size: 10px;
+	color: #CCCCCC;
+}
+
+table.table-brands td a {
+	color: #CCCCCC;
+}
+
+table.table-brands td a:hover {
+	text-decoration: underline;
+	color: #CCCCCC;
+}
+
+#articles .date {
+	color: #7b7b7b;
+	font-size: 11px;
+	float:left;
+	width:85px;
+}
+
+#articles .detail-date {
+	color: #7b7b7b;
+	font-size: 11px;
+	float:left;
+	width:67px;
+	padding-top: 1px;
+}
+
+#articles .tags span {
+	background: url('/i/tags.gif') no-repeat left top;
+	color: #8a8a8a;
+	padding:2px 0 0 25px;
+}
+
+#articles .tags {
+	color: #8a8a8a;
+}
+
+#articles .sort {
+	/*margin: 20px 0;*/
+	color: #5f5f5f;
+	overflow: hidden;
+}
+
+#articles .sort a {
+	color: #5e5e5e;
+	text-decoration: none;
+}
+
+#articles .sort a:hover {
+	text-decoration: underline;
+	color: #5e5e5e;
+}
+
+.suplement .name {
+	color:#595959;
+	float:left;
+	font-weight:bold;
+}
+
+.suplement .link {
+	display:block;
+	margin-left:176px;
+}
+
+div.service a, div.service a:visited {color: #DB5A00!important;}
+
+table.brands-tab td
+{
+  border: 1px solid gray;
+}
+
+table.brands-tab td a.gray{text-align:center;}
+
+table.brands-tab
+{
+  border: none;
+}

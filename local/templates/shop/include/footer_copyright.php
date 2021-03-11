@@ -1,0 +1,2 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?><??><!--<a href="https://www.elevel.ru">Elevel</a>.--> Elevel. Все права защищены <br>
+ <!--a target="blank" rel="nofollow" href="http://magnitmedia.ru" style=" margin: 5px 0 0 -25px; display: block; " target="_blank"><img src="/local/templates/shop/images/magnitmedia.png" style=" width: 16px; position: relative; top: 4px; margin-right: 9px;" title="Magnitmedia">MAGNITMEDIA</a-->

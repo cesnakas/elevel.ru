@@ -1,0 +1,1 @@
+<img src="<?=SITE_DIR?>includes/svetotehnicheskie-rescheniya/img/palchunov-foto.png" alt="Руководитель отдела">

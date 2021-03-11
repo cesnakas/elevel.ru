@@ -1,0 +1,37 @@
+.feedback_form_container .form_note{display: none;}
+.feedback_form_container .vis{display: block;}
+.feedback_form_container .hid{display: none;}
+
+.feedback_form_container{
+  margin-top: 20px;
+}
+
+.form-tablet-row{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.input-holder{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: calc(50% - 20px);
+}
+.input-holder.area-holder{
+    width: 100%;
+    margin-right: 0;
+}
+.input-holder.area-holder textarea{
+  width: 100%;
+  height: 200px;
+}
+.input-holder:nth-child(2n){
+  margin-right: 0;
+}
+.selectric-wrapper{
+  width: 100%;
+}

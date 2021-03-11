@@ -1,0 +1,1 @@
+<img alt="WhatsApp Image 2018-06-04 at 11.05.32.jpeg" src="/upload/medialibrary/de3/de3064092ab4872ef445286694747a98.jpeg" title="WhatsApp Image 2018-06-04 at 11.05.32.jpeg">&nbsp;<strong class="name">Илья Стирманов</strong>&nbsp;<span class="position">Руководитель направления</span>

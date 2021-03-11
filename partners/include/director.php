@@ -1,0 +1,1 @@
+<img alt="Тереза Татулова" src="https://www.elevel.ru/upload/medialibrary/951/95125b48141b23b3b810ec7dc9f50f52.jpg"> <strong class="name">Тереза Татулова</strong> <span class="position">Директор по продажам</span>

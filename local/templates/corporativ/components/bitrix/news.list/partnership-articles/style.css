@@ -1,0 +1,15 @@
+.articles-carousel{
+  margin-top: 30px;
+}
+.partner-articles{
+  text-decoration: none;
+  padding: 0 20px;
+}
+.partner-articles img{
+  max-width: 100%;
+}
+.partner-articles__name{
+  display: block;
+  margin-top: 15px;
+  color: #434a54;
+}

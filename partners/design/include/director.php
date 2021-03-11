@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/760/7607b223036e1f5ff9372817c959e0ae.JPG" alt=""> <strong class="name">Вера Голикова</strong> <span class="position">Руководитель направления </span>

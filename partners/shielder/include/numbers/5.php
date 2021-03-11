@@ -1,0 +1,1 @@
+Снабжение <strong class="big counterTo">250</strong> щитовых производств

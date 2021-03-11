@@ -1,0 +1,1 @@
+<strong class="big counterTo">30000</strong> товаров в наличии

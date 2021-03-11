@@ -1,0 +1,1 @@
+<a href="/partners/shop/" class="shop_btn">Сеть магазинов Эlevel</a>

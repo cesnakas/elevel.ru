@@ -1,0 +1,1 @@
+<img src="<?=SITE_DIR?>includes/shop/img/portrait_4.png" alt="Руководитель отдела">

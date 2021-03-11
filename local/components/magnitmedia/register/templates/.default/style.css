@@ -1,0 +1,10 @@
+#register-submit:disabled
+{
+	background-color: #ccc;
+}
+
+#register-error
+{
+	display: none;
+	color: #fd7621;
+}

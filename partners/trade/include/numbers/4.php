@@ -1,0 +1,1 @@
+<strong class="big counterTo">15</strong> минут - время реакции на заказ <strong>e.way</strong>

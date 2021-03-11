@@ -1,0 +1,1 @@
+<img alt="Вера Голикова" src="https://www.elevel.ru/upload/medialibrary/249/249203fa42b5eddce55ff6ccf224ee80.JPG"> <strong class="name">Вера Голикова</strong> <span class="position">Руководитель отдела</span>

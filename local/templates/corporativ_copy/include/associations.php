@@ -1,0 +1,4 @@
+<li><span class="center"><a href="http://raec.su/" target="_blank"><img width="74" src="/local/templates/corporativ/images/ico-raek.png" height="33" alt="РАЭК"></a></span></li>
+<li><span class="center"><a href="https://imelco.com/" target="_blank"><img width="122" alt="Imelco" src="/local/templates/corporativ/images/logo_imelco.png" height="24"></a></span></li>
+<li><span class="center"><a href="http://honestposition.ru/" target="_blank"><img width="101" alt="Честная позиция" src="/local/templates/corporativ/images/ico-position.png" height="31"></a></span></li>
+<li><span class="center"><a href="http://honestposition.ru/areas_work/kabel-bezopasnosti/" target="_blank"><img width="107" alt="Кабель без опасности" src="/local/templates/corporativ/images/ico-cabel.png" height="33"></a></span></li>

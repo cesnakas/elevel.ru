@@ -1,0 +1,1 @@
+Собрано более <strong class="big counterTo">1000</strong> электрощитов

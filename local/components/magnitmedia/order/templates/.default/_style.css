@@ -1,0 +1,61 @@
+.only-delivery-payment
+{
+	display: none;
+}
+
+#order-submit:disabled
+{
+	background-color: #ccc;
+}
+
+#dadata-suggestions
+{
+	display: none;
+	border: 1px solid #ccc;
+	position: absolute;
+    z-index: 1;
+    top: 68px;
+    left: 0;
+}
+
+#dadata-suggestions > div
+{
+	display: block;
+	cursor: pointer;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 4px 8px;
+}
+
+#dadata-suggestions > div:last-child
+{
+	border-bottom: none;
+}
+
+#dadata-suggestions > div:hover
+{
+	background-color: #eee;
+}
+
+#dadata-suggestions > div b
+{
+	display: block;
+	font-weight: bold;
+}
+
+.selectric-wrapper.selectric-customOptions
+{
+	z-index: 2 !important;
+}
+
+.open-close.comment-block .slide-block
+{
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s;
+}
+
+.open-close.comment-block .slide-block.active
+{
+	height: 245px;
+}

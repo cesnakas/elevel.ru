@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/b5a/b5a4d1f067b9df563aa5ee7c8df5a05d.jpg" alt="Константин Показанников"> <strong class="name">Константин Показанников </strong> <span class="position">Руководитель направления</span>

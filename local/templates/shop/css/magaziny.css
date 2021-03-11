@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'Franklin Gothic Medium';
+  src:  
+    local('Franklin Gothic Medium'), /*вдруг шрифт уже есть на машине клиента, а если нет то будем грузить с сервера:*/
+    url('../fonts/framd.eot'), /*для IE без указания формата - будет использовать oet*/
+    url('../fonts/framd.woff') format('woff'),
+	url('../fonts/framd.ttf') format('truetype'),
+	url('../fonts/framd.svg') format('svg'); 
+  
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic MediumItalic';
+  src:  
+    local('Franklin Gothic MediumItalic'), /*вдруг шрифт уже есть на машине клиента, а если нет то будем грузить с сервера:*/
+    url('../fonts/framdit.eot'), /*для IE без указания формата - будет использовать oet*/
+    url('../fonts/framdit.woff') format('woff'),
+	url('../fonts/framdit.ttf') format('truetype'),
+	url('../fonts/framdit.svg') format('svg');
+	
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic Book';
+  src:  
+    local('Franklin Gothic Book'), /*вдруг шрифт уже есть на машине клиента, а если нет то будем грузить с сервера:*/
+    url('../fonts/FRABK.eot'), /*для IE без указания формата - будет использовать oet*/
+    url('../fonts/FRABK.woff') format('woff'),
+	url('../fonts/FRABK.ttf') format('truetype'),
+	url('../fonts/FRABK.svg') format('svg');
+	
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic Demi';
+  src:  
+    local('Franklin Gothic Demi'), /*вдруг шрифт уже есть на машине клиента, а если нет то будем грузить с сервера:*/
+    url('../fonts/FRADM.eot'), /*для IE без указания формата - будет использовать oet*/
+    url('../fonts/FRADM.woff') format('woff'),
+	url('../fonts/FRADM.ttf') format('truetype'),
+	url('../fonts/FRADM.svg') format('svg'); 
+
+  font-weight: normal;
+  font-style: normal;
+}
+.tabset-shops {
+  font-size: 26px;
+  padding: 5px 0 29px;
+  line-height: 30px;
+}
+.tabset-shops li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5.5% 0 0;
+  text-align: center;
+}
+.tabset-shops li a {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 0 0 36px;
+  text-decoration: none;
+  color: #434a54;
+  background: url(../images/placeholder-dark.svg) 0 3px no-repeat;
+  -webkit-background-size: 17px 23px;
+  background-size: 17px 23px;
+}
+.tabset-shops li a.active {
+  color: #ff7d2b;
+  background-image: url(../images/placeholder-orange.svg);
+  font-family: 'Franklin Gothic Demi', Arial, Helvetica, sans-serif;
+}
+
+.print {
+  position: absolute;
+  top: 35px;
+  right: -22px;
+}
+.text-shops {
+  padding-bottom: 20px;
+}
+.text-shops .open {
+  color: #434a54;
+  text-decoration: none;
+  padding-right: 22px;
+  font-family: 'Franklin Gothic Demi', Arial, Helvetica, sans-serif;
+  background: url(../images/arrow-angle-down.svg) 100% 7px no-repeat;
+  -webkit-background-size: 12px 8px;
+  background-size: 12px 8px;
+}
+.text-shops .popup {
+  width: 200px;
+}
+.text-shops .popup .popup-inner {
+  padding: 20px;
+}
+.text-shops .popup a {
+  color: #000022;
+}
+.list-departments {
+  overflow: hidden;
+}
+.list-departments li {
+  float: left;
+  width: 49%;
+  margin: 0 2% 23px 0;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 12px 24px;
+  border: solid 1px #d7d7d7;
+}
+.list-departments li:nth-child(2n) {
+  margin-right: 0;
+}
+.list-departments li h3 {
+  text-transform: uppercase;
+}
+.list-departments li a {
+  color: #838c98;
+}
+.list-departments li .inner {
+  display: table;
+  width: 100%;
+}
+.list-departments li .text {
+  padding-right: 15px;
+  height: 74px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.list-departments li .icon-holder {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50px;
+  height: 74px;
+}
+.list-departments li .icon-holder .icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #434a54;
+}
+.list-departments li .icon-holder .icon img {
+  display: block;
+  margin: 0 auto;
+}
+.text-shops .popup-holder {
+  position: relative;
+  display: inline-block;
+}
+.shops-columns {
+  margin: 17px 0 20px;
+}
+.shops-columns .map-contact, .shops-columns .map-partners-contact {
+  height: 699px;
+  float: right;
+  width: 57%;
+}
+.shops-columns .shops-column {
+  float: left;
+  width: 41%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 699px;
+  overflow: auto;
+  font-size: 16px;
+  line-height: 27px;
+}
+.shops-columns .shops-column .list-shops li {
+  border-top: 1px solid #dcdcdc;
+  padding: 13px 0 17px;
+}
+.shops-columns .shops-column .list-shops li:first-child {
+  border: 0;
+  padding-top: 0;
+}
+.shops-columns .shops-column .list-shops li .title {
+  display: block;
+  font-family: 'Franklin Gothic Book', Arial, Helvetica, sans-serif;
+}
+.shops-columns .shops-column .list-shops li.active .title {
+  font-family: 'Franklin Gothic Demi', Arial, Helvetica, sans-serif;
+}
+.shops-columns .shops-column .list-shops li.active .accordion-open {
+  background-image: url(../images/arrow-angle-up.svg);
+}
+.shops-columns .shops-column .list-shops li p {
+  margin: 0;
+}
+.shops-columns .shops-column .list-shops li a {
+  color: #434a54;
+}
+.shops-columns .shops-column .list-shops li .link-shops-map {
+  display: inline-block;
+  margin-right: 17px;
+  font-family: 'Franklin Gothic Demi', Arial, Helvetica, sans-serif;
+}
+.shops-columns .shops-column .list-shops li .accordion-open {
+  width: 12px;
+  height: 7px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin-top: 10px;
+  background: url(../images/arrow-angle-down.svg) 0 0 no-repeat;
+  -webkit-background-size: 12px 7px;
+  background-size: 12px 7px;
+}
+.map-contact {
+  margin: 17px 0 20px;
+  height: 597px;
+}
+.section-develop {
+  padding-bottom: 32px;
+}
+.section-develop .column {
+  float: left;
+  width: 24%;
+  padding: 10px 0 0;
+  margin-left: 1.33%;
+}
+.section-develop .column:first-child {
+  margin-left: 0;
+}
+.section-develop .column .list {
+  margin: 0;
+}
+.section-develop .column .list li {
+  margin-bottom: 0;
+}
+.section-develop .column .icon {
+  display: block;
+  margin: 0 auto 30px;
+  width: 120px;
+  height: 120px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  background-color: #434a54;
+}
+.section-develop .column .icon .center {
+  width: 120px;
+  height: 120px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.section-develop .column .icon .center img {
+  display: block;
+  margin: 0 auto;
+}
+.section-nearest-shop h2 {
+  margin-bottom: 23px;
+}
+.section-nearest-shop .selectric-wrapper {
+  float: left;
+  width: 267px;
+  margin-right: 24px;
+}
+.section-nearest-shop .button {
+  float: left;
+  padding: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+  .tabset-shops {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .tabset-shops li {
+    margin-bottom: 10px;
+  }
+  .tabset-shops li a {
+    background-position: 0 0;
+    -webkit-background-size: 15px auto;
+    background-size: 15px auto;
+    padding-left: 25px;
+  }
+}

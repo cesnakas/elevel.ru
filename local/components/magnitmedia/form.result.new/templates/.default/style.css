@@ -1,0 +1,21 @@
+.feedback_form_container .form_note{display: none;}
+.feedback_form_container .vis{display: block;}
+.feedback_form_container .hid{display: none;}
+@media screen and (min-width: 1099px) {
+    #complaints_container #complaints_suggestions {
+        margin: auto;
+        max-width: 670px;
+    }
+    #complaints_container #complaints_suggestions .form-column {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1098px) {
+    #complaints_container #complaints_suggestions {
+        margin: 0;
+        width: 100%!important;
+    }
+    #complaints_container #complaints_suggestions .form-column {
+        width: 100%;
+    }
+}

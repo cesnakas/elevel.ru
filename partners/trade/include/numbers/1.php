@@ -1,0 +1,1 @@
+<strong class="big counterTo">26</strong> летний опыт работы

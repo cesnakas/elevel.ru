@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Видеоблог";
+$arDirProperties = Array(
+
+);
+?>

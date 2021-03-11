@@ -1,0 +1,1 @@
+свыше <strong class="big counterTo">205200</strong> товаров в портфеле<br>

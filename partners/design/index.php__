@@ -1,0 +1,412 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Предложение сотрудничества дизайнеру и архитектору");
+$APPLICATION->SetPageProperty("tags", "элевел, эlevel, elevel, elevel.ru, партнерство, сотрудничество, дизайнеру, архитектору, обеспечение, снабжение, поставки, подбор, демонстрация, электрооборудование, электротехническое оборудование, автоматизация зданий, электроинсталляция, домофоны, звонки, выключатели, розетки");
+$APPLICATION->SetPageProperty("keywords", "Эlevel инженер, эlevel, elevel.ru, партнерство, сотрудничество, дизайнеру, архитектору, обеспечение, снабжение, поставки, подбор, демонстрация, электрооборудование, электротехническое оборудование, автоматизация зданий, электроинсталляция, домофоны, звонки, выключатели, розетки, демонстрационный зал, презентация, gira, abb, schneider electric, fontini, gi gambarellim merten, legrand, bticino, mk electric, fede,  декоративное электрооборудование, элитные серии выключателей");
+$APPLICATION->SetPageProperty("description", "Сотрудничество с Эlevel для дизайнеров и архитекторов");
+$APPLICATION->SetTitle("Дизайнеру и архитектору");
+?>
+<script>
+		(function($) {
+		$(function() {
+			$('select.stylize').selectbox();
+		})
+		})(jQuery)
+</script>
+  <div class="b-centered b-promo clearfix">
+		<h1>Дизайнер? Архитектор? - Эlevel предлагает все необходимое для сотрудничества</h1>		
+		<div class="b-row b-row__first clearfix">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 tz-l-sidebar">
+<?$APPLICATION->IncludeComponent(
+    "bitrix:menu",
+    "left-menu",
+    Array(
+        "ROOT_MENU_TYPE" => "TOP_MENU_1_SUBMENU",
+        "MENU_CACHE_TYPE" => "N",
+        "MENU_CACHE_TIME" => "3600",
+        "MENU_CACHE_USE_GROUPS" => "Y",
+        "MENU_CACHE_GET_VARS" => array(),
+        "MAX_LEVEL" => "1",
+        "CHILD_MENU_TYPE" => "TOP_MENU_1_SUBMENU",
+        "USE_EXT" => "N",
+        "DELAY" => "N",
+        "ALLOW_MULTI_SELECT" => "N"
+    )
+);?>
+			</div>			
+			<div class="b-pull-right s01 b-form" id="bottom_form">
+                <?$APPLICATION->IncludeComponent("bitrix:form.result.new", "formResult_request_submit_form", Array(
+                        "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+                        "AJAX_MODE" => "N",
+                        "WEB_FORM_ID" => "7",    // ID веб-формы
+                        "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+                        "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+                        "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+                        "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+                        "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+                        "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+                        "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+                        "CACHE_TYPE" => "A",    // Тип кеширования
+                        "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+                        "VARIABLE_ALIASES" => array(
+                            "WEB_FORM_ID" => "WEB_FORM_ID",
+                            "RESULT_ID" => "RESULT_ID",
+                        )
+                        ),
+                        false
+                    );?>
+        
+			</div><!--.b-form-->
+
+			<div class="review s02">
+				<p>Мы уверенны, что наши возможности, помноженные на ваши творческие идеи, принесут плоды, достойные лучших интерьеров, облегчат непростой процесс комплектации ваших объектов и помогут создать неповторимые интерьерные образы.</p>
+				<div class="pic"><img src="/partners/design/img/irinavoljanina.jpg"></div>
+				<div class="name">Ирина Волжанина<br><span>(Руководитель отдела ОРД)</span></div>
+			</div>
+			
+			
+		</div><!--.b-row__first-->	
+	<div class="long_orange">
+		<div class="wrapp">
+			<div class="title">Что вы получаете?</div>
+			<div class="item i7">
+				<p><b>Комплектация</b> частных и общественных интерьеров  электроустановочными изделиями от класса эконом до люкс и дизайнерским светом</p>
+			</div>
+			<div class="item i8">
+				<p><b>Помощь в подборе</b> электроустановочных изделий и дизайнерского света</p>
+			</div>
+			<div class="bott_d">Дизайнерам и архитекторам</div>
+		</div>
+	</div>
+			<div class="b-row b-row__examples i3 clearfix">
+			<div class="flexslider slider-example i3">
+				<ul class="slides">
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/slide_4.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/slide_4.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+				</ul>
+			</div><!--.slider-example-->
+		</div><!--.b-row__examples-->		
+		<div class="why_elevel w2">
+			<div class="item i1">Широчайший выбор для воплощения дизайна любого стиля и на любой<br>вкус, необходимый функционал в доме или важный акцент в интерьере</div>
+			<div class="item i2">Более 15 000 товаров<br>на складе в Москве</div>
+			<div class="item i3">Гибкая система скидок</div>
+			<div class="item i4">Обеспечение всеми необходимыми<br>для работы каталогами<br>производителей</div>
+			<div class="item i5">Возможность предоставления демо-образцов на объектах</div>
+			<div class="item i6">Высокий сервис обслуживания<br>и клиентоориентированности</div>
+			<div class="item i7">Проведение<br>тематических<br>мероприятий для<br>дизайнеров и<br>архитекторов</div>
+			<div class="item i8">Наличие большого<br>демонстративного зала, где<br>представлены различные<br>варианты ЭУИ от бюджетных<br>высококачественных вариантов<br>до класса люкс для самых<br>взыскательных клиентов</div>
+			<div class="item i9">Почему<br>эlevel?</div>
+		</div>	
+		<div class="b-row b-row__examples i4 clearfix">
+			<div class="flexslider slider-example i3">
+				<ul class="slides">
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_msk.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_push.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_shlk.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_sgpsd.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_elst.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_spb.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_ekt.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_hck.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/demo_pct.jpg">
+						</div><!--.slider-expl__ins-->
+					</li>
+				</ul>
+			</div><!--.slider-example-->
+		</div><!--.b-row__examples-->	
+		<div class="b-row b-row__examples clearfix">
+			<h3 style="font-weight:normal; text-transform:uppercase; margin:40px 0 15px 0;">Примеры проектов</h3>
+			<div class="flexslider slider-example i5">
+				<ul class="slides">
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/boozepubekt.png">
+							<div class="txt">
+								<div class="header">THE BOOZE PUB, Екатеринбург</div>
+								<p>Используемое оборудование: <b>Merten Antic (античная латунь), Светильники GIRA</b></p>
+								<p class="s18">
+									<!--Стоимость: <b>243 350 руб.</b><br>
+									Срок: <b>30 дней</b>-->
+								</p>
+								<p><i>Все быстро, качественно и в срок. Все под одним пультом. Спасибо за сотрудничество</i></p>
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Анна Рязанова</div>
+									<div class="post">(Дизайнер)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/jkskyfort.png">
+							<div class="txt">
+								<div class="header">Квартира, ЖК "Скайфорт", Москва</div>
+								<p>Используемое оборудование: <b>Legrand Celiane</b></p>
+								<p class="s18"></p>
+								<p><i>Динамично, быстро, компетентно. Постоянная поддержка процессов проектирования, выбора и монтажа оборудования. Желание долгосрочного сотрудничества! Успехов!</i></p>
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Марк Чупров (CHM)</div>
+									<div class="post">(Архитектор)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+					<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/yazinovhome.png">
+							<div class="txt">
+								<div class="header">Квартира, Москва</div>
+								<p>Используемое оборудование: <b>Gallery vetri d'arte, Gispelle PL 140, Plafoniera, design M.Toscano</b></p>
+								<p class="s18"></p>
+								<p><i>Комплексное проектирование, подбор оборудования, общестроительная и авторская отделка</i></p>
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Ярослава Зиновьева</div>
+									<div class="post">(Архитектор)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/apartstudiodk.png">
+							<div class="txt">
+								<div class="header">Апартаменты на Кутузовском проспекте, г. Москва</div>
+								<p>Используемое оборудование: <b>АВВ KNX</b></p>
+								<p class="s18"></p>
+								<p><i>Производственных успехов, экономического и финансового благополучия, укрепления взаимоотношений на благо наших предприятий.</i></p>
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Студия ДК</div>
+									<div class="post">(Дизайн-студия)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/avcubegira.png">
+							<div class="txt">
+								<div class="header">Квартира на Арбате. 167,2 кв.м, Стиль Ар-деко</div>
+								<p>Используемое оборудование: <b>GIRA, Esprit Белое стекло</b></p>
+								<p class="s18"></p>
+								<!--<p><i>Производственных успехов, экономического и финансового благополучия, укрепления взаимоотношений на благо наших предприятий.</i></p>-->
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Кристина Иванова</div>
+									<div class="post">(Дизайнер)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/avcubegira2.png">
+							<div class="txt">
+								<div class="header">Квартира на Арбате. 167,2 кв.м, Стиль Ар-деко</div>
+								<p>Используемое оборудование: <b>GIRA, Е22, сталь</b></p>
+								<p class="s18"></p>
+								<!--<p><i>Производственных успехов, экономического и финансового благополучия, укрепления взаимоотношений на благо наших предприятий.</i></p>-->
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Кристина Иванова</div>
+									<div class="post">(Дизайнер)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/avcubegira3.png">
+							<div class="txt">
+								<div class="header">Коттедж, поселок Белый Берег, Стиль Неоклассика</div>
+								<p>Используемое оборудование: <b>GIRA, ClassiX, бронза-белый, бронза-чёрный</b></p>
+								<p class="s18"></p>
+								<!--<p><i>Производственных успехов, экономического и финансового благополучия, укрепления взаимоотношений на благо наших предприятий.</i></p>-->
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Елена Захарова</div>
+									<div class="post">(Дизайнер)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/zvulitinaa.png">
+							<div class="txt">
+								<div class="header">Квартира, г. Звенигород</div>
+								<p>Используемое оборудование: <b>Дизайнерский свет Cangini & Tucci, Arabesque, электроустановочные изделия Gira E22</b></p>
+								<p class="s18"></p>
+								<p><i>Спасибо за квалифицируемую и оперативную поддержку в комплектации объектов! Желаю успеха и удачи, а также лидирующих положений на рынке!</i></p>
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Анна Улитина</div>
+									<div class="post">(Дизайнер)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/artin.png">
+							<div class="txt">
+								<div class="header">Квартира, ЖК “Дом на Беговой” и Большой Демидовский переулок</div>
+								<p>Используемое оборудование: <b>Gira E22, Gira Espirit</b></p>
+								<p class="s18"></p>
+								<p><i>Выражаем большую благодарность за многолетнее успешное сотрудничество и оперативность в решении самых разнообразных задач.</i></p>
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Art-In</div>
+									<div class="post">(Arificial Intelligence)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/ingenium.png">
+							<div class="txt">
+								<div class="header">Архитектурная студия "Ingenium"</div>
+								<p>Используемое оборудование: <b>ABB Niessen Zenit</b></p>
+								<p class="s18"></p>
+								<!--<p><i>Выражаем большую благодарность за многолетнее успешное сотрудничество и оперативность в решении самых разнообразных задач.</i></p>-->
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Воронцова Дарья, Ларионов Сергей</div>
+									<div class="post">(Дизайнеры)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/privatecottage2.png">
+							<div class="txt">
+								<div class="header">Частный коттедж</div>
+								<p>Используемое оборудование: <b>Gira E22</b></p>
+								<p class="s18"></p>
+								<!--<p><i>Выражаем большую благодарность за многолетнее успешное сотрудничество и оперативность в решении самых разнообразных задач.</i></p>-->
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Воронцова Дарья, Ларионов Сергей</div>
+									<div class="post">(Дизайнеры)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+<li>
+						<div class="slider-expl__ins clearfix">
+							<img src="/partners/design/img/photostudio1.png">
+							<div class="txt">
+								<div class="header">Фотостудия</div>
+								<p>Используемое оборудование: <b>Gira E2</b></p>
+								<p class="s18"></p>
+								<!--<p><i>Выражаем большую благодарность за многолетнее успешное сотрудничество и оперативность в решении самых разнообразных задач.</i></p>-->
+								<div class="turd">
+									<!--<img src="/partners/design/img/pic2_min.jpg">-->
+									<div class="name">Воронцова Дарья, Ларионов Сергей</div>
+									<div class="post">(Дизайнеры)</div>
+								</div>
+							</div>
+						</div><!--.slider-expl__ins-->
+					</li>
+				</ul>
+			</div><!--.slider-example-->
+		</div><!--.b-row__examples-->
+<div class="download"><a href="/upload/pres/elevel_designers.ppt"><span>Общая презентация для дизайнеров и архитекторов в формате</span>.ppt
+    (1.29 мб)</a></div>		
+		<div class="b-row b-row__last clearfix">			
+			<div class="b-form-contacts clearfix v2">
+				<h3 style="text-transform:uppercase; font-size:30px;">Отправить запрос</h3>
+				<div class="b-pull-left b-form" id="bottom_form_2">
+        
+        <?$APPLICATION->IncludeComponent("bitrix:form.result.new", "formResult_request_submit_form_bottom", Array(
+                        "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+                        "AJAX_MODE" => "N",
+                        "WEB_FORM_ID" => "62",    // ID веб-формы
+                        "LIST_URL" => "/sendquery/sended.php",    // Страница со списком результатов
+                        "EDIT_URL" => "/sendquery/sended.php",    // Страница редактирования результата
+                        "SUCCESS_URL" => "/sendquery/sended.php",    // Страница с сообщением об успешной отправке
+                        "CHAIN_ITEM_TEXT" => "",    // Название дополнительного пункта в навигационной цепочке
+                        "CHAIN_ITEM_LINK" => "",    // Ссылка на дополнительном пункте в навигационной цепочке
+                        "IGNORE_CUSTOM_TEMPLATE" => "N",    // Игнорировать свой шаблон
+                        "USE_EXTENDED_ERRORS" => "N",    // Использовать расширенный вывод сообщений об ошибках
+                        "CACHE_TYPE" => "A",    // Тип кеширования
+                        "CACHE_TIME" => "3600",    // Время кеширования (сек.)
+                        "VARIABLE_ALIASES" => array(
+                            "WEB_FORM_ID" => "WEB_FORM_ID",
+                            "RESULT_ID" => "RESULT_ID",
+                        )
+                        ),
+                        false
+                    );?>
+                    
+				</div><!--.b-form-->
+				<div class="b-pull-right1">
+					<p>Свяжитесь с менеджером отдела по работе<br>с архитекторами и дизайнерами:</p>
+					<span class="numb-phone1">8 (495) 363-32-03</span>
+					
+					<div class="b-top-link-wrp1">
+						<div class="toplink1">
+							<i class="tz-icon"></i>
+							<a href="#" class="pp-callback" onclick="_gaq.push(['_trackEvent', 'start-call-back', 'action', 'opt_label', 1]); yaCounter1485305reachGoal('start-call-back'); return true;">Заказать звонок<img src="img/pic5a.gif"/></a>
+						</div>						
+						
+						<div class="toplink2">
+							<i class="tz-icon"></i>
+							<a href="#" class="pp-sendquery" onclick="_gaq.push(['_trackEvent', 'start-request', 'action', 'opt_label', 1]); yaCounter1485305reachGoal('start-request'); return true;">Отправить запроc<img src="img/pic5a.gif"/></a>
+						</div>
+					</div>
+            	</div>
+				</div>				
+			</div><!--.b-form-contacts-->
+		</div><!--.b-row__last-->		
+	</div><!--.b-promo--> 
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

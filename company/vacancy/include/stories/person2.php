@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/600/600c48eb7cf6d38efda07e476fbc76c9.JPG" alt=""> <strong class="name">Александр Розанов</strong> <span class="position">Директор производства</span>

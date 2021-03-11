@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/06c/06c7c175a2341f8ec51dbcd41e0e8150.JPG" alt=""> <strong class="name">Сергей Зорин</strong> <span class="position">Руководитель направления </span>

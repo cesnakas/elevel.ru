@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/f42/f42c406b951ce5882d3ed5f01c99579b.jpg" alt=""> <strong class="name">Евгений Давыдов</strong> <span class="position">Руководитель направления</span>

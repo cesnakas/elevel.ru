@@ -1,0 +1,1 @@
+Присутствие в <strong class="big counterTo">18</strong> городах России

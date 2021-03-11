@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/d4a/d4a72189565ae6d4602d27fccae2ae90.jpg" alt="Владимир Маслов"> <strong class="name">Владимир Маслов</strong> <span class="position">Руководитель направления </span>

@@ -1,0 +1,1 @@
+<img alt="Руководитель отдела" src="/includes/partners/trade/diy/img/shemilkin.JPG">

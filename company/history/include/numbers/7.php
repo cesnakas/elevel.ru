@@ -1,0 +1,1 @@
+Свыше <strong class="big counterTo">15000</strong> клиентов

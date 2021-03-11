@@ -1,0 +1,21 @@
+.bx-ui-sls-route{
+	position:absolute!important;
+	z-index:5;
+	display:none;
+}
+/*.bx-ui-sls-input-block .popup {
+	display:block;
+}*/
+
+.lightbox .request-city .popup {
+  right: 0;
+}
+.request-city .popup ul{
+  padding: 15px 21px 8px;
+}
+.lightbox .request-city .popup ul li {
+  margin-bottom: 7px;
+}
+.lightbox .request-city .popup ul li a {
+  color: #434a54;
+}

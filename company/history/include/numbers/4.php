@@ -1,0 +1,1 @@
+Более <strong class="big counterTo">700</strong> сотрудников

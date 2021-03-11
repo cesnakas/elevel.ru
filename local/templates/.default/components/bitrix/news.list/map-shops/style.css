@@ -1,0 +1,9 @@
+.contact-box {
+	display: none;
+}
+#map {
+	visibility: visible;
+	height: auto;
+	margin: 17px 0 20px;
+    height: 597px;
+}

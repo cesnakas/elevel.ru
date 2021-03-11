@@ -1,0 +1,37 @@
+.index-news-list ul
+{
+	list-style-type: none;
+	padding: 0;
+	float: left;
+}
+
+.index-news-list ul li
+{
+	float: left;
+	overflow: hidden;
+	width: 264px;
+	margin-right: 28px;
+}
+
+.index-news-list ul li:last-child
+{
+	margin-right: 0;
+}
+
+.index-news-list ul li time
+{
+	color: #939aa2;
+    font-size: 13px;
+    text-decoration: none;
+	display: block;
+}
+
+.index-news-list ul li a
+{
+	margin: 8px 0;
+    font-family: "FGD";
+    font-size: 15px;
+    color: #7a90a7;
+	display: block;
+	line-height: 24px;
+}

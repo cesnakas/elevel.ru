@@ -1,0 +1,147 @@
+.category-shop li {
+    display: inline-block;
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.subcategory-shop-name {
+	width: 150px;	
+    text-align: center;
+}
+.subcategory-shop-count {
+	text-align: center;
+}
+.subcategory-shop-image-wrapper  {
+    margin-bottom: 10px;
+}
+.subcategory-shop-title{
+	height:42px;
+	margin-top: 20px;
+}
+.root-category-title span {
+	font-size: 19px;
+}
+.root-category-image img {
+	display: block;
+    float: left;
+    margin-right: 20px;
+    width: 34px;
+}
+.category-image-wrapper {
+    margin-bottom: 10px;
+}
+.category-image-wrapper img {
+    height: 150px;
+    width: 150px;
+}
+.subcategory-shop-image-wrapper img {
+    height: 150px;
+    width: 150px;
+}
+.rozetki-vikluchateli-shop {
+	width: 960px;
+    float: left;
+	height: 320px;
+	margin-right: 30px;
+}
+.avtomaty-difavtomaty-shop {
+	width: 480px;
+    float: left;
+    height: 320px;	
+    margin-right: 30px;
+}
+.elektroschetchiki-shop {
+	width: 480px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.nivkovolt-shop {
+	width: 960px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.schity-shop {
+	width:480px;
+	float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.kabel-shop {
+	width: 320px;
+	float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.kabelenesuschie-shop {
+	width: 480px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.elektroustanovka-shop {
+	width: 800px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.instrumenty-shop {
+	width: 660px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.lampy-shop {
+	width: 320px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.avomatizacia-shop {
+	width: 330px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.electropitanie-shop {
+	width: 960px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.shinoprovod-shop {
+	width: 160px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.ventilyaciya-shop {
+	width: 320px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+.molniezashita-shop{
+	width: 480px;
+    float: left;
+	height: 320px;
+    margin-right: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+	.shop-test {margin-left:50px}
+   }
+@media screen and (min-width: 1400px) {
+    .shop-test {margin-left:150px}
+   }
+@media screen and (min-width: 1745px) {
+    .shop-test {margin-left:0px}
+   }
+@media screen and (min-width: 1868px) {
+    .shop-test {margin-left:150px}
+   }
+@media screen and (max-width: 1045px) {
+	.avtomaty-difavtomaty-shop {margin-right: 0px;}
+	.elektroschetchiki-shop {margin-right: 0px;}
+   }

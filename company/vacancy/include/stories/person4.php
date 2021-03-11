@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/9dc/9dc63f09c203e8628e65bf1b91e998cf.jpg" alt=""> <strong class="name">Александр Бугаков </strong> <span class="position">Директор филиала</span>

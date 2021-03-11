@@ -1,0 +1,1 @@
+<img src="<?=SITE_DIR?>includes/solutions/cable_systems/img/portrait_3.png" alt="Руководитель отдела">

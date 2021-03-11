@@ -1,0 +1,1 @@
+<strong class="big counterTo">205200</strong> наименований товаров

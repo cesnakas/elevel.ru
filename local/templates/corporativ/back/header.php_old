@@ -1,0 +1,250 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?><!DOCTYPE html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4117915-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-4117915-1');
+		</script>
+	
+		<meta charset="windows-1251">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		
+        <title><??></title>
+
+		<??>
+		
+        <??>
+		<script type="text/javascript">
+		var __cs = __cs || [];
+		__cs.push(["setCsAccount", "hk3zGMg7mVgy8H1hHgECvlgqdR4tcget"]);
+		</script>
+		<script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
+		
+		<!-- VK pixel -->
+		<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?159",t.onload=function(){VK.Retargeting.Init("VK-RTRG-270984-bVave"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-270984-bVave" style="position:fixed; left:-999px;" alt=""/></noscript>
+		
+		<!-- Facebook Pixel Code -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '2058945351097844');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=2058945351097844&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+		<??>
+		<meta name='wmail-verification' content='ac05dc6be8e19288965ccdd5a3a87370' />
+		<??>
+		<!-- Yandex.Metrika counter --> 
+		<script type="text/javascript" > 
+		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(1485305, "init", { id:1485305, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ecommerce:"dataLayer" }); 
+		</script> 
+		<noscript><div><img src="https://mc.yandex.ru/watch/1485305" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+		<!-- /Yandex.Metrika counter -->
+</head>
+    <??>
+    <body>
+        <div id="panel"><??></div>
+		<div id="page-preloader"><span class="spinner"></span></div>
+
+		<div class="wrapper">
+			<div class="w1">
+				<div class="top-block tablet-hidden">
+					<div class="row">
+						<div class="text-call tablet-hidden">Единый номер:
+							<strong>
+								<?$APPLICATION->IncludeComponent(
+	"bxmaker:geoip.message",
+	"header_phone",
+	array(
+	"TYPE" => "PHONE_HEADER_CORP",	// Тип сообщения
+	),
+	"\$component"
+);?>
+								<??>
+							</strong></div>
+						<div class="block-right">
+							<??>						
+							<?$APPLICATION->IncludeComponent(
+	"bxmaker:geoip.city",
+	"header",
+	array(
+	"COMPONENT_TEMPLATE" => "header",
+		"RELOAD_PAGE" => "Y",	// Перезагружать страницу после смены города
+		"CITY_SHOW" => "Y",	// Выводить город
+		"CITY_LABEL" => "Ваш город:",	// Надпись перед названием города
+		"QUESTION_SHOW" => "N",	// Показывать табличку с вопросом
+		"QUESTION_TEXT" => "Ваш город<br/>#CITY#?",	// Текст вопроса
+		"INFO_SHOW" => "N",	// Показывать табличку с доп. информацией
+		"INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",	// Текст доп.информации 
+		"BTN_EDIT" => "Изменить город",	// Название кнопки смены город
+		"POPUP_LABEL" => "Изменить город",	// Заголовок всплывающего окна
+		"SEARCH_SHOW" => "Y",	// Выводить поиск города
+		"INPUT_LABEL" => "Введите название города",	// Подсказка к полю ввода города
+		"MSG_EMPTY_RESULT" => "Ничего не найдено",	// Текст когда ничего не найдено
+		"FAVORITE_SHOW" => "Y",	// Выводить список избранных городов
+		"CITY_COUNT" => "",	// Количество выводимых городов
+		"FID" => "1",	// Список избранных городов (местоположений)
+		"CACHE_TYPE" => "A",	// Тип кеширования
+		"CACHE_TIME" => "0",	// Время кеширования (сек.)
+	)
+);?>
+							<a class="ico-shop" title="В интернет-магазин" href="/shop/" target="main">В интернет-магазин</a>
+							<a class="sign-eway"title="Вход e.way" href="/eway/">Вход <strong>e.way</strong></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+                <header class="header clearfix nav-down menu-popup-holder">
+                    <a class="menu-opener" href="">Меню</a>
+                    <strong class="logo">
+						<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	".default",
+	array(
+	"AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+		"PATH" => "",
+		"EDIT_TEMPLATE" => "",	// Шаблон области по умолчанию
+	)
+);?>
+					</strong>
+					<??>
+                    <div class="block-right tablet-hidden">
+                        <a class="video lightbox-open" href="#video"><img src="<??>/images/video.jpg" alt=""/>Фильм о компании</a>
+                    </div>
+                    <div class="mobile-header-right">
+						<??>
+                        <a class="sign-eway-mobile" title="Вход e.way" href="/eway/">Вход e.way</a>
+						<??>
+                        <div class="block-search popup-holder">
+							<??>
+                        </div>                        
+						<div class="block-contact popup-holder">
+                            <a class="open" href="">Контакты</a>
+                            <div class="popup">
+                                <div class="popup-inner">
+                                    <ul>
+										<!--<li><a class="phone" title="8 800 333 96 05" href="tel:88003339605">8 (800)  333 - 96 - 05</a></li>-->
+                                        <li class="phone"><?$APPLICATION->IncludeComponent(
+	"bxmaker:geoip.message",
+	"header_phone",
+	array(
+	"TYPE" => "PHONE_HEADER_CORP",	// Тип сообщения
+	),
+	"\$component"
+);?></li>
+										<??>
+                                        <li><a class="lightbox-open request" href="#request">Отправить запрос</a></li>
+                                        <li><a class="lightbox-open recall form-open" href="#order-call">Заказать звонок</a></li>
+										<??>
+                                        <li><a class="ico-shop-mobile" href="/shop/">В интернет-магазин</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-cart">
+                            <a class="open" href="/shop/">Корзина</a>
+                        </div>
+                    </div>
+                    <div class="menu-popup">
+						<??>
+						<div class="mobile-city-block">
+							<?$APPLICATION->IncludeComponent(
+	"bxmaker:geoip.city",
+	"header_mobail",
+	array(
+	"COMPONENT_TEMPLATE" => "header_mobail",
+		"RELOAD_PAGE" => "Y",	// Перезагружать страницу после смены города
+		"CITY_SHOW" => "Y",	// Выводить город
+		"CITY_LABEL" => "Ваш город:",	// Надпись перед названием города
+		"QUESTION_SHOW" => "N",	// Показывать табличку с вопросом
+		"QUESTION_TEXT" => "Ваш город<br/>#CITY#?",	// Текст вопроса
+		"INFO_SHOW" => "N",	// Показывать табличку с доп. информацией
+		"INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",	// Текст доп.информации 
+		"BTN_EDIT" => "Изменить город",	// Название кнопки смены город
+		"POPUP_LABEL" => "Изменить город",	// Заголовок всплывающего окна
+		"SEARCH_SHOW" => "Y",	// Выводить поиск города
+		"INPUT_LABEL" => "Введите название города",	// Подсказка к полю ввода города
+		"MSG_EMPTY_RESULT" => "Ничего не найдено",	// Текст когда ничего не найдено
+		"FAVORITE_SHOW" => "N",	// Выводить список избранных городов
+		"CITY_COUNT" => "",	// Количество выводимых городов
+		"FID" => "1",	// Список избранных городов (местоположений)
+		"CACHE_TYPE" => "A",	// Тип кеширования
+		"CACHE_TIME" => "0",	// Время кеширования (сек.)
+	)
+);?>
+						</div>
+						<?$APPLICATION->IncludeComponent(
+	"bitrix:menu",
+	"header_mobile",
+	array(
+	"ROOT_MENU_TYPE" => "INDEX",	// Тип меню для первого уровня
+		"MAX_LEVEL" => "2",	// Уровень вложенности меню
+		"CHILD_MENU_TYPE" => "TOP_MENU_1_SUBMENU",	// Тип меню для остальных уровней
+		"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
+		"MENU_CACHE_TIME" => "86400000",	// Время кеширования (сек.)
+		"MENU_CACHE_USE_GROUPS" => "N",	// Учитывать права доступа
+		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+	)
+);?>
+						<!--<div class="text-call">Единый бесплатный номер: <strong><a title="8 800 333 96 05" href="tel:88003339605">8 800 333 96 05</a></strong></div>-->
+						<div class="text-call">Единый номер: <strong><?$APPLICATION->IncludeComponent(
+	"bxmaker:geoip.message",
+	"header_phone",
+	array(
+	"TYPE" => "PHONE_HEADER_CORP",	// Тип сообщения
+	),
+	"\$component"
+);?></strong></div>
+                    </div>
+                </header>
+                <div class="nav-bar clearfix tablet-hidden">				
+				<??>
+                    <a class="link-left text-orange lightbox-open form-open" href="#request" <??>onclick="yaCounter1485305.reachGoal('otpravitZapros1'); return true;"<??>>Отправить запрос</a>
+				<??>
+					<?$APPLICATION->IncludeComponent(
+	"bitrix:menu",
+	"header_desktop",
+	array(
+	"ROOT_MENU_TYPE" => "INDEX",	// Тип меню для первого уровня
+		"MAX_LEVEL" => "2",	// Уровень вложенности меню
+		"CHILD_MENU_TYPE" => "TOP_MENU_1_SUBMENU",	// Тип меню для остальных уровней
+		"USE_EXT" => "Y",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+		"MENU_CACHE_TYPE" => "A",	// Тип кеширования
+		"MENU_CACHE_TIME" => "86400000",	// Время кеширования (сек.)
+		"MENU_CACHE_USE_GROUPS" => "N",	// Учитывать права доступа
+		"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+	)
+);?>
+                </div>
+				<div class="main">
+					<?$APPLICATION->IncludeComponent(
+	"bitrix:breadcrumb",
+	".default",
+	array(
+	"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+		"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+		"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+	)
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

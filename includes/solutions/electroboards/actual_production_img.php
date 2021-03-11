@@ -1,0 +1,1 @@
+<img src="<?=SITE_DIR?>includes/solutions/electroboards/img/actual_production_img.png" alt="Реальное производство">

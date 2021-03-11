@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Trebuchet_MS_Italic';
+    src: url('/fonts/Trebuchet_MS_Italic/Trebuchet_MS_Italic.eot');
+    src: url('/fonts/Trebuchet_MS_Italic/Trebuchet_MS_Italic.eot') format('embedded-opentype'), 
+    url('/fonts/Trebuchet_MS_Italic/Trebuchet_MS_Italic.woff') format('woff'), 
+    url('/fonts/Trebuchet_MS_Italic/Trebuchet_MS_Italic.ttf') format('truetype'), 
+    url('/fonts/Trebuchet_MS_Italic/Trebuchet_MS_Italic.svg#Trebuchet_MS_Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FGB';
+    src: url('/fonts/Franklin_Gothic_Book_C_Normal/FRABK.eot');
+    src: url('/fonts/Franklin_Gothic_Book_C_Normal/FRABK.eot') format('embedded-opentype'), 
+    url('/fonts/Franklin_Gothic_Book_C_Normal/FRABK.woff') format('woff'), 
+    url('/fonts/Franklin_Gothic_Book_C_Normal/FRABK.ttf') format('truetype'), 
+    url('/fonts/Franklin_Gothic_Book_C_Normal/FRABK.svg#FRABK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FGBK';
+    src: url('/fonts/Franklin_Gothic_Book_C/FRABKIT.eot');
+    src: url('/fonts/Franklin_Gothic_Book_C/FRABKIT.eot') format('embedded-opentype'), 
+    url('/fonts/Franklin_Gothic_Book_C/FRABKIT.woff') format('woff'), 
+    url('/fonts/Franklin_Gothic_Book_C/FRABKIT.ttf') format('truetype'), 
+    url('/fonts/Franklin_Gothic_Book_C/FRABKIT.svg#FRABKIT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FGD';
+    src: url('/fonts/Franklin_Gothic_Demi_C/FRADM.eot');
+    src: url('/fonts/Franklin_Gothic_Demi_C/FRADM.eot') format('embedded-opentype'), 
+    url('/fonts/Franklin_Gothic_Demi_C/FRADM.woff') format('woff'), 
+    url('/fonts/Franklin_Gothic_Demi_C/FRADM.ttf') format('truetype'), 
+    url('/fonts/Franklin_Gothic_Demi_C/FRADM.svg#FRADM') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

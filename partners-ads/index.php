@@ -1,0 +1,197 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Партнеры");
+?>
+
+<div class="inner-banner">
+  <img class="inner-banner__img" src="<?=SITE_TEMPLATE_PATH?>/images/merten_banner.png" alt=""> 
+  <p></p>
+</div>
+
+<?$APPLICATION->IncludeComponent(
+  "bitrix:news.list", 
+  "carousel",
+  Array(
+    "DISPLAY_DATE" => "Y",
+    "DISPLAY_NAME" => "Y",
+    "DISPLAY_PICTURE" => "Y",
+    "DISPLAY_PREVIEW_TEXT" => "Y",
+    "AJAX_MODE" => "Y",
+    "IBLOCK_TYPE" => "news",
+    "IBLOCK_ID" => "154",
+    "NEWS_COUNT" => "6",
+    "SORT_BY1" => "ACTIVE_FROM",
+    "SORT_ORDER1" => "DESC",
+    "SORT_BY2" => "SORT",
+    "SORT_ORDER2" => "ASC",
+    "FILTER_NAME" => "",
+    "FIELD_CODE" => array(""),
+    "PROPERTY_CODE" => Array("IMGS"),
+    "CHECK_DATES" => "Y",
+    "DETAIL_URL" => "",
+    "PREVIEW_TRUNCATE_LEN" => "",
+    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+    "SET_TITLE" => "N",
+    "SET_BROWSER_TITLE" => "N",
+    "SET_META_KEYWORDS" => "Y",
+    "SET_META_DESCRIPTION" => "Y",
+    "SET_LAST_MODIFIED" => "Y",
+    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+    "ADD_SECTIONS_CHAIN" => "N",
+    "HIDE_LINK_WHEN_NO_DETAIL" => "Y",
+    "PARENT_SECTION" => "",
+    "PARENT_SECTION_CODE" => "",
+    "INCLUDE_SUBSECTIONS" => "Y",
+    "CACHE_TYPE" => "A",
+    "CACHE_TIME" => "3600",
+    "CACHE_FILTER" => "Y",
+    "CACHE_GROUPS" => "Y",
+    "DISPLAY_TOP_PAGER" => "Y",
+    "DISPLAY_BOTTOM_PAGER" => "Y",
+    "PAGER_TITLE" => "ГЌГ®ГўГ®Г±ГІГЁ",
+    "PAGER_SHOW_ALWAYS" => "Y",
+    "PAGER_TEMPLATE" => "",
+    "PAGER_DESC_NUMBERING" => "Y",
+    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+    "PAGER_SHOW_ALL" => "Y",
+    "PAGER_BASE_LINK_ENABLE" => "Y",
+    "SET_STATUS_404" => "Y",
+    "SHOW_404" => "Y",
+    "MESSAGE_404" => "",
+    "PAGER_BASE_LINK" => "",
+    "PAGER_PARAMS_NAME" => "arrPager",
+    "AJAX_OPTION_JUMP" => "N",
+    "AJAX_OPTION_STYLE" => "Y",
+    "AJAX_OPTION_HISTORY" => "N",
+    "AJAX_OPTION_ADDITIONAL" => ""
+  )
+);?>
+
+<?$APPLICATION->IncludeComponent(
+  "bitrix:news.list", 
+  "partner-projects",
+  Array(
+    "DISPLAY_DATE" => "Y",
+    "DISPLAY_NAME" => "Y",
+    "DISPLAY_PICTURE" => "Y",
+    "DISPLAY_PREVIEW_TEXT" => "Y",
+    "AJAX_MODE" => "Y",
+    "IBLOCK_TYPE" => "news",
+    "IBLOCK_ID" => "156",
+    "NEWS_COUNT" => "6",
+    "SORT_BY1" => "ACTIVE_FROM",
+    "SORT_ORDER1" => "DESC",
+    "SORT_BY2" => "SORT",
+    "SORT_ORDER2" => "ASC",
+    "FILTER_NAME" => "",
+    "FIELD_CODE" => array(""),
+    "PROPERTY_CODE" => Array("LINK","IMGS"),
+    "CHECK_DATES" => "Y",
+    "DETAIL_URL" => "",
+    "PREVIEW_TRUNCATE_LEN" => "",
+    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+    "SET_TITLE" => "N",
+    "SET_BROWSER_TITLE" => "N",
+    "SET_META_KEYWORDS" => "Y",
+    "SET_META_DESCRIPTION" => "Y",
+    "SET_LAST_MODIFIED" => "Y",
+    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+    "ADD_SECTIONS_CHAIN" => "N",
+    "HIDE_LINK_WHEN_NO_DETAIL" => "Y",
+    "PARENT_SECTION" => "",
+    "PARENT_SECTION_CODE" => "",
+    "INCLUDE_SUBSECTIONS" => "Y",
+    "CACHE_TYPE" => "A",
+    "CACHE_TIME" => "3600",
+    "CACHE_FILTER" => "Y",
+    "CACHE_GROUPS" => "Y",
+    "DISPLAY_TOP_PAGER" => "Y",
+    "DISPLAY_BOTTOM_PAGER" => "Y",
+    "PAGER_TITLE" => "ГЌГ®ГўГ®Г±ГІГЁ",
+    "PAGER_SHOW_ALWAYS" => "Y",
+    "PAGER_TEMPLATE" => "",
+    "PAGER_DESC_NUMBERING" => "Y",
+    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+    "PAGER_SHOW_ALL" => "Y",
+    "PAGER_BASE_LINK_ENABLE" => "Y",
+    "SET_STATUS_404" => "Y",
+    "SHOW_404" => "Y",
+    "MESSAGE_404" => "",
+    "PAGER_BASE_LINK" => "",
+    "PAGER_PARAMS_NAME" => "arrPager",
+    "AJAX_OPTION_JUMP" => "N",
+    "AJAX_OPTION_STYLE" => "Y",
+    "AJAX_OPTION_HISTORY" => "N",
+    "AJAX_OPTION_ADDITIONAL" => ""
+  )
+);?>
+
+<?$APPLICATION->IncludeComponent(
+  "bitrix:news.list", 
+  "partnership-articles",
+  Array(
+    "DISPLAY_DATE" => "Y",
+    "DISPLAY_NAME" => "Y",
+    "DISPLAY_PICTURE" => "Y",
+    "DISPLAY_PREVIEW_TEXT" => "Y",
+    "AJAX_MODE" => "Y",
+    "IBLOCK_TYPE" => "news",
+    "IBLOCK_ID" => "155",
+    "NEWS_COUNT" => "6",
+    "SORT_BY1" => "ACTIVE_FROM",
+    "SORT_ORDER1" => "DESC",
+    "SORT_BY2" => "SORT",
+    "SORT_ORDER2" => "ASC",
+    "FILTER_NAME" => "",
+    "FIELD_CODE" => array(""),
+    "PROPERTY_CODE" => Array("LINK"),
+    "CHECK_DATES" => "Y",
+    "DETAIL_URL" => "",
+    "PREVIEW_TRUNCATE_LEN" => "",
+    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+    "SET_TITLE" => "N",
+    "SET_BROWSER_TITLE" => "N",
+    "SET_META_KEYWORDS" => "Y",
+    "SET_META_DESCRIPTION" => "Y",
+    "SET_LAST_MODIFIED" => "Y",
+    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+    "ADD_SECTIONS_CHAIN" => "N",
+    "HIDE_LINK_WHEN_NO_DETAIL" => "Y",
+    "PARENT_SECTION" => "",
+    "PARENT_SECTION_CODE" => "",
+    "INCLUDE_SUBSECTIONS" => "Y",
+    "CACHE_TYPE" => "A",
+    "CACHE_TIME" => "3600",
+    "CACHE_FILTER" => "Y",
+    "CACHE_GROUPS" => "Y",
+    "DISPLAY_TOP_PAGER" => "Y",
+    "DISPLAY_BOTTOM_PAGER" => "Y",
+    "PAGER_TITLE" => "ГЌГ®ГўГ®Г±ГІГЁ",
+    "PAGER_SHOW_ALWAYS" => "Y",
+    "PAGER_TEMPLATE" => "",
+    "PAGER_DESC_NUMBERING" => "Y",
+    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+    "PAGER_SHOW_ALL" => "Y",
+    "PAGER_BASE_LINK_ENABLE" => "Y",
+    "SET_STATUS_404" => "Y",
+    "SHOW_404" => "Y",
+    "MESSAGE_404" => "",
+    "PAGER_BASE_LINK" => "",
+    "PAGER_PARAMS_NAME" => "arrPager",
+    "AJAX_OPTION_JUMP" => "N",
+    "AJAX_OPTION_STYLE" => "Y",
+    "AJAX_OPTION_HISTORY" => "N",
+    "AJAX_OPTION_ADDITIONAL" => ""
+  )
+);?>
+<div class="inner-banner">
+  <br><br>
+  <p>Merten – это немецкий производитель электротехники с более чем столетней историей, сегодня Merten является частью компании Шнейдер Электрик. Основа всего ассортимента – розетки, выключатели, функции комфорта и система KNX. Каждое изделие является образцом великолепного дизайна, качества и надежности. На протяжении всей истории Merten опережал современные тенденции, был на шаг впереди своих конкурентов. Эта позиция и помогла Merten быть на вершине с самого начала производства и до сегодняшнего дня. Для разработки новых дизайнерских решений приглашались лучшие мастера мирового уровня, например, Николас Гримшоу. Сегодня Merten использует инновационные, технически проработанные механизмы с технологией QuickFlex, которые позволяют добиться мягкого хода клавиши, безупречного монтажа на 25% быстрее и долговечного использования.</p>
+
+  <p>Merten сегодня – это производство полного цикла, 100% Автоматизированная сборка с участием роботов, собственная лаборотория качества, упаковка под требования каждого рынка, обширный ассортимент функций, международные награды на конкурсах промышленного дизайна: Redot, German design awards, Good design.</p>
+
+  <p>Оптимизирован подбор изделий – единый механизм подходит для всех вариантов рамок и накладок. По внешнему виду Merten украсит любое помещение благодаря строгой и благородной форме и широчайшему выбору дизайнов как из пластика, так и из натуральных материалов: стекла, дерева, металла, камня.</p>
+
+  <p>В Merten есть множество функций комфорта по управлению освещением, климатом, шторами, которые позволяют комплектовать разного типа объекты: как квартиры, дома, так и офисы, отели и т.д., а также реализовать решение «Умный дом». И все это - в великолепном дизайне серии Merten!</p>
+</div>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

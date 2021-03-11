@@ -1,0 +1,10 @@
+.contact-box {
+	display: none;
+}
+
+#map2 {
+	visibility: visible;
+	height: auto;
+	margin: 17px 0 20px;
+    height: 597px;
+}

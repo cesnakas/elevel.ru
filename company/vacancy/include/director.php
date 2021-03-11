@@ -1,0 +1,1 @@
+<img src="https://www.elevel.ru/upload/medialibrary/fb3/fb3f19b6065b2f83e5bcd92b38adb1fc.jpg" alt=""> <strong class="name">Татьяна Ремнёва </strong> <span class="position">Директор службы персонала</span>

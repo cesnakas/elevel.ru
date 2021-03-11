@@ -1,0 +1,138 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+<?
+use Bitrix\Main\Localization\Loc;
+use Bitrix\Sale\Location;
+
+Loc::loadMessages(__FILE__);
+
+$obLocation = \Bxmaker\GeoIP\Manager::getInstance();
+$CityName = $obLocation->getCity();
+?>
+
+<?if(!empty($arResult['ERRORS']['FATAL'])):?>
+
+	<?foreach($arResult['ERRORS']['FATAL'] as $error):?>
+		<?ShowError($error)?>
+	<?endforeach?>
+
+<?else:?>
+
+	<?CJSCore::Init();?>
+	<?$GLOBALS['APPLICATION']->AddHeadScript('/bitrix/js/sale/core_ui_widget.js')?>
+	<?$GLOBALS['APPLICATION']->AddHeadScript('/bitrix/js/sale/core_ui_etc.js')?>
+	<?$GLOBALS['APPLICATION']->AddHeadScript('/bitrix/js/sale/core_ui_autocomplete.js');?>
+
+	<div id="sls-<?=$arResult['RANDOM_TAG']?>" class="<?if(strlen($arParams['CLASS_CITY'])):?> <?=$arParams['CLASS_CITY']?><?endif?> input-holder popup-holder request-city popup-active <?if(strlen($arResult['MODE_CLASSES'])):?> <?=$arResult['MODE_CLASSES']?><?endif?>">
+		<div class="bx-ui-sls-input-block">
+			
+			<input type="text" autocomplete="off" name="<?=$arParams['INPUT_NAME']?>" value="<?=$CityName?>" class="dropdown-field" placeholder="<?=$CityName?>" />
+
+			<div class="dropdown-fade2white"></div>
+			<div class="bx-ui-sls-loader"></div>			
+			<div class="popup">
+				<div class="popup-inner">
+					<ul class="bx-ui-sls-pane"></ul>
+				</div>
+			</div>
+			
+		</div>
+
+		<script type="text/html" data-template-id="bx-ui-sls-error">
+			<div class="bx-ui-sls-error">
+				<div></div>
+				{{message}}
+			</div>
+		</script>
+
+		<script type="text/html" data-template-id="bx-ui-sls-dropdown-item">
+			<li class="dropdown-item bx-ui-sls-variant">
+				<a class="dropdown-item-text">{{display_wrapped}}</a>
+				<?if($arResult['ADMIN_MODE']):?>
+					[{{id}}]
+				<?endif?>
+			</li>
+		</script>
+
+		<div class="bx-ui-sls-error-message">
+			<?if(!$arParams['SUPPRESS_ERRORS']):?>
+				<?if(!empty($arResult['ERRORS']['NONFATAL'])):?>
+
+					<?foreach($arResult['ERRORS']['NONFATAL'] as $error):?>
+						<?ShowError($error)?>
+					<?endforeach?>
+
+				<?endif?>
+			<?endif?>
+		</div>
+
+	</div>
+
+	<script>	
+	
+	$('#sls-<?=$arResult['RANDOM_TAG']?> .popup').on('click',function(){						
+		$('#sls-<?=$arResult['RANDOM_TAG']?> .dropdown-field').val( $("#sls-<?=$arResult['RANDOM_TAG']?> .bx-ui-sls-fake").attr("title") );			
+	});	
+	$(document).on('input','.bx-ui-sls-fake',function(){		
+		console.log(111);
+		console.log($('.bx-ui-sls-input-block .popup'));
+		$('.bx-ui-sls-input-block .popup').show();		
+	});
+	
+		if (!window.BX && top.BX)
+			window.BX = top.BX;
+
+		<?if(strlen($arParams['JS_CONTROL_DEFERRED_INIT'])):?>
+			if(typeof window.BX.locationsDeferred == 'undefined') window.BX.locationsDeferred = {};
+			window.BX.locationsDeferred['<?=$arParams['JS_CONTROL_DEFERRED_INIT']?>'] = function(){
+		<?endif?>
+
+			<?if(strlen($arParams['JS_CONTROL_GLOBAL_ID'])):?>
+				if(typeof window.BX.locationSelectors == 'undefined') window.BX.locationSelectors = {};
+				window.BX.locationSelectors['<?=$arParams['JS_CONTROL_GLOBAL_ID']?>'] = 
+			<?endif?>
+
+			new BX.Sale.component.location.selector.search(<?=CUtil::PhpToJSObject(array(
+
+				// common
+				'scope' => 'sls-'.$arResult['RANDOM_TAG'],
+				'source' => $this->__component->getPath().'/get.php',
+				'query' => array(
+					'FILTER' => array(
+						'EXCLUDE_ID' => intval($arParams['EXCLUDE_SUBTREE']),
+						'SITE_ID' => $arParams['FILTER_BY_SITE'] && !empty($arParams['FILTER_SITE_ID']) ? $arParams['FILTER_SITE_ID'] : ''
+					),
+					'BEHAVIOUR' => array(
+						'SEARCH_BY_PRIMARY' => $arParams['SEARCH_BY_PRIMARY'] ? '1' : '0',
+						'LANGUAGE_ID' => LANGUAGE_ID
+					),
+				),
+
+				'selectedItem' => !empty($arResult['LOCATION']) ? $arResult['LOCATION']['VALUE'] : false,
+				'knownItems' => $arResult['KNOWN_ITEMS'],
+				'provideLinkBy' => $arParams['PROVIDE_LINK_BY'],
+
+				'messages' => array(
+					'nothingFound' => Loc::getMessage('SALE_SLS_NOTHING_FOUND'),
+					'error' => Loc::getMessage('SALE_SLS_ERROR_OCCURED'),
+				),
+
+				// "js logic"-related part
+				'callback' => $arParams['JS_CALLBACK'],
+				'useSpawn' => $arParams['USE_JS_SPAWN'] == 'Y',
+				'initializeByGlobalEvent' => $arParams['INITIALIZE_BY_GLOBAL_EVENT'],
+				'globalEventScope' => $arParams['GLOBAL_EVENT_SCOPE'],
+
+				// specific
+				'pathNames' => $arResult['PATH_NAMES'], // deprecated
+				'types' => $arResult['TYPES'],
+
+			), false, false, true)?>);
+
+		<?if(strlen($arParams['JS_CONTROL_DEFERRED_INIT'])):?>
+			};
+		<?endif?>
+
+	</script>
+
+<?endif?>
