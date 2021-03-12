@@ -22,7 +22,7 @@ for ($i = 0; $i < count($arResult); $i++) {
         if($arResult[$i]["LINK"] == "/shop/"){
             $catFlag = true;
             array_splice($arResult, $i-1, 1);
-            $arResult[$i-1]["TITLE"] = 'Êàòàëîã';
+            $arResult[$i-1]["TITLE"] = 'ÐšÐ°Ñ‚Ð°Ð»Ð¾Ð³--';
         }
     }
     for ($j = 0; $j < $i; $j++) {

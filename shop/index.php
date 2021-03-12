@@ -1,9 +1,10 @@
 <?
 require( $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php' );
-$APPLICATION->SetPageProperty("title", "Èíòåðíåò-ìàãàçèí ýëåêòðèêè | Ýëåâåë - êóïèòü ýëåêòðèêó ïî âûãîäíûì öåíàì ñ äîñòàâêîé ïî âñåé Ðîññèè");
-$APPLICATION->SetTitle("Èíòåðíåò-ìàãàçèí ýëåêòðèêè | Ýëåâåë - êóïèòü ýëåêòðèêó â èíòåðíåòå ïðîñòî ");
-$APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
+$APPLICATION->SetPageProperty("title", "Ð˜Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½ ÑÐ»ÐµÐºÑ‚Ñ€Ð¸ÐºÐ¸ | Ð­Ð»ÐµÐ²ÐµÐ» - ÐºÑƒÐ¿Ð¸Ñ‚ÑŒ ÑÐ»ÐµÐºÑ‚Ñ€Ð¸ÐºÑƒ Ð¿Ð¾ Ð²Ñ‹Ð³Ð¾Ð´Ð½Ñ‹Ð¼ Ñ†ÐµÐ½Ð°Ð¼ Ñ Ð´Ð¾ÑÑ‚Ð°Ð²ÐºÐ¾Ð¹ Ð¿Ð¾ Ð²ÑÐµÐ¹ Ð Ð¾ÑÑÐ¸Ð¸");
+$APPLICATION->SetTitle("Ð˜Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½ ÑÐ»ÐµÐºÑ‚Ñ€Ð¸ÐºÐ¸ | Ð­Ð»ÐµÐ²ÐµÐ» - ÐºÑƒÐ¿Ð¸Ñ‚ÑŒ ÑÐ»ÐµÐºÑ‚Ñ€Ð¸ÐºÑƒ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚Ðµ Ð¿Ñ€Ð¾ÑÑ‚Ð¾ ");
+$APPLICATION->SetTitle( 'Ð˜Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½' );
 ?>
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
 	"catalog", 
@@ -22,12 +23,12 @@ $APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
 		"SHOW_DISCOUNT_PERCENT" => "N",
 		"SHOW_OLD_PRICE" => "Y",
 		"SHOW_MAX_QUANTITY" => "N",
-		"MESS_BTN_BUY" => "Êóïèòü",
-		"MESS_BTN_ADD_TO_BASKET" => "Â êîðçèíó",
-		"MESS_BTN_COMPARE" => "Ñðàâíåíèå",
-		"MESS_BTN_DETAIL" => "Ïîäðîáíåå",
-		"MESS_NOT_AVAILABLE" => "Íåò â íàëè÷èè",
-		"MESS_BTN_SUBSCRIBE" => "Ïîäïèñàòüñÿ",
+		"MESS_BTN_BUY" => "ÐšÑƒÐ¿Ð¸Ñ‚ÑŒ",
+		"MESS_BTN_ADD_TO_BASKET" => "Ð’ ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñƒ",
+		"MESS_BTN_COMPARE" => "Ð¡Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ",
+		"MESS_BTN_DETAIL" => "ÐŸÐ¾Ð´Ñ€Ð¾Ð±Ð½ÐµÐµ",
+		"MESS_NOT_AVAILABLE" => "ÐÐµÑ‚ Ð² Ð½Ð°Ð»Ð¸Ñ‡Ð¸Ð¸",
+		"MESS_BTN_SUBSCRIBE" => "ÐŸÐ¾Ð´Ð¿Ð¸ÑÐ°Ñ‚ÑŒÑÑ",
 		"SIDEBAR_SECTION_SHOW" => "Y",
 		"SIDEBAR_DETAIL_SHOW" => "Y",
 		"SIDEBAR_PATH" => "",
@@ -56,7 +57,7 @@ $APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
 		"PRODUCT_ID_VARIABLE" => "id",
 		"USE_COMPARE" => "N",
 		"PRICE_CODE" => array(
-			0 => "Ìîñêîâñêèé ôèëèàë",
+			0 => "ÐœÐ¾ÑÐºÐ¾Ð²ÑÐºÐ¸Ð¹ Ñ„Ð¸Ð»Ð¸Ð°Ð»",
 		),
 		"USE_PRICE_COUNT" => "N",
 		"SHOW_PRICE_COUNT" => "1",
@@ -5291,10 +5292,10 @@ $APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
 		),
 		"DETAIL_ADD_DETAIL_TO_SLIDER" => "N",
 		"DETAIL_DISPLAY_PREVIEW_TEXT_MODE" => "E",
-		"MESS_PRICE_RANGES_TITLE" => "Öåíû",
-		"MESS_DESCRIPTION_TAB" => "Îïèñàíèå",
-		"MESS_PROPERTIES_TAB" => "Õàðàêòåðèñòèêè",
-		"MESS_COMMENTS_TAB" => "Êîììåíòàðèè",
+		"MESS_PRICE_RANGES_TITLE" => "Ð¦ÐµÐ½Ñ‹",
+		"MESS_DESCRIPTION_TAB" => "ÐžÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ",
+		"MESS_PROPERTIES_TAB" => "Ð¥Ð°Ñ€Ð°ÐºÑ‚ÐµÑ€Ð¸ÑÑ‚Ð¸ÐºÐ¸",
+		"MESS_COMMENTS_TAB" => "ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¸",
 		"DETAIL_SHOW_POPULAR" => "Y",
 		"DETAIL_SHOW_VIEWED" => "Y",
 		"LINK_IBLOCK_TYPE" => "",
@@ -5306,20 +5307,20 @@ $APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
 		"USE_GIFTS_MAIN_PR_SECTION_LIST" => "N",
 		"GIFTS_DETAIL_PAGE_ELEMENT_COUNT" => "4",
 		"GIFTS_DETAIL_HIDE_BLOCK_TITLE" => "N",
-		"GIFTS_DETAIL_BLOCK_TITLE" => "Âûáåðèòå îäèí èç ïîäàðêîâ",
-		"GIFTS_DETAIL_TEXT_LABEL_GIFT" => "Ïîäàðîê",
+		"GIFTS_DETAIL_BLOCK_TITLE" => "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¾Ð´Ð¸Ð½ Ð¸Ð· Ð¿Ð¾Ð´Ð°Ñ€ÐºÐ¾Ð²",
+		"GIFTS_DETAIL_TEXT_LABEL_GIFT" => "ÐŸÐ¾Ð´Ð°Ñ€Ð¾Ðº",
 		"GIFTS_SECTION_LIST_PAGE_ELEMENT_COUNT" => "4",
 		"GIFTS_SECTION_LIST_HIDE_BLOCK_TITLE" => "N",
-		"GIFTS_SECTION_LIST_BLOCK_TITLE" => "Ïîäàðêè ê òîâàðàì ýòîãî ðàçäåëà",
-		"GIFTS_SECTION_LIST_TEXT_LABEL_GIFT" => "Ïîäàðîê",
+		"GIFTS_SECTION_LIST_BLOCK_TITLE" => "ÐŸÐ¾Ð´Ð°Ñ€ÐºÐ¸ Ðº Ñ‚Ð¾Ð²Ð°Ñ€Ð°Ð¼ ÑÑ‚Ð¾Ð³Ð¾ Ñ€Ð°Ð·Ð´ÐµÐ»Ð°",
+		"GIFTS_SECTION_LIST_TEXT_LABEL_GIFT" => "ÐŸÐ¾Ð´Ð°Ñ€Ð¾Ðº",
 		"GIFTS_SHOW_DISCOUNT_PERCENT" => "Y",
 		"GIFTS_SHOW_OLD_PRICE" => "Y",
 		"GIFTS_SHOW_NAME" => "Y",
 		"GIFTS_SHOW_IMAGE" => "Y",
-		"GIFTS_MESS_BTN_BUY" => "Âûáðàòü",
+		"GIFTS_MESS_BTN_BUY" => "Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ",
 		"GIFTS_MAIN_PRODUCT_DETAIL_PAGE_ELEMENT_COUNT" => "4",
 		"GIFTS_MAIN_PRODUCT_DETAIL_HIDE_BLOCK_TITLE" => "N",
-		"GIFTS_MAIN_PRODUCT_DETAIL_BLOCK_TITLE" => "Âûáåðèòå îäèí èç òîâàðîâ, ÷òîáû ïîëó÷èòü ïîäàðîê",
+		"GIFTS_MAIN_PRODUCT_DETAIL_BLOCK_TITLE" => "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¾Ð´Ð¸Ð½ Ð¸Ð· Ñ‚Ð¾Ð²Ð°Ñ€Ð¾Ð², Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð¿Ð¾Ð´Ð°Ñ€Ð¾Ðº",
 		"USE_STORE" => "N",
 		"USE_BIG_DATA" => "N",
 		"BIG_DATA_RCM_TYPE" => "personal",
@@ -5327,7 +5328,7 @@ $APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
 		"PAGER_TEMPLATE" => "shop",
 		"DISPLAY_TOP_PAGER" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"PAGER_TITLE" => "Òîâàðû",
+		"PAGER_TITLE" => "Ð¢Ð¾Ð²Ð°Ñ€Ñ‹",
 		"PAGER_SHOW_ALWAYS" => "N",
 		"PAGER_DESC_NUMBERING" => "N",
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
@@ -5366,7 +5367,7 @@ $APPLICATION->SetTitle( 'Èíòåðíåò-ìàãàçèí' );
 
 		),
 		"FILTER_PRICE_CODE" => array(
-			0 => "Ìîñêîâñêèé ôèëèàë",
+			0 => "ÐœÐ¾ÑÐºÐ¾Ð²ÑÐºÐ¸Ð¹ Ñ„Ð¸Ð»Ð¸Ð°Ð»",
 		),
 		"ALSO_BUY_ELEMENT_COUNT" => "5",
 		"ALSO_BUY_MIN_BUYES" => "1",
