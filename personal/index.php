@@ -2,6 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Личный кабинет");
 ?>
+
 <div class="cart-page">
 <div class="columns-container">
 	<aside class="aside-left col col-2 popup-holder">

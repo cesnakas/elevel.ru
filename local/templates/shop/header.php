@@ -146,27 +146,27 @@ $curThis = $APPLICATION->GetCurPage(false);
                                 "CACHE_TIME" => "3600",
                                 "COMPOSITE_FRAME_MODE" => "A",
                                 "COMPOSITE_FRAME_TYPE" => "AUTO",
-                                "CITY_LABEL" => "Ваш город - ",
+                                "CITY_LABEL" => "??? ????? - ",
                                 "QUESTION_SHOW" => "N",
-                                "QUESTION_TEXT" => "Ваш город<br/>#CITY#?",
+                                "QUESTION_TEXT" => "??? ?????<br/>#CITY#?",
                                 "INFO_SHOW" => "N",
-                                "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",
-                                "BTN_EDIT" => "Изменить город",
+                                "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">????????? ? ????????</a>",
+                                "BTN_EDIT" => "???????? ?????",
                             ),
                             $component,
                             array('HIDE_ICON' => 'Y')
                         );?>
-                        <? $APPLICATION->IncludeComponent("bxmaker:geoip.city",  // выбор города
+                        <? $APPLICATION->IncludeComponent("bxmaker:geoip.city",  // ????? ??????
                             "shop",
                             array(
                                 "COMPONENT_TEMPLATE" => "shop",
                                 "CITY_SHOW" => "Y",
-                                "CITY_LABEL" => "Ваш город:",
+                                "CITY_LABEL" => "??? ?????:",
                                 "QUESTION_SHOW" => "N",
-                                "QUESTION_TEXT" => "Ваш город<br/>#CITY#?",
+                                "QUESTION_TEXT" => "??? ?????<br/>#CITY#?",
                                 "INFO_SHOW" => "N",
-                                "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",
-                                "BTN_EDIT" => "Изменить город",
+                                "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">????????? ? ????????</a>",
+                                "BTN_EDIT" => "???????? ?????",
                                 "SEARCH_SHOW" => "Y",
                                 "FAVORITE_SHOW" => "Y",
                                 "CITY_COUNT" => "30",
@@ -175,9 +175,9 @@ $curThis = $APPLICATION->GetCurPage(false);
                                 "CACHE_TIME" => "3600",
                                 "COMPOSITE_FRAME_MODE" => "A",
                                 "COMPOSITE_FRAME_TYPE" => "AUTO",
-                                "POPUP_LABEL" => "МЫ ДОСТАВЛЯЕМ ПО ВСЕЙ РОССИИ!",
-                                "INPUT_LABEL" => "Введите название города...",
-                                "MSG_EMPTY_RESULT" => "Ничего не найдено"
+                                "POPUP_LABEL" => "?? ?????????? ?? ???? ??????!",
+                                "INPUT_LABEL" => "??????? ???????? ??????...",
+                                "MSG_EMPTY_RESULT" => "?????? ?? ???????"
                             ),
                             false
                         ); ?>
@@ -232,7 +232,7 @@ $curThis = $APPLICATION->GetCurPage(false);
                             "SHOW_INPUT" => "Y",
                             "INPUT_ID" => "header-search-input",
                             "CONTAINER_ID" => "header-search",
-                            "CATEGORY_0_TITLE" => "Товары",
+                            "CATEGORY_0_TITLE" => "??????",
                             "CATEGORY_0" => array(
                                 0 => "iblock_1c_catalog",
                             ),
@@ -246,14 +246,14 @@ $curThis = $APPLICATION->GetCurPage(false);
                     <ul class="sign-nav">
                         <? global $USER;
                         if ($USER->IsAuthorized()):?>
-                            <li><a title="Личный кабинет" href="/personal/">Личный кабинет</a></li>
-                            <li><a title="Выход" href="?logout=yes">Выход</a></li>
+                            <li><a title="?????? ???????" href="/personal/">?????? ???????</a></li>
+                            <li><a title="?????" href="?logout=yes">?????</a></li>
                         <?else:?>
-                            <li><a class="lightbox-open" href="#sign">Вход</a></li>
-                            <li><a title="Регистрация" href="/register/">Регистрация</a></li>
+                            <li><a class="lightbox-open" href="#sign">????</a></li>
+                            <li><a title="???????????" href="/register/">???????????</a></li>
                         <?endif;?>
                     </ul>
-                    <a class="jce-contacts-link" target="_blank" href="/complaints/complaints.php">Жалобы и предложения</a>
+                    <a class="jce-contacts-link" target="_blank" href="/complaints/complaints.php">?????? ? ???????????</a>
 
                     <ul class="contact-list">
                         <li>
@@ -270,12 +270,12 @@ $curThis = $APPLICATION->GetCurPage(false);
                             );?>
                         </li>
                         <li class="popup-holder">
-                            <a title="Связаться с нами" class="phone open" href="">Связаться с нами</a>
+                            <a title="????????? ? ????" class="phone open" href="">????????? ? ????</a>
                             <div class="popup">
                                 <div class="popup-inner">
                                     <ul>
-                                        <li><a class="lightbox-open request close-link" href="#request">Отправить запрос</a></li>
-                                        <li><a class="lightbox-open recall close-link" href="#order-call">Обратный звонок</a></li>
+                                        <li><a class="lightbox-open request close-link" href="#request">????????? ??????</a></li>
+                                        <li><a class="lightbox-open recall close-link" href="#order-call">???????? ??????</a></li>
 								  </ul>
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ $curThis = $APPLICATION->GetCurPage(false);
             </header>
             <nav class="nav">
                 <div class="row">
-                    <?/*$APPLICATION->IncludeComponent( // меню каталога
+                    <?/*$APPLICATION->IncludeComponent( // ???? ????????
                         "bitrix:menu", 
                         ".default", 
                         array(
@@ -385,7 +385,7 @@ $curThis = $APPLICATION->GetCurPage(false);
             </nav>
             <header class="mobile-header clearfix nav-down">
                 <div class="mobile-menu popup-holder <?if($_GET['dev'] == 'ok'){?>dev<?}?>">
-                    <a class="open" href="">Меню</a>
+                    <a class="open" href="">????</a>
 
 					<?//if($_GET['dev'] == 'ok'){?>
 						
@@ -403,12 +403,12 @@ $curThis = $APPLICATION->GetCurPage(false);
 	                                        "CACHE_TIME" => "3600",
 	                                        "COMPOSITE_FRAME_MODE" => "A",
 	                                        "COMPOSITE_FRAME_TYPE" => "AUTO",
-	                                        "CITY_LABEL" => "Ваш город: ",
+	                                        "CITY_LABEL" => "??? ?????: ",
 	                                        "QUESTION_SHOW" => "N",
-	                                        "QUESTION_TEXT" => "Ваш город<br/>#CITY#?",
+	                                        "QUESTION_TEXT" => "??? ?????<br/>#CITY#?",
 	                                        "INFO_SHOW" => "N",
-	                                        "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",
-	                                        "BTN_EDIT" => "Изменить город",
+	                                        "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">????????? ? ????????</a>",
+	                                        "BTN_EDIT" => "???????? ?????",
 	                                    ),
 	                                    $component,
 	                                    array('HIDE_ICON' => 'Y')
@@ -416,18 +416,18 @@ $curThis = $APPLICATION->GetCurPage(false);
 
 
 									<div class="mobile-menu-child">
-										<div class="mobile-menu-back">Назад</div>
-										<?$APPLICATION->IncludeComponent( "bxmaker:geoip.city",  // выбор города
+										<div class="mobile-menu-back">?????</div>
+										<?$APPLICATION->IncludeComponent( "bxmaker:geoip.city",  // ????? ??????
 			                                "shop_mobile",
 			                                array(
 			                                    "COMPONENT_TEMPLATE" => "shop_mobile_slide",
 			                                    "CITY_SHOW" => "N",
-			                                    "CITY_LABEL" => "Ваш город:",
+			                                    "CITY_LABEL" => "??? ?????:",
 			                                    "QUESTION_SHOW" => "N",
-			                                    "QUESTION_TEXT" => "Ваш город<br/>#CITY#?",
+			                                    "QUESTION_TEXT" => "??? ?????<br/>#CITY#?",
 			                                    "INFO_SHOW" => "N",
-			                                    "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",
-			                                    "BTN_EDIT" => "Изменить город",
+			                                    "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">????????? ? ????????</a>",
+			                                    "BTN_EDIT" => "???????? ?????",
 			                                    "SEARCH_SHOW" => "Y",
 			                                    "FAVORITE_SHOW" => "N",
 			                                    "CITY_COUNT" => "30",
@@ -436,9 +436,9 @@ $curThis = $APPLICATION->GetCurPage(false);
 			                                    "CACHE_TIME" => "3600",
 			                                    "COMPOSITE_FRAME_MODE" => "A",
 			                                    "COMPOSITE_FRAME_TYPE" => "AUTO",
-			                                    "POPUP_LABEL" => "МЫ ДОСТАВЛЯЕМ ПО ВСЕЙ РОССИИ!",
-			                                    "INPUT_LABEL" => "Введите город",
-			                                    "MSG_EMPTY_RESULT" => "Ничего не найдено"
+			                                    "POPUP_LABEL" => "?? ?????????? ?? ???? ??????!",
+			                                    "INPUT_LABEL" => "??????? ?????",
+			                                    "MSG_EMPTY_RESULT" => "?????? ?? ???????"
 			                                ),
 			                                false
 			                            );?>
@@ -447,9 +447,9 @@ $curThis = $APPLICATION->GetCurPage(false);
 								</div>
 
 								<div class="mobile-menu-item open-child">
-									<span>Каталог</span>
+									<span>???????</span>
 									<div class="mobile-menu-child">
-										<div class="mobile-menu-back">Назад</div>
+										<div class="mobile-menu-back">?????</div>
 										<?
 				                        $APPLICATION->IncludeComponent(
 				                            "bitrix:main.include", 
@@ -483,14 +483,14 @@ $curThis = $APPLICATION->GetCurPage(false);
 
 	                        	<?if ($USER->IsAuthorized()):?>
                                 	<div class="mobile-menu-item">
-                                    	<a title="Личный кабинет" href="/personal/">Личный кабинет</a>
+                                    	<a title="?????? ???????" href="/personal/">?????? ???????</a>
 									</div>
 									<div class="mobile-menu-item">
-                                    	<a title="Выход" href="?logout=yes">Выход</a>
+                                    	<a title="?????" href="?logout=yes">?????</a>
                                     </div>
                                 <?else:?>
                                 	<div class="mobile-menu-item">
-                                    	<a class="lightbox-open" href="#sign">Вход</a>
+                                    	<a class="lightbox-open" href="#sign">????</a>
                                     </div>
                                 <?endif;?>
 		                        
@@ -508,24 +508,24 @@ $curThis = $APPLICATION->GetCurPage(false);
                         <div class="mobile-menu-top clearfix">
                             <div class="block-sign">
                                 <?if ($USER->IsAuthorized()):?>
-                                    <a title="Личный кабинет" href="/personal/">Личный кабинет</a>
-                                    <a title="Выход" href="?logout=yes">Выход</a>
+                                    <a title="?????? ???????" href="/personal/">?????? ???????</a>
+                                    <a title="?????" href="?logout=yes">?????</a>
                                 <?else:?>
-                                    <a class="lightbox-open" href="#sign">Вход</a>
+                                    <a class="lightbox-open" href="#sign">????</a>
                                 <?endif;?>
                             </div>
                             
-                            <? $APPLICATION->IncludeComponent( "bxmaker:geoip.city",  // выбор города
+                            <? $APPLICATION->IncludeComponent( "bxmaker:geoip.city",  // ????? ??????
                                 "shop_mobile",
                                 array(
                                     "COMPONENT_TEMPLATE" => "shop_mobile",
                                     "CITY_SHOW" => "N",
-                                    "CITY_LABEL" => "Ваш город:",
+                                    "CITY_LABEL" => "??? ?????:",
                                     "QUESTION_SHOW" => "N",
-                                    "QUESTION_TEXT" => "Ваш город<br/>#CITY#?",
+                                    "QUESTION_TEXT" => "??? ?????<br/>#CITY#?",
                                     "INFO_SHOW" => "N",
-                                    "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",
-                                    "BTN_EDIT" => "Изменить город",
+                                    "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">????????? ? ????????</a>",
+                                    "BTN_EDIT" => "???????? ?????",
                                     "SEARCH_SHOW" => "Y",
                                     "FAVORITE_SHOW" => "N",
                                     "CITY_COUNT" => "30",
@@ -534,9 +534,9 @@ $curThis = $APPLICATION->GetCurPage(false);
                                     "CACHE_TIME" => "3600",
                                     "COMPOSITE_FRAME_MODE" => "A",
                                     "COMPOSITE_FRAME_TYPE" => "AUTO",
-                                    "POPUP_LABEL" => "МЫ ДОСТАВЛЯЕМ ПО ВСЕЙ РОССИИ!",
-                                    "INPUT_LABEL" => "Введите город",
-                                    "MSG_EMPTY_RESULT" => "Ничего не найдено"
+                                    "POPUP_LABEL" => "?? ?????????? ?? ???? ??????!",
+                                    "INPUT_LABEL" => "??????? ?????",
+                                    "MSG_EMPTY_RESULT" => "?????? ?? ???????"
                                 ),
                                 false
                             ); ?>
@@ -553,12 +553,12 @@ $curThis = $APPLICATION->GetCurPage(false);
                                         "CACHE_TIME" => "3600",
                                         "COMPOSITE_FRAME_MODE" => "A",
                                         "COMPOSITE_FRAME_TYPE" => "AUTO",
-                                        "CITY_LABEL" => "Ваш город: ",
+                                        "CITY_LABEL" => "??? ?????: ",
                                         "QUESTION_SHOW" => "N",
-                                        "QUESTION_TEXT" => "Ваш город<br/>#CITY#?",
+                                        "QUESTION_TEXT" => "??? ?????<br/>#CITY#?",
                                         "INFO_SHOW" => "N",
-                                        "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">Подробнее о доставке</a>",
-                                        "BTN_EDIT" => "Изменить город",
+                                        "INFO_TEXT" => "<a href=\"#\" rel=\"nofollow\" target=\"_blank\">????????? ? ????????</a>",
+                                        "BTN_EDIT" => "???????? ?????",
                                     ),
                                     $component,
                                     array('HIDE_ICON' => 'Y')
@@ -705,23 +705,23 @@ $curThis = $APPLICATION->GetCurPage(false);
                 </strong>
                 <div class="right-block">
                     <div class="block-search popup-holder">
-                        <a class="open" href="">Поиск</a>
+                        <a class="open" href="">?????</a>
                         <?$APPLICATION->IncludeComponent("bitrix:search.form", "shop_mobile", Array(
                             "COMPONENT_TEMPLATE" => "shop_mobile",
-                                "PAGE" => "#SITE_DIR#shop/search/index.php",    // Страница выдачи результатов поиска (доступен макрос #SITE_DIR#)
-                                "USE_SUGGEST" => "N",    // Показывать подсказку с поисковыми фразами
+                                "PAGE" => "#SITE_DIR#shop/search/index.php",    // ???????? ?????? ??????????? ?????? (???????? ?????? #SITE_DIR#)
+                                "USE_SUGGEST" => "N",    // ?????????? ????????? ? ?????????? ???????
                             ),
                             false
                         );?>
                     </div>
                     <div class="block-contact popup-holder">
-                        <a class="open" href="">Контакты</a>
+                        <a class="open" href="">????????</a>
                         <div class="popup">
                             <div class="popup-inner">
                                 <ul>
-                                    <li><a class="lightbox-open request" href="#request">Отправить запрос</a></li>
-                                    <li><a class="lightbox-open recall" href="#order-call">Обратный звонок</a></li>   
-									<li><a class="lightbox-open request" href="#complaints_suggestions">Жалобы и предложения</a></li>
+                                    <li><a class="lightbox-open request" href="#request">????????? ??????</a></li>
+                                    <li><a class="lightbox-open recall" href="#order-call">???????? ??????</a></li>   
+									<li><a class="lightbox-open request" href="#complaints_suggestions">?????? ? ???????????</a></li>
                                 </ul>
                             </div>
                         </div>

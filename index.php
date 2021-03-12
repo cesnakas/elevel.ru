@@ -16,6 +16,7 @@ Asset::getInstance()->addCss("/js/bootstrap/bootstrap.min.css");
 Asset::getInstance()->addJs("/js/jcarousellite.js");
 Asset::getInstance()->addJs("/js/index.js");*/
 ?>
+
 <script>
 // page init
 $(function(){
