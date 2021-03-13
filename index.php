@@ -191,4 +191,8 @@ $(function(){
         "STRICT_SECTION_CHECK" => "N",
         "USE_PERMISSIONS" => "N"
     )
-);?> </section><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?> </section>
+
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
+?>

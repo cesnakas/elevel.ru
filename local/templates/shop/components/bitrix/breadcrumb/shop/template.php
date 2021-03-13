@@ -19,8 +19,15 @@ for ($i = 0; $i < count($arResult); $i++) {
         $catFlag = true;
     }
     if($catFlag) {
-        if($arResult[$i]["LINK"] == "/shop/"){
+        if($arResult[$i]["LINK"] == "/shop/") {
             $catFlag = true;
+            array_splice($arResult, $i-1, 1);
+            $arResult[$i-1]["TITLE"] = 'Каталог';
+        }
+    }
+    if($catFlag) {
+        if($arResult[$i]["LINK"] == "/personal/") {
+            $catFlag = false;
             array_splice($arResult, $i-1, 1);
             $arResult[$i-1]["TITLE"] = 'Каталог';
         }

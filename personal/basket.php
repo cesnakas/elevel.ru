@@ -1,11 +1,9 @@
 <?
 require( $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php' );
-$APPLICATION->SetTitle( 'ÐšÐ¾Ñ€Ð·Ð¸Ð½Ð°' );
-$APPLICATION->AddChainItem( 'ÐšÐ¾Ñ€Ð·Ð¸Ð½Ð°' );
+$APPLICATION->SetTitle('Êîðçèíà');
+$APPLICATION->AddChainItem('Êîðçèíà');
 ?>
 
-	
-	
 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.basket.basket", 
 	"basket", 
@@ -29,17 +27,17 @@ $APPLICATION->AddChainItem( 'ÐšÐ¾Ñ€Ð·Ð¸Ð½Ð°' );
 		"COMPOSITE_FRAME_MODE" => "A",
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"GIFTS_PLACE" => "BOTTOM",
-		"GIFTS_BLOCK_TITLE" => "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¾Ð´Ð¸Ð½ Ð¸Ð· Ð¿Ð¾Ð´Ð°Ñ€ÐºÐ¾Ð²",
+		"GIFTS_BLOCK_TITLE" => "Âûáåðèòå îäèí èç ïîäàðêîâ",
 		"GIFTS_HIDE_BLOCK_TITLE" => "N",
-		"GIFTS_TEXT_LABEL_GIFT" => "ÐŸÐ¾Ð´Ð°Ñ€Ð¾Ðº",
+		"GIFTS_TEXT_LABEL_GIFT" => "Ïîäàðîê",
 		"GIFTS_PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"GIFTS_PRODUCT_PROPS_VARIABLE" => "prop",
 		"GIFTS_SHOW_OLD_PRICE" => "N",
 		"GIFTS_SHOW_DISCOUNT_PERCENT" => "Y",
 		"GIFTS_SHOW_NAME" => "Y",
 		"GIFTS_SHOW_IMAGE" => "Y",
-		"GIFTS_MESS_BTN_BUY" => "Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ",
-		"GIFTS_MESS_BTN_DETAIL" => "ÐŸÐ¾Ð´Ñ€Ð¾Ð±Ð½ÐµÐµ",
+		"GIFTS_MESS_BTN_BUY" => "Âûáðàòü",
+		"GIFTS_MESS_BTN_DETAIL" => "Ïîäðîáíåå",
 		"GIFTS_PAGE_ELEMENT_COUNT" => "4",
 		"GIFTS_CONVERT_CURRENCY" => "N",
 		"GIFTS_HIDE_NOT_AVAILABLE" => "N"
