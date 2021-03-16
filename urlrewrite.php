@@ -40,6 +40,30 @@ $arUrlRewrite=array (
     'PATH' => '/shop/promo/index.php',
     'SORT' => 100,
   ),
+  4 => 
+  array (
+    'CONDITION' => '#^/brandz/([0-9a-zA-Z_\\-]+)/#',
+    'RULE' => 'sid=$1',
+    'ID' => '',
+    'PATH' => '/brandz/list.php',
+    'SORT' => 100,
+  ),
+  5 => 
+  array (
+    'CONDITION' => '#^/company/vacancy/([0-9]+)/#',
+    'RULE' => 'sid=$1',
+    'ID' => '',
+    'PATH' => '/company/vacancy/list.php',
+    'SORT' => 100,
+  ),
+  6 => 
+  array (
+    'CONDITION' => '#^/company/novelty/([0-9]+)/#',
+    'RULE' => 'eid=$1',
+    'ID' => '',
+    'PATH' => '/company/novelty/detail.php',
+    'SORT' => 100,
+  ),
   7 => 
   array (
     'CONDITION' => '#^/clients_test/([0-9a-z]+)/#',
@@ -54,30 +78,6 @@ $arUrlRewrite=array (
     'RULE' => 'eid=$1',
     'ID' => '',
     'PATH' => '/company/actions/detail.php',
-    'SORT' => 100,
-  ),
-  6 => 
-  array (
-    'CONDITION' => '#^/company/novelty/([0-9]+)/#',
-    'RULE' => 'eid=$1',
-    'ID' => '',
-    'PATH' => '/company/novelty/detail.php',
-    'SORT' => 100,
-  ),
-  5 => 
-  array (
-    'CONDITION' => '#^/company/vacancy/([0-9]+)/#',
-    'RULE' => 'sid=$1',
-    'ID' => '',
-    'PATH' => '/company/vacancy/list.php',
-    'SORT' => 100,
-  ),
-  4 => 
-  array (
-    'CONDITION' => '#^/brandz/([0-9a-zA-Z_\\-]+)/#',
-    'RULE' => 'sid=$1',
-    'ID' => '',
-    'PATH' => '/brandz/list.php',
     'SORT' => 100,
   ),
   10 => 
@@ -152,20 +152,20 @@ $arUrlRewrite=array (
     'PATH' => '/shops/urlrewrite.php',
     'SORT' => 100,
   ),
-  18 => 
-  array (
-    'CONDITION' => '#^/shop/articles/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/shop/articles/index.php',
-    'SORT' => 100,
-  ),
   19 => 
   array (
     'CONDITION' => '#^/legrandaction/#',
     'RULE' => '',
     'ID' => '',
     'PATH' => '/legrandaction/index.php',
+    'SORT' => 100,
+  ),
+  18 => 
+  array (
+    'CONDITION' => '#^/shop/articles/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/shop/articles/index.php',
     'SORT' => 100,
   ),
   21 => 
@@ -216,28 +216,12 @@ $arUrlRewrite=array (
     'PATH' => '/projects/index.php',
     'SORT' => 100,
   ),
-  27 => 
+  30 => 
   array (
-    'CONDITION' => '#^/vendors/#',
+    'CONDITION' => '#^/catalog/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog.section',
-    'PATH' => '/vendors/index.php',
-    'SORT' => 100,
-  ),
-  28 => 
-  array (
-    'CONDITION' => '#^/newshop/#',
-    'RULE' => '',
-    'ID' => 'tezart:catalog',
-    'PATH' => '/newshop/index.php',
-    'SORT' => 100,
-  ),
-  29 => 
-  array (
-    'CONDITION' => '#^/actions/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/actions/index.php',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/122223455qwqerrqweqweqwe.php',
     'SORT' => 100,
   ),
   31 => 
@@ -248,12 +232,28 @@ $arUrlRewrite=array (
     'PATH' => '/contact/index.php',
     'SORT' => 100,
   ),
-  30 => 
+  29 => 
   array (
-    'CONDITION' => '#^/catalog/#',
+    'CONDITION' => '#^/actions/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/122223455qwqerrqweqweqwe.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/actions/index.php',
+    'SORT' => 100,
+  ),
+  28 => 
+  array (
+    'CONDITION' => '#^/newshop/#',
+    'RULE' => '',
+    'ID' => 'tezart:catalog',
+    'PATH' => '/newshop/index.php',
+    'SORT' => 100,
+  ),
+  27 => 
+  array (
+    'CONDITION' => '#^/vendors/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog.section',
+    'PATH' => '/vendors/index.php',
     'SORT' => 100,
   ),
   32 => 
