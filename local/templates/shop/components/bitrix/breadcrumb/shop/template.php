@@ -28,8 +28,9 @@ for ($i = 0; $i < count($arResult); $i++) {
     if($catFlag) {
         if($arResult[$i]["LINK"] == "/personal/") {
             $catFlag = false;
-            array_splice($arResult, $i-1, 1);
+            // array_splice($arResult, $i-1, 1);
             $arResult[$i-1]["TITLE"] = 'Каталог';
+            // $arResult[$i-1]["LINK"] = '/shop/';
         }
     }
     for ($j = 0; $j < $i; $j++) {

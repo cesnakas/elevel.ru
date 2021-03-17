@@ -6,7 +6,9 @@ $APPLICATION->SetTitle("Личный кабинет");
 <div class="cart-page">
 <div class="columns-container">
 	<aside class="aside-left col col-2 popup-holder">
-		<?$APPLICATION->IncludeComponent("bitrix:menu","personal",Array(
+		<?$APPLICATION->IncludeComponent(
+            "bitrix:menu",
+            "personal",Array(
 				"ROOT_MENU_TYPE" => "PERSONAL", 
 				"MAX_LEVEL" => "1", 
 				"CHILD_MENU_TYPE" => "PERSONAL", 
