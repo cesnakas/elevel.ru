@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="makoveckij.beget.tech" id="03e6bc5d-ded9-45a7-b71a-31913ae75b0c" port="22" nameFormat="DESCRIPTIVE" username="makoveckij_test" />
+      <sshConfig authType="PASSWORD" host="makoveckij.beget.tech" id="03e6bc5d-ded9-45a7-b71a-31913ae75b0c" port="22" nameFormat="DESCRIPTIVE" username="makoveckij_elevel" />
     </configs>
   </component>
 </project>

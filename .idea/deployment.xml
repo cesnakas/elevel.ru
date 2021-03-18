@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="test.elevel.ru" createEmptyFolders="true" traceLevel="ERRORS">
     <serverData>
+      <paths name="elevel.ru">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="test.elevel.ru">
         <serverdata>
           <mappings>

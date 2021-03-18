@@ -347,7 +347,7 @@ if (!empty($arParams['LABEL_PROP_POSITION'])) {
                                     <? endif; ?>
                                 </div>
                             </div>
-							<div class="notesum">Цена действительна только при оформлении заказа через сайт</div>
+							<div class="notesum" style="margin: inherit;">Цена действительна только при оформлении заказа через сайт</div>
                         <? endif; ?>
 
                         <div style="display:none">
