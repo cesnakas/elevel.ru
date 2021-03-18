@@ -272,6 +272,23 @@
                 </div>
             </div>
 
+            <!--//-->
+            <div class="columns-container">
+                <div class="col col-12">
+                    <div class="input-holder" style="margin-top: -8px">
+                        <select name="" id="" placeholder="Сфера деятельности">
+                            <option value="">ОЕМ партнер</option>
+                            <option value="">Эксплуататор</option>
+                            <option value="">Электромонтажник</option>
+                            <option value="">Дизайнер</option>
+                            <option value="">Щитовик</option>
+                            <option value="">Прочее</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!--//-->
+
             <div class="entity-block">
                 <div class="form-row columns-container">
                     <div class="col col-4">
