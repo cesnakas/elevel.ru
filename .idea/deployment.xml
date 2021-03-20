@@ -7,6 +7,10 @@
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/bitrix" />
+            <excludedPath path="/upload" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="test.elevel.ru">
