@@ -1,12 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-
 $APPLICATION->SetTitle("Жалобы и предложения");
 ?>
 
     <div id="complaints_container" class="container">
 
-        <?$APPLICATION->IncludeComponent(    // Форма нового запроса
+        <?$APPLICATION->IncludeComponent( //TODO: Форма ЖАЛОБЫ И ПРЕДЛОЖЕНИЯ
             "bitrix:form.result.new",
             "complaints_suggestions",
             array(

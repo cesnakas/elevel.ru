@@ -1,7 +1,6 @@
 <?
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
-
 $cntId = "cnt_" . $arResult['FORM_ID'] . rand();
 $phrase_file = GetMessage("FORM_PHRASE_FILE");
 
@@ -20,7 +19,6 @@ if ((intval($_REQUEST['RESULT_ID']) > 0 && $_REQUEST['formresult'] == "addok" &&
     echo \Bitrix\Main\Web\Json::encode($arRs);
     die();
 }
-
 
 // Sorting questions
 $arQuestionSort = array(
@@ -45,6 +43,7 @@ foreach ($arResult["QUESTIONS"] as $FIELD_SID => $arQuestion) {
 $arResult["QUESTIONS"] = $arTmp;
 //echo '<pre>';print_r($arResult["QUESTIONS"]);echo '</pre>';
 ?>
+
 <div id="<?= $cntId ?>" class="feedback_form_container">
     <? /*?><div class="feedback_form_note"><?=$arResult["FORM_NOTE"]?></div><?*/ ?>
     <div class="feedback_form_body">

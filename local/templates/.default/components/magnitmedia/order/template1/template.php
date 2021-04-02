@@ -272,22 +272,20 @@
                 </div>
             </div>
 
-            <!--//-->
             <div class="columns-container">
                 <div class="col col-12">
                     <div class="input-holder" style="margin-top: -8px">
-                        <select name="" id="" placeholder="Сфера деятельности">
-                            <option value="">ОЕМ партнер</option>
-                            <option value="">Эксплуататор</option>
-                            <option value="">Электромонтажник</option>
-                            <option value="">Дизайнер</option>
-                            <option value="">Щитовик</option>
-                            <option value="">Прочее</option>
+                        <select name="foa" id="field_of_activity" placeholder="Сфера деятельности">
+                            <option value="foa_1">ОЕМ партнер</option>
+                            <option value="foa_2">Эксплуататор</option>
+                            <option value="foa_3">Электромонтажник</option>
+                            <option value="foa_4">Дизайнер</option>
+                            <option value="foa_5">Щитовик</option>
+                            <option value="foa_6">Прочее</option>
                         </select>
                     </div>
                 </div>
             </div>
-            <!--//-->
 
             <div class="entity-block">
                 <div class="form-row columns-container">
